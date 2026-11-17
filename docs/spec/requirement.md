@@ -4,12 +4,12 @@
 |---|---|
 | 文档编号 | SPEC-ELEV-RESCUE-001 |
 | 文档名称 | 昇腾上的「电梯困人预警」——算法与决策链路需求规格 |
-| 版本 | v1.0（D1 基线） |
+| 版本 | v1.1（D1 基线，DEC-03 修订） |
 | 状态 | 待评审（A/C/队长会签后转为已批准） |
 | 编写日期 | 2026-11-17 |
 | 责任人 | B（算法与决策） |
 | 评审人 | A（数据与感知）、C（云服务与交付） |
-| 上游基线 | L1 数据契约 v1.0（锁死）、L2 接口契约 v1.0 |
+| 上游基线 | L1 数据契约 v1.0（锁死，`CONTRACT_VERSION="L1-1.0"`）、L2 接口契约 v1.0 |
 | 适用阶段 | D1–D15，D12 功能冻结 |
 | 文档定位 | 回答“必须做出什么可验证的业务行为”，不回答“如何编码实现” |
 
@@ -76,15 +76,20 @@
 - 电梯门开合状态没有独立硬件信号，MVP 使用“画面门缝区域变化”近似 `door_open_signal`。
 - 该近似被明确登记为技术债（`REQ-FUNC-030`、`REQ-FUNC-043`），并在 `reason` 中输出 `technical_debt=door_signal_proxy`，答辩时不得隐去。
 
-**DEC-03——`ts` 单位**
+**DEC-03——`ts` 单位（v1.1 修订）**
 
-- L1 仅规定 `ts: int`，未规定单位。本文档统一为**相对该段视频/序列起点的整数秒**（向下取整），保证跨模块可对齐、可复现。
+- 冲突事实：v1.0 曾裁决 `ts` 为“相对该段视频/序列起点的整数秒（向下取整）”，该裁决与已锁死的 L1 数据契约冲突。`common/schema.py` 明确写为 `VisionOut.ts: int # 毫秒时间戳`、`IMUEvent.ts: int # 窗口结束的毫秒时间戳`、`Decision.ts: int # 毫秒时间戳（与 RDS BIGINT 对齐）`；L1 契约 6.5 节 `reason` 示例值为 `1763300000000`（13 位毫秒）。工程侧已按 L1 落地，契约测试 `tests/test_schema_contract.py` 11 项通过。
+- 本文档裁决（v1.1）：**以锁死的 L1 契约为准——`ts` 为 Unix epoch 毫秒时间戳（整数，与 RDS BIGINT 对齐）**。本条不是新的自主选择，而是对既有契约的遵从；B 侧不得将 `ts` 解释为相对秒，也不得在 B 侧做单位变换后写回 `Decision`。
+- 影响评估：所有时间差（dwell、时间对齐、窗口起点、持续性判定）必须显式按毫秒差值计算后再换算为秒（如 `dwell_ms / 1000.0`）；`window_sec=10.0` 仍为物理秒，不受影响；`reason` 中 `dwell` 仍以秒呈现，但必须由毫秒差值换算得来。
+- 状态：v1.1 已按 L1 契约纠正，v1.0 的“整数秒”裁决作废；DEC-01、DEC-02 结论不变，无需重新会签。
+- 追溯说明：`DEC-03 → common/schema.py CONTRACT_VERSION="L1-1.0" → tests/test_schema_contract.py`（11 项契约测试通过），三方一致由评审核对。
 
 ### 0.6 变更记录
 
 | 版本 | 日期 | 变更内容 | 变更人 |
 |---|---|---|---|
 | v1.0 | 2026-11-17 | 首次建立 D1 需求基线，含 DEC-01～DEC-03 | B |
+| v1.1 | 2026-11-17 | DEC-03 修订：`ts` 单位由整数秒纠正为毫秒时间戳，与 L1 契约对齐 | B |
 
 ---
 
@@ -112,7 +117,7 @@
 | OUT-02 | `results/<case>_decision.json` | 交付物/评审 | 每段视频一份 Decision 序列，UTF-8、字段符合 L1 |
 | OUT-03 | `results/metrics.*`、`confusion_matrix.png`、`ablation.png` | 初赛材料 | 指标表、混淆矩阵、消融图，全部为真实测得的数字 |
 | OUT-04 | `model/MODEL_CARD.md` | 初赛材料 | 数据来源、判据、指标、局限、演示参数声明 |
-| OUT-05 | 结构化日志 | 运维/复现 | `case`、`ts`、`state`、`decision`、`reason`、生效阈值 |
+| OUT-05 | 结构化日志 | 运维/复现 | `case`、`ts`（毫秒）、`state`、`decision`、`reason`、生效阈值 |
 
 ### 1.4 职责边界（本组件不做什么）
 
@@ -132,6 +137,10 @@
 ## 2. 领域术语
 
 ### 2.1 核心数据对象
+
+**ts**
+: 三个数据对象共有的时间戳字段，取值为 **Unix epoch 毫秒时间戳**（整数，13 位量级），与 RDS `BIGINT` 对齐。
+: 备注：由 L1 契约锁死（见 DEC-03），禁止按“相对秒”或“段起点整数秒”理解；`VisionOut.ts` 为该帧时刻，`IMUEvent.ts` 为该窗口结束时刻，`Decision.ts` 沿用对应视觉帧时刻。
 
 **VisionOut**
 : A 侧视觉模块对单帧的感知结果，字段为 `ts`、`person_count`、`fall_prob`、`door_approach`、`crowded`、`keypoints_ok`。
@@ -163,7 +172,7 @@
 
 **dwell_sec**
 : 从电梯停稳（进入 `STOPPED`）到当前时刻的滞留秒数；门一旦打开立即清零。
-: 备注：演示环境与生产环境使用不同阈值，见“演示参数”。
+: 备注：由 `ts` 毫秒差值换算得到（`dwell_ms = now_ts - stop_enter_ts`，`dwell_sec = dwell_ms / 1000.0`），不得把毫秒 `ts` 直接当作秒参与比较；演示环境与生产环境使用不同阈值，见“演示参数”。
 
 **dwell_threshold**
 : 判定困人的滞留阈值，生产默认 180 秒，演示默认 8 秒。
@@ -283,7 +292,7 @@ SVC --> P : 楼层+人数+紧急度+理由
 ### 4.4 可维护性
 
 - 阈值集中在单一配置源，禁止魔法数散落。
-- 日志采用 JSON Lines，至少含 `case`、`ts`、`state`、`decision`、`reason`。
+- 日志采用 JSON Lines，至少含 `case`、`ts`（毫秒）、`state`、`decision`、`reason`。
 - 状态机为纯函数式推进，可用假数据单测。
 
 ### 4.5 兼容性
@@ -328,7 +337,7 @@ SVC --> P : 楼层+人数+紧急度+理由
 - 追溯：REQ-FUNC-006、REQ-FUNC-043。
 
 **REQ-QUAL-003｜普遍｜P1｜结构化日志**
-系统必须以 JSON Lines 记录每次判决，至少包含 `case`、`ts`、`state`、`decision`、`reason`、生效阈值。
+系统必须以 JSON Lines 记录每次判决，至少包含 `case`、`ts`（毫秒）、`state`、`decision`、`reason`、生效阈值。
 - 验收：任取一次运行，日志可逐行被 JSON 解析，字段齐全。
 - 追溯：REQ-CFG-005、REQ-EVAL-008。
 
@@ -376,9 +385,9 @@ SVC --> P : 楼层+人数+紧急度+理由
 - 追溯：CARD（idle 判据）、REQ-FUNC-028。
 
 **REQ-FUNC-005｜普遍｜P0｜窗口元数据**
-系统必须保证每条 `IMUEvent.window_sec` 恒为 `10.0`，且 `ts` 按窗口起点整数秒单调递增。
-- 验收：任取一段 npy，所有 `window_sec == 10.0`，`ts` 严格递增。
-- 追溯：L1-IMUEVENT、DEC-03。
+系统必须保证每条 `IMUEvent.window_sec` 恒为 `10.0`（物理秒），且 `ts` 为该窗口结束的 Unix epoch 毫秒时间戳，按毫秒单调递增、相邻 `ts` 之差恒为 `10000 ms`（200 步 @20Hz）。
+- 验收：任取一段 npy，所有 `window_sec == 10.0`；所有 `ts` 为 13 位毫秒整数，相邻差为 10000 ms。
+- 追溯：L1-IMUEVENT、DEC-03、REQ-DATA-002。
 
 **REQ-FUNC-006｜非期望｜P0｜非法 npy 防护**
 如果 npy 含 `NaN/Inf`、`dtype` 非 `float32` 或形状不等于 `(N,200,3)`，则系统必须抛出带文件名与形状信息的 `ValueError`，不得静默输出。
@@ -397,7 +406,7 @@ SVC --> P : 楼层+人数+紧急度+理由
 
 ### 5.2 困人状态机
 
-**能力说明**：`step(vision, imu_event) -> Decision` 以逐帧方式推进状态机，维护 `dwell_sec`，并在 `OCCUPIED` 状态下给出 `trapped` 判决。状态机是“时序证据”的唯一持有者。
+**能力说明**：`step(vision, imu_event) -> Decision` 以逐帧方式推进状态机，维护 `dwell_sec`，并在 `OCCUPIED` 状态下给出 `trapped` 判决。状态机是“时序证据”的唯一持有者。本节所有“持续 N 秒”的判定，一律按 `ts` 毫秒差值计算（`Δms ≥ N × 1000`），不得用毫秒 `ts` 直接与秒阈值比较。
 
 **REQ-FUNC-009｜普遍｜P0｜状态集合与初始态**
 系统必须且仅使用 `IDLE`、`MOVING`、`STOPPED`、`DOOR_OPEN`、`DOOR_CLOSED`、`OCCUPIED` 六个状态，初始状态必须为 `IDLE`。
@@ -410,12 +419,12 @@ SVC --> P : 楼层+人数+紧急度+理由
 - 追溯：CARD（需定义每状态进入/退出/超时）、附录 B。
 
 **REQ-FUNC-011｜事件驱动｜P0｜进入 MOVING**
-当状态为 `IDLE` 且 `motion_level ≥ move_thresh` 持续不少于 1 秒时，系统必须转移到 `MOVING`。
+当状态为 `IDLE` 且 `motion_level ≥ move_thresh` 持续不少于 1 秒（`Δts ≥ 1000 ms`）时，系统必须转移到 `MOVING`。
 - 验收：注入连续 25 帧（1 s@25fps）运动信号 → 状态变为 `MOVING`。
 - 追溯：CARD（MOVING）、REQ-FUNC-020。
 
 **REQ-FUNC-012｜事件驱动｜P0｜停稳记时**
-当状态为 `MOVING` 且 `motion_level < stop_thresh` 持续不少于 1 秒，或 `imu.estop > estop_thresh` 时，系统必须转移到 `STOPPED`，记录 `stop_enter_ts` 并将 `dwell_sec` 置 0。
+当状态为 `MOVING` 且 `motion_level < stop_thresh` 持续不少于 1 秒（`Δts ≥ 1000 ms`），或 `imu.estop > estop_thresh` 时，系统必须转移到 `STOPPED`，记录 `stop_enter_ts`（Unix epoch 毫秒时间戳）并将 `dwell_sec` 置 0。
 - 验收：运动 2 s 后静止 1 s → `state=STOPPED`，`dwell_sec≈0`。
 - 追溯：CARD（STOPPED、dwell 起点）。
 
@@ -430,7 +439,7 @@ SVC --> P : 楼层+人数+紧急度+理由
 - 追溯：CARD（门一开立刻清零）、REQ-FUNC-044。
 
 **REQ-FUNC-015｜事件驱动｜P0｜关门转移**
-当状态为 `DOOR_OPEN` 且 `door_open_signal` 为假持续不少于 1 秒时，系统必须转移到 `DOOR_CLOSED`。
+当状态为 `DOOR_OPEN` 且 `door_open_signal` 为假持续不少于 1 秒（`Δts ≥ 1000 ms`）时，系统必须转移到 `DOOR_CLOSED`。
 - 验收：门开 3 s 后关闭 → 状态变为 `DOOR_CLOSED`。
 - 追溯：CARD（DOOR_CLOSED）。
 
@@ -445,7 +454,7 @@ SVC --> P : 楼层+人数+紧急度+理由
 - 追溯：CARD（正常到站门开即清零）、REQ-FUNC-044。
 
 **REQ-FUNC-018｜事件驱动｜P0｜空梯退出**
-当状态为 `OCCUPIED` 且 `person_count == 0` 持续不少于 3 秒时，系统必须转移到 `IDLE`，并将 `dwell_sec` 清零。
+当状态为 `OCCUPIED` 且 `person_count == 0` 持续不少于 3 秒（`Δts ≥ 3000 ms`）时，系统必须转移到 `IDLE`，并将 `dwell_sec` 清零。
 - 验收：连续 75 帧人数为 0 → 状态变为 `IDLE`。
 - 追溯：CARD（误检抑制）、REQ-FUNC-045。
 
@@ -455,17 +464,17 @@ SVC --> P : 楼层+人数+紧急度+理由
 - 追溯：CARD（困人判据）、L1-DECISION。
 
 **REQ-FUNC-020｜普遍｜P0｜dwell 定义**
-系统必须按 `dwell_sec = now_ts - stop_enter_ts` 计算滞留秒数，且门开后基准时间重置为门关闭时刻。
-- 验收：`stop_enter_ts=100`、`now_ts=290`、门未开 → `dwell_sec=190`。
+系统必须按 `dwell_ms = now_ts - stop_enter_ts`、`dwell_sec = dwell_ms / 1000.0` 计算滞留秒数（`now_ts`、`stop_enter_ts` 均为 Unix epoch 毫秒时间戳），且门开后基准时间重置为门关闭时刻。
+- 验收：`stop_enter_ts=1763300000000`、`now_ts=1763300190000`、门未开 → `dwell_ms=190000`、`dwell_sec=190.0`。
 - 追溯：CARD（dwell 定义）、DEC-03。
 
 **REQ-FUNC-021｜非期望｜P0｜时序保护**
 如果输入 `ts` 回退或与上一帧重复，则系统必须丢弃该帧并记录 WARN，不得让 `dwell_sec` 回退或重复累加。
-- 验收：注入 `ts=10,10,9,11` → 仅 10、11 生效，`dwell_sec` 单调不减。
+- 验收：注入 `ts=1763300000000, 1763300000000, 1763299999000, 1763300001000` → 仅首帧与末帧生效，`dwell_sec` 单调不减。
 - 追溯：REQ-QUAL-001、REQ-QUAL-003。
 
 **REQ-FUNC-022｜非期望｜P0｜IMU 缺帧推进**
-当 `step` 收到 `imu_event=None` 时，系统必须仅依靠视觉信号推进状态机，`dwell_sec` 仍按 `ts` 累加，且不得崩溃。
+当 `step` 收到 `imu_event=None` 时，系统必须仅依靠视觉信号推进状态机，`dwell_sec` 仍按 `ts` 毫秒差值换算累加（`Δms / 1000.0`），且不得崩溃。
 - 验收：全序列 `imu_event=None`，状态仍可到 `OCCUPIED` 并判决。
 - 追溯：CARD（融合容错）、REQ-FUNC-039。
 
@@ -483,7 +492,7 @@ SVC --> P : 楼层+人数+紧急度+理由
 @startuml
 [*] --> IDLE
 IDLE --> MOVING : motion_level >= move_thresh\n持续 1s
-MOVING --> STOPPED : motion_level < stop_thresh\n持续 1s 或 imu.estop > estop_thresh\n记 stop_enter_ts，dwell=0
+MOVING --> STOPPED : motion_level < stop_thresh\n持续 1s 或 imu.estop > estop_thresh\n记 stop_enter_ts(ms)，dwell=0
 STOPPED --> DOOR_OPEN : door_open_signal = True\n(dwell=0)
 STOPPED --> DOOR_CLOSED : person_count >= 1\n且门未开持续 1s
 STOPPED --> MOVING : motion_level 恢复
@@ -508,9 +517,9 @@ OCCUPIED --> OCCUPIED : dwell_sec > dwell_threshold\n且 person_count >= 1\ntrap
 - 追溯：L2-B（`fuse`）、L1-DECISION。
 
 **REQ-FUNC-026｜普遍｜P0｜时间对齐策略**
-系统必须按 `ts` 将每个 `VisionOut` 与最近的 `IMUEvent` 对齐：时间差 ≤ 0.5 秒时取该事件，否则取 `None`；前向保持不得超过 10 秒。
-- 验收：构造 IMU 间隔 10 s 的序列，视觉帧在事件后 11 s → 对齐结果为 `None`。
-- 追溯：L2-B、REQ-FUNC-022。
+系统必须按毫秒 `ts` 将每个 `VisionOut` 与最近的 `IMUEvent` 对齐：`|Δts| ≤ 500 ms` 时取该事件，否则取 `None`；前向保持不得超过 `10000 ms`。
+- 验收：构造相邻 `IMUEvent.ts`（窗口结束时刻）间隔 10000 ms 的序列，视觉帧位于该事件 `ts` 后 11000 ms → 对齐结果为 `None`。
+- 追溯：L2-B、REQ-FUNC-022、DEC-03。
 
 **REQ-FUNC-027｜事件驱动｜P0｜急停加速计时**
 当对齐到的 `imu.estop > estop_thresh` 时，系统必须对 `dwell` 计时应用加速系数（默认 2.0，可配置），并在 `reason` 中记录 `imu.estop` 与加速事实。
@@ -546,7 +555,7 @@ participant M as "IMU detect_imu()"
 
 A -> B : list[VisionOut]
 M -> B : list[IMUEvent]
-B -> B : 按 ts 最近邻对齐\n(|Δt| <= 0.5s，否则 None)
+B -> B : 按毫秒 ts 最近邻对齐\n(|Δts| <= 500ms，否则 None)
 loop 每个有效 VisionOut
   B -> S : step(vision, imu_event)
   S --> B : Decision
@@ -645,7 +654,7 @@ B --> B : 落盘 results/<case>_decision.json
 - 追溯：CARD（检修停梯 person_count=0 不报）。
 
 **REQ-FUNC-046｜普遍｜P0｜倒地持续性**
-系统必须在 `fall_prob` 超阈值且持续不少于 3 秒、同时满足髋部高度低于阈值时，才允许判定 `faint`；单帧或短时弯腰不得触发。
+系统必须在 `fall_prob` 超阈值且持续不少于 3 秒（`Δts ≥ 3000 ms`）、同时满足髋部高度低于阈值时，才允许判定 `faint`；单帧或短时弯腰不得触发。
 - 验收：注入 2 s 蹲下 → 不判 `faint`；注入 5 s 倒地 → 判 `faint`。
 - 追溯：CARD（蹲下捡东西：3 秒持续性+髋部高度）。
 
@@ -755,9 +764,9 @@ B --> B : 落盘 results/<case>_decision.json
 - 追溯：L1-VISION、L1-IMUEVENT、L1-DECISION、REQ-QUAL-005。
 
 **REQ-DATA-002｜普遍｜P0｜时间戳语义**
-系统必须将 `ts` 定义为相对该段视频/IMU 序列起点的整数秒（向下取整），并在同一段数据内保持全链路一致。
-- 验收：5 段输出的 `ts` 均从 0 起、单调递增、无单位混用。
-- 追溯：DEC-03、L1-DECISION。
+系统必须将 `ts` 定义为 **Unix epoch 毫秒时间戳**（整数，13 位量级，与 RDS `BIGINT` 对齐），并在同一段数据内保持 `VisionOut` → `IMUEvent` 对齐 → `Decision` 全链路同单位、同基准。
+- 验收：5 段输出的 `ts` 均为 13 位毫秒整数、同段内单调不减、无秒/毫秒混用；与 L1 契约 6.5 节样例 `1763300000000` 同量级。
+- 追溯：DEC-03、L1-DECISION、L1-IMUEVENT、`common/schema.py`（`CONTRACT_VERSION="L1-1.0"`）、`tests/test_schema_contract.py`。
 
 **REQ-DATA-003｜普遍｜P0｜设备标识**
 系统必须输出非空 `device_id`，取值来自输入参数或配置，不得硬编码真实电梯编号、小区名称等敏感信息。
@@ -848,8 +857,8 @@ B --> B : 落盘 results/<case>_decision.json
 - 追溯：REQ-QUAL-001、REQ-FUNC-054。
 
 **REQ-EVAL-008｜普遍｜P1｜逐段时间线**
-系统必须输出每段场景的 `Decision` 时间线（至少含 `ts`、`state`、`trapped`、`urgency`、`event_type`），供人工复核误报/漏报位置。
-- 验收：任取一段可定位到首次 `trapped=True` 的秒数。
+系统必须输出每段场景的 `Decision` 时间线（至少含 `ts`（毫秒）、`state`、`trapped`、`urgency`、`event_type`），供人工复核误报/漏报位置。
+- 验收：任取一段，可按毫秒 `ts` 定位首次 `trapped=True` 的位置（呈现时可换算为秒数）。
 - 追溯：CARD（人工复核）、REQ-QUAL-003。
 
 ### 8.2 消融实验
@@ -1098,8 +1107,9 @@ DEC-01 必须完成会签并记录；可选能力关闭时 MVP 全部验收项�
 | L1-IMU | `(N,200,3)`、float32、20Hz、归一化 | REQ-FUNC-001、006、008、REQ-DATA-001 | ACC-003 |
 | L1-VIDEO | 1280×720、H.264、25fps、英文小写名 | REQ-FUNC-040、REQ-DATA-006 | ACC-010 |
 | L1-VISION | `VisionOut` 六字段、人数 0–8 | REQ-FUNC-041、REQ-DATA-001 | ACC-004 |
-| L1-IMUEVENT | `window_sec=10.0`、三分量分数 | REQ-FUNC-002～005 | ACC-003 |
-| L1-DECISION | `Decision` 九字段 | REQ-DATA-001～005、REQ-FUNC-024 | ACC-004、ACC-006 |
+| L1-IMUEVENT | `window_sec=10.0`、`ts` 为窗口结束毫秒时间戳、三分量分数 | REQ-FUNC-002～005、REQ-DATA-002 | ACC-003 |
+| L1-DECISION | `Decision` 九字段、`ts` 为 Unix epoch 毫秒时间戳（对齐 RDS `BIGINT`） | REQ-DATA-001～005、REQ-FUNC-024 | ACC-004、ACC-006 |
+| L1-时间戳基线 | `ts` 毫秒语义三方一致 | REQ-DATA-002、REQ-FUNC-005、020、026 | ACC-003、ACC-004（`tests/test_schema_contract.py` 11 项） |
 | L1-URGENCY | `0/1/2/3` 映射 | REQ-FUNC-032、DEC-01 | ACC-006、ACC-011 |
 | L1-REASON | 只列触发项、带数值 | REQ-EXPL-001～007 | ACC-006 |
 | L1-EVENT | 五类事件语义 | REQ-FUNC-033～037、REQ-FUNC-052 | ACC-004 |
@@ -1146,9 +1156,9 @@ DEC-01 必须完成会签并记录；可选能力关闭时 MVP 全部验收项�
 | 当前状态 | 输入/条件 | 下一状态 | 动作/说明 |
 |---|---|---|---|
 | `IDLE` | `motion_level ≥ move_thresh` 持续 1 s | `MOVING` | 记录运动起点 |
-| `IDLE` | `imu.estop > estop_thresh` | `STOPPED` | 记 `stop_enter_ts`，`dwell=0` |
+| `IDLE` | `imu.estop > estop_thresh` | `STOPPED` | 记 `stop_enter_ts`（毫秒），`dwell=0` |
 | `IDLE` | 其他 | `IDLE` | 保持 |
-| `MOVING` | `motion_level < stop_thresh` 持续 1 s | `STOPPED` | 记 `stop_enter_ts`，`dwell=0` |
+| `MOVING` | `motion_level < stop_thresh` 持续 1 s | `STOPPED` | 记 `stop_enter_ts`（毫秒），`dwell=0` |
 | `MOVING` | `imu.estop > estop_thresh` | `STOPPED` | 急停优先 |
 | `MOVING` | `door_open_signal=True` | `DOOR_OPEN` | 异常到站，`dwell=0` |
 | `MOVING` | 其他 | `MOVING` | 保持 |
@@ -1181,6 +1191,8 @@ DEC-01 必须完成会签并记录；可选能力关闭时 MVP 全部验收项�
 | IMU 缺失 | `trapped` / 2 | `["dwell=205s > 180s", "person_count=1 >= 1", "imu_unavailable"]` |
 | 门信号代理 | 任一告警 | `["...", "technical_debt=door_signal_proxy"]` |
 
+> 单位说明：`reason` 中的 `dwell` 仍以秒呈现（如 `dwell=412s`），但必须由毫秒 `ts` 差值换算得到（`dwell_ms / 1000.0`）；`reason` 中不得出现 `ts` 原始毫秒值与秒制数值混排，避免审阅时误读单位（DEC-03）。
+
 ## 附录 D：交付物验收清单映射
 
 | # | 交付物 | 验收条目 | 责任 |
@@ -1201,7 +1213,7 @@ DEC-01 必须完成会签并记录；可选能力关闭时 MVP 全部验收项�
 
 | `Decision` 字段 | `POST /api/v1/edge/report` 请求体 | `GET /api/v1/alerts` 响应项 | 说明 |
 |---|---|---|---|
-| `ts` | `ts` | `ts` | 相对秒 |
+| `ts` | `ts` | `ts` | Unix epoch 毫秒（13 位整数，对齐 RDS `BIGINT`） |
 | `device_id` | `device_id` | `device_id` | 演示编号 |
 | `trapped` | `trapped` | `trapped` | 布尔 |
 | `urgency` | `urgency` | `urgency` | 0–3 |
@@ -1216,7 +1228,7 @@ DEC-01 必须完成会签并记录；可选能力关闭时 MVP 全部验收项�
 
 ---
 
-## 附：需求分类统计（v1.0）
+## 附：需求分类统计（v1.1）
 
 | 类别 | 编号范围 | 数量 |
 |---|---|---|
