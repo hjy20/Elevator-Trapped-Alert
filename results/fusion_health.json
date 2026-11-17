@@ -1,0 +1,57 @@
+{
+  "normal": {
+    "frames": 13,
+    "imu_events": 3,
+    "nearest": 1,
+    "hold": 2,
+    "none": 10,
+    "nearest_ratio": 0.076923,
+    "hold_ratio": 0.153846,
+    "none_ratio": 0.769231,
+    "mean_abs_delta_ms": 1000.0
+  },
+  "estop": {
+    "frames": 16,
+    "imu_events": 3,
+    "nearest": 1,
+    "hold": 5,
+    "none": 10,
+    "nearest_ratio": 0.0625,
+    "hold_ratio": 0.3125,
+    "none_ratio": 0.625,
+    "mean_abs_delta_ms": 2500.0
+  },
+  "trapped": {
+    "frames": 207,
+    "imu_events": 21,
+    "nearest": 20,
+    "hold": 177,
+    "none": 10,
+    "nearest_ratio": 0.096618,
+    "hold_ratio": 0.855072,
+    "none_ratio": 0.048309,
+    "mean_abs_delta_ms": 4446.701
+  },
+  "pry": {
+    "frames": 206,
+    "imu_events": 21,
+    "nearest": 20,
+    "hold": 176,
+    "none": 10,
+    "nearest_ratio": 0.097087,
+    "hold_ratio": 0.854369,
+    "none_ratio": 0.048544,
+    "mean_abs_delta_ms": 4438.776
+  },
+  "faint": {
+    "frames": 206,
+    "imu_events": 21,
+    "nearest": 20,
+    "hold": 176,
+    "none": 10,
+    "nearest_ratio": 0.097087,
+    "hold_ratio": 0.854369,
+    "none_ratio": 0.048544,
+    "mean_abs_delta_ms": 4438.776
+  }
+}
