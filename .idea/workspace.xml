@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d469a6-a333-482a-9297-75839ab6351d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunMaDao.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c6d469a6-a333-482a-9297-75839ab6351d" name="Changes" comment="dataclass 落地并锁版本" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,8 +37,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794895338135</updated>
-      <workItem from="1794895339308" duration="2583000" />
+      <workItem from="1794895339308" duration="3164000" />
     </task>
+    <task id="LOCAL-00001" summary="dataclass 落地并锁版本">
+      <created>1794898508841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794898508841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,5 +62,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dataclass 落地并锁版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="dataclass 落地并锁版本" />
   </component>
 </project>
