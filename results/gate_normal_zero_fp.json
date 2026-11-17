@@ -1,0 +1,18 @@
+{
+  "preset": "production",
+  "dwell_threshold": 180.0,
+  "normal_frames": 325,
+  "trapped_true": 0,
+  "max_urgency": 0,
+  "frame_fp_rate": 0.0,
+  "first_fp_ts": null,
+  "first_fp_reason": null,
+  "door_open_seen": true,
+  "raw_dwell_at_door_open": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

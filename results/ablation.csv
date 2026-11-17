@@ -1,0 +1,5 @@
+variant,precision,recall,f1,fp_count,faint_recall,estop_recall,trapped_recall,delta_precision,delta_recall,delta_f1,delta_fp_count
+baseline,1.0,1.0,1.0,0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+no_fall,0.7,0.8,0.733333,0,0.0,1.0,1.0,-0.3,-0.2,-0.266667,0.0
+no_imu,0.4,0.6,0.466667,0,0.0,0.0,1.0,-0.6,-0.4,-0.533333,0.0
+no_temporal,1.0,1.0,1.0,0,1.0,1.0,1.0,0.0,0.0,0.0,0.0

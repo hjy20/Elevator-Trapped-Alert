@@ -1,0 +1,13 @@
+{"ts": 1763300000000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300001000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300002000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300003000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300004000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300005000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300006000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300007000, "state": "MOVING", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable", "technical_debt"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300008000, "state": "MOVING", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300009000, "state": "MOVING", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300010000, "state": "MOVING", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": [], "match": "nearest", "delta_ms": 0}
+{"ts": 1763300011000, "state": "DOOR_OPEN", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["technical_debt"], "match": "hold", "delta_ms": 1000}
+{"ts": 1763300012000, "state": "DOOR_OPEN", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": [], "match": "hold", "delta_ms": 2000}

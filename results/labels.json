@@ -1,0 +1,37 @@
+{
+  "demo_normal": {
+    "expected_event": "normal",
+    "expected_urgency": 0,
+    "observed_ms": 13000,
+    "stop_enter_ts": null,
+    "note": "mock normal arrival, door opens at 12s"
+  },
+  "demo_estop": {
+    "expected_event": "estop",
+    "expected_urgency": 1,
+    "observed_ms": 16000,
+    "stop_enter_ts": 1763300005000,
+    "note": "mock estop pulse at first IMU window"
+  },
+  "demo_trapped": {
+    "expected_event": "trapped",
+    "expected_urgency": 2,
+    "observed_ms": 207000,
+    "stop_enter_ts": 1763300005000,
+    "note": "mock trapped: door closed, 1 person, 200s dwell"
+  },
+  "demo_pry": {
+    "expected_event": "pry",
+    "expected_urgency": 2,
+    "observed_ms": 207000,
+    "stop_enter_ts": 1763300005000,
+    "note": "mock pry: door_approach 0.82 with 5Hz vibration"
+  },
+  "demo_faint": {
+    "expected_event": "faint",
+    "expected_urgency": 3,
+    "observed_ms": 207000,
+    "stop_enter_ts": 1763300005000,
+    "note": "mock faint: fall_prob 0.87 persists"
+  }
+}

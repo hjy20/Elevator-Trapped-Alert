@@ -1,0 +1,232 @@
+[
+  {
+    "ts": 1763300000000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300001000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300002000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300003000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300004000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300005000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300006000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300007000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300008000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300009000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3s <= 180s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1763300010000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 1,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "estop",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5s <= 180s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80"
+    ]
+  },
+  {
+    "ts": 1763300011000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 1,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "estop",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80"
+    ]
+  },
+  {
+    "ts": 1763300012000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 1,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "estop",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80"
+    ]
+  },
+  {
+    "ts": 1763300013000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 1,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "estop",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80"
+    ]
+  },
+  {
+    "ts": 1763300014000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 1,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "estop",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2s <= 180s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80"
+    ]
+  },
+  {
+    "ts": 1763300015000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 1,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "estop",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 180s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80"
+    ]
+  }
+]

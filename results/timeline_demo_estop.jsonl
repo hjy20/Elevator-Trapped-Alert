@@ -1,0 +1,16 @@
+{"ts": 1763300000000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300001000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300002000, "state": "IDLE", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300003000, "state": "MOVING", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300004000, "state": "MOVING", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300005000, "state": "STOPPED", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300006000, "state": "DOOR_CLOSED", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300007000, "state": "OCCUPIED", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 1000, "raw_dwell_ms": 1000, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300008000, "state": "OCCUPIED", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 2000, "raw_dwell_ms": 2000, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300009000, "state": "OCCUPIED", "trapped": false, "urgency": 0, "event_type": "normal", "dwell_ms": 3000, "raw_dwell_ms": 3000, "flags": ["imu_unavailable"], "match": "warmup", "delta_ms": null}
+{"ts": 1763300010000, "state": "OCCUPIED", "trapped": false, "urgency": 1, "event_type": "estop", "dwell_ms": 5000, "raw_dwell_ms": 4000, "flags": [], "match": "nearest", "delta_ms": 0}
+{"ts": 1763300011000, "state": "MOVING", "trapped": false, "urgency": 1, "event_type": "estop", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": [], "match": "hold", "delta_ms": 1000}
+{"ts": 1763300012000, "state": "STOPPED", "trapped": false, "urgency": 1, "event_type": "estop", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": [], "match": "hold", "delta_ms": 2000}
+{"ts": 1763300013000, "state": "DOOR_CLOSED", "trapped": false, "urgency": 1, "event_type": "estop", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": [], "match": "hold", "delta_ms": 3000}
+{"ts": 1763300014000, "state": "OCCUPIED", "trapped": false, "urgency": 1, "event_type": "estop", "dwell_ms": 2000, "raw_dwell_ms": 1000, "flags": [], "match": "hold", "delta_ms": 4000}
+{"ts": 1763300015000, "state": "MOVING", "trapped": false, "urgency": 1, "event_type": "estop", "dwell_ms": 0, "raw_dwell_ms": 0, "flags": [], "match": "hold", "delta_ms": 5000}
