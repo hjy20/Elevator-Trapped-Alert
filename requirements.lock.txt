@@ -1,0 +1,22 @@
+# 精确锁定基线 LOCK-1.0（Python 3.10 / 3.11）
+#
+# 规则：
+# 1. 三人（A/B/C）以本文件为唯一安装依据，禁止单人升级；
+# 2. 补丁号在实际环境 `pip freeze` 后回填，回填需群内同步；
+# 3. 任何变更必须与本文件同一次提交更新，并在群内喊一声。
+
+# 视觉（A）
+ultralytics==8.3.0
+opencv-python==4.10.0.84
+onnxruntime==1.19.0
+
+# 算法与决策（B）
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.9.2
+
+# 云服务（C）
+fastapi==0.115.0
+uvicorn==0.32.0
+mysql-connector-python==9.0.0
+redis==5.0.8

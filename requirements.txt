@@ -1,0 +1,18 @@
+# 宽松约束（仅供查阅语义）；真正安装请用 requirements.lock.txt。
+# 三人环境必须一致，以 lock 为准。
+
+# 视觉（A）
+ultralytics>=8.3,<8.4
+opencv-python>=4.10,<4.11
+onnxruntime>=1.19,<1.20
+
+# 算法与决策（B）
+numpy>=1.26,<1.27
+scikit-learn>=1.5,<1.6
+matplotlib>=3.9,<3.10
+
+# 云服务（C）
+fastapi>=0.115,<0.116
+uvicorn>=0.32,<0.33
+mysql-connector-python>=9.0,<10.0
+redis>=5.0,<6.0
