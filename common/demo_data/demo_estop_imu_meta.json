@@ -1,0 +1,35 @@
+{
+  "case": "demo_estop",
+  "fs": 20.0,
+  "window": 200,
+  "window_sec": 10.0,
+  "stride": 100,
+  "stride_sec": 5.0,
+  "shape": [
+    5,
+    200,
+    3
+  ],
+  "channels": [
+    "ax",
+    "ay",
+    "az"
+  ],
+  "unit": "m/s^2 (raw) / [-1,1] (normalized)",
+  "normalize": {
+    "ax": 3.0,
+    "ay": 3.0,
+    "az_offset": 9.81,
+    "az_scale": 6.0
+  },
+  "raw_samples": 600,
+  "window_end_ts_ms": [
+    1794915309950,
+    1794915314950,
+    1794915319950,
+    1794915324950,
+    1794915329950
+  ],
+  "generator": "data/scripts/build_demo_data.py:synth_imu(kind=estop)",
+  "disclaimer": "简化物理模型合成信号，不是真机采集；形态与真实事件一致，数值不可当真机标定依据。"
+}

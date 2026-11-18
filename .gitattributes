@@ -1,0 +1,11 @@
+# 统一换行，避免 Windows 上反复出现 "LF will be replaced by CRLF"
+* text=auto eol=lf
+
+# 二进制文件：不要让 git 做任何文本处理
+*.mp4 binary
+*.npy binary
+*.png binary
+*.jpg binary
+*.pt binary
+*.onnx binary
+*.whl binary

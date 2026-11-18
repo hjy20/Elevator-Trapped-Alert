@@ -1,0 +1,14 @@
+{
+  "case": "demo_trapped",
+  "event_type": "trapped",
+  "urgency": 2,
+  "trapped": true,
+  "people_max": 2,
+  "duration_sec": 20.0,
+  "label_level": "scene",
+  "summary": "停梯困人：门始终未开，轿厢内 2 人滞留 20 秒（演示阈值 8s 会触发）",
+  "notes": [
+    "场景级弱标签：只标这一段属于哪一类，不逐帧标",
+    "逐帧真值见 data/processed/demo_trapped_gt.json"
+  ]
+}

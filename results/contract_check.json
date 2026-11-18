@@ -1,0 +1,176 @@
+{
+  "cases": {
+    "demo_normal": {
+      "video": {
+        "fps": 25.0,
+        "size": "1280x720",
+        "frames": 500,
+        "codec": "h264 (High) (avc1 / 0x31637661)"
+      },
+      "imu": {
+        "shape": [
+          5,
+          200,
+          3
+        ],
+        "dtype": "float32",
+        "range": [
+          -0.066,
+          0.073
+        ]
+      },
+      "sidecar": {
+        "frames": 500,
+        "max_persons": 2
+      },
+      "meta": {
+        "start_ts_ms": 1794915000000,
+        "door_roi": "demo_cabin",
+        "scene": "synthetic"
+      },
+      "label": {
+        "event_type": "normal",
+        "urgency": 0,
+        "trapped": false
+      }
+    },
+    "demo_estop": {
+      "video": {
+        "fps": 25.0,
+        "size": "1280x720",
+        "frames": 500,
+        "codec": "h264 (High) (avc1 / 0x31637661)"
+      },
+      "imu": {
+        "shape": [
+          5,
+          200,
+          3
+        ],
+        "dtype": "float32",
+        "range": [
+          -0.388,
+          0.937
+        ]
+      },
+      "sidecar": {
+        "frames": 500,
+        "max_persons": 1
+      },
+      "meta": {
+        "start_ts_ms": 1794915300000,
+        "door_roi": "demo_cabin",
+        "scene": "synthetic"
+      },
+      "label": {
+        "event_type": "estop",
+        "urgency": 1,
+        "trapped": false
+      }
+    },
+    "demo_trapped": {
+      "video": {
+        "fps": 25.0,
+        "size": "1280x720",
+        "frames": 500,
+        "codec": "h264 (High) (avc1 / 0x31637661)"
+      },
+      "imu": {
+        "shape": [
+          5,
+          200,
+          3
+        ],
+        "dtype": "float32",
+        "range": [
+          -0.035,
+          0.036
+        ]
+      },
+      "sidecar": {
+        "frames": 500,
+        "max_persons": 2
+      },
+      "meta": {
+        "start_ts_ms": 1794915600000,
+        "door_roi": "demo_cabin",
+        "scene": "synthetic"
+      },
+      "label": {
+        "event_type": "trapped",
+        "urgency": 2,
+        "trapped": true
+      }
+    },
+    "demo_pry": {
+      "video": {
+        "fps": 25.0,
+        "size": "1280x720",
+        "frames": 500,
+        "codec": "h264 (High) (avc1 / 0x31637661)"
+      },
+      "imu": {
+        "shape": [
+          5,
+          200,
+          3
+        ],
+        "dtype": "float32",
+        "range": [
+          -0.199,
+          0.202
+        ]
+      },
+      "sidecar": {
+        "frames": 500,
+        "max_persons": 2
+      },
+      "meta": {
+        "start_ts_ms": 1794915900000,
+        "door_roi": "demo_cabin",
+        "scene": "synthetic"
+      },
+      "label": {
+        "event_type": "pry",
+        "urgency": 2,
+        "trapped": true
+      }
+    },
+    "demo_faint": {
+      "video": {
+        "fps": 25.0,
+        "size": "1280x720",
+        "frames": 500,
+        "codec": "h264 (High) (avc1 / 0x31637661)"
+      },
+      "imu": {
+        "shape": [
+          5,
+          200,
+          3
+        ],
+        "dtype": "float32",
+        "range": [
+          -0.049,
+          0.273
+        ]
+      },
+      "sidecar": {
+        "frames": 500,
+        "max_persons": 2
+      },
+      "meta": {
+        "start_ts_ms": 1794916200000,
+        "door_roi": "demo_cabin",
+        "scene": "synthetic"
+      },
+      "label": {
+        "event_type": "faint",
+        "urgency": 3,
+        "trapped": true
+      }
+    }
+  },
+  "errors": [],
+  "warnings": []
+}
