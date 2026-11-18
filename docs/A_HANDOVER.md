@@ -248,6 +248,23 @@ python vision/visualize.py --case demo_faint
 - [ ] `keypoints_ok=False` 的降级逻辑是否已在状态机里实现
 - [ ] `fall.window_sec` 用 3.0 还是 2.0（影响延迟 2.6 s ↔ 1.8 s）
 - [ ] 是否需要 A 额外输出"每帧人数变化的时刻"（入场/离场事件）
+- [ ] **IMU 时长口径要对齐**（见下方说明）
+
+> **⚠️ IMU 时长口径（A↔B 需要拍板）**
+>
+> | | A 的 `common/demo_data/*_imu.npy` | B 的 `results/_mock/*_imu.npy` |
+> |---|---|---|
+> | estop / normal | `(5,200,3)` = 30 s | `(3,200,3)` = 30 s（窗口不重叠） |
+> | trapped / faint / pry | `(5,200,3)` = 30 s | `(21,200,3)` ≈ 105 s |
+>
+> 形状与 dtype **完全一致**（`(N,200,3)` float32），两边的代码可以直接互喂，差别只在"记录多长"：
+> A 的视频是 20 s，所以 IMU 给 30 s；B 在 mock 里把困人场景拉到 105 s，符合"困人是分钟级"的物理事实。
+>
+> 三个方案，B 拍一个我就照做：
+> 1. **B 用自己的 mock IMU**，A 的 30 s 版本只用于链路自检 —— 最省事；
+> 2. **A 把 trapped/faint 段视频延长到 60~90 s**（`build_demo_data.py --seconds 90`），
+>    同时出 105 s IMU —— 最真实，代价是视频体积与渲染时间上升；
+> 3. **A 单独生成一份长 IMU**（只有 npy、不对应视频），专供 B 的 dwell 逻辑压测。
 
 **需要 C 确认**
 - [ ] 根 `.gitignore` 按 §6 加上
