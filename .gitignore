@@ -1,0 +1,23 @@
+# 敏感配置
+.env
+
+# Python
+.venv/
+.venv-test/
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地数据库（sqlite 兜底）
+elevator.db
+elevator.db-journal
+
+# 大文件与中间产物（注意：不要忽略 common/demo_data 下的 mp4/npy）
+data/raw/
+results/*.tmp
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store

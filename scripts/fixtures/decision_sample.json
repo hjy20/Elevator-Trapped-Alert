@@ -1,0 +1,16 @@
+{
+  "ts": 1763300000000,
+  "device_id": "ELEV-DEMO-001",
+  "trapped": true,
+  "urgency": 3,
+  "location": "3F",
+  "people_count": 2,
+  "event_type": "faint",
+  "confidence": 0.91,
+  "reason": [
+    "dwell=412s > 180s",
+    "door_state=closed",
+    "fall_prob=0.87 > 0.70",
+    "imu.estop=0.92"
+  ]
+}

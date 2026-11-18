@@ -1,0 +1,14 @@
+# 统一换行符：文本文件仓库内一律 LF
+# 否则 Windows 提交的 .sh 到 Ubuntu 上会报 "bash^M: bad interpreter"
+* text=auto eol=lf
+
+# 二进制文件不做换行符转换
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.mp4  binary
+*.npy  binary
+*.db   binary
+*.xlsx binary
+*.pptx binary
+*.docx binary
