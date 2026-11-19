@@ -356,8 +356,9 @@ graph TD
 4. 任何 `model/*` **不得**导入 `vision/`、`service/`、`dashboard/`、`scripts/`（`REQ-QUAL-005`、`REQ-CONST-003`）。
 5. 任何 `model/*` **不得**写入 `common/`（含 `schema.py` 与 `demo_data/`）。
 6. `model/__init__.py` **不得**在导入期加载 `matplotlib`（冷启动 ≤3s，`REQ-PERF-004`）。
+7. 路径与编码**必须**跨平台：所有路径一律用 `pathlib.Path` 拼装与解析，**禁止**以字符串拼接路径分隔符；文件读写统一 `encoding="utf-8"`，JSON 序列化统一 `ensure_ascii=False`，不得假设 `\\` 分隔符或 GBK 默认编码（`REQ-QUAL-006`、`REQ-DATA-007`）。
 
-→ `REQ-QUAL-005`、`REQ-CONST-003`、`REQ-FUNC-007`、`REQ-PERF-004`
+→ `REQ-QUAL-005`、`REQ-QUAL-006`、`REQ-CONST-003`、`REQ-FUNC-007`、`REQ-PERF-004`
 
 #### 核心类与职责（不含实现）
 
@@ -713,11 +714,11 @@ python model/eval.py --cases all|comma,separated [--demo] [--labels results/labe
                      [--out results/] [--seed 0] [--ablation] [--mock]
 ```
 
-- **业务**：对 5 段逐一 `detect_imu → fuse`，落盘 `<case>_decision.json`，计算指标、混淆矩阵、四项消融，生成 `metrics.*` / `confusion_matrix.png` / `ablation.*`。
+- **业务**：对 5 段逐一 `detect_imu → fuse`，落盘 `<case>_decision.json`，计算指标、混淆矩阵、四项消融，生成 `metrics.*` / `confusion_matrix.png` / `ablation.*`；对 `urgency ≥ 2` 的帧，控制台固定打印四项告警要素：`location` / `people_count` / `urgency` / `reason`（`REQ-FUNC-053`）。
 - **前置条件**：`common/demo_data/<case>_imu.npy` 与 A 的 `VisionOut` 序列可读（或 `--mock` 用合成数据）；`labels.json` 存在（缺省时自动生成"仅结构校验"模式并明确 WARN 不可出指标）。
 - **后置条件**：产物清单见 2.9；控制台打印汇总表；退出码 0。
 - **异常映射**：单段失败 → 记录失败段、其余继续，退出码 0 但汇总表标注 `FAILED`；全部失败 → 退出码 1。
-- **需求**：`REQ-EVAL-001`、`REQ-DATA-004`、`REQ-DATA-009`、`REQ-QUAL-002`
+- **需求**：`REQ-EVAL-001`、`REQ-DATA-004`、`REQ-DATA-009`、`REQ-QUAL-002`、`REQ-FUNC-053`
 
 #### B-6 内部扩展：配置构造
 
@@ -1616,8 +1617,9 @@ class ThresholdConfig:
 | `run_ablation(cases, cfg)` | 四项消融（见 2.9.4） |
 | `plot_ablation(rows, out)` | 柱状图 + delta 标注（`REQ-EVAL-011`） |
 | `write_claims(metrics, out)` | 数字出处 + 口径字符串（见 2.9.5） |
+| `measure_timing(cases, cfg)` | `--timing` 开关：输出单窗 P95 耗时、批处理总耗时、进程 RSS 峰值（`REQ-PERF-001`/`002`/`003`；无 `psutil` 时退化为 `resource`/`tracemalloc`，两平台均可取数） |
 
-→ `REQ-EVAL-001`、`REQ-EVAL-004`、`REQ-DATA-004`、`REQ-PERF-002`
+→ `REQ-EVAL-001`、`REQ-EVAL-004`、`REQ-DATA-004`、`REQ-PERF-001`、`REQ-PERF-002`、`REQ-PERF-003`
 
 ### 2.9.2 `results/labels.json` 结构与段级真值
 
@@ -1920,8 +1922,11 @@ trapped_sequence():  IDLE → 运行 2s → 停稳 1s → 门关（person=1）�
 | `test_fp_per_day_label` | 同上 | 列标题含"仅示意"与 `observed_hours` | `REQ-EVAL-003/006` |
 | `test_banned_words` | 扫描产物 | 无 `准确率 X%` / `商用级` / `SOTA` / `95%` | `REQ-EVAL-006`、`REQ-CONST-006` |
 | `test_claims_traceable` | `claims.json` | 每个数字有 `source_file` + `source_line`(或 `key_path`) | `REQ-EVAL-006` |
+| `test_calibration_order` | 读 `results/threshold_calibration.md` | 标定顺序为"零误报守门 → Recall → 时延"，先满足 FP=0 再调其余（`REQ-FUNC-050`、2.7） | `REQ-FUNC-050`、`REQ-EVAL-012` |
+| `test_ablation_delta_consistent` | `ablation.csv` 与 `claims.json` | 每行 delta 与基线列一致（`1e-6`），四项齐备 | `REQ-EVAL-010/011` |
+| `test_model_card_sections` | `model/MODEL_CARD.md` | 六节齐全：数据来源与规模 / 判据阈值 / 指标口径 / 已知局限 / 演示参数 / 依赖与复现命令 | `REQ-ACC-008` |
 
-→ `REQ-EVAL-001`~`012`
+→ `REQ-EVAL-001`~`012`、`REQ-ACC-008`、`REQ-FUNC-050`
 
 #### T10 `test_engineering_rules.py`
 
@@ -1933,8 +1938,9 @@ trapped_sequence():  IDLE → 运行 2s → 停稳 1s → 门关（person=1）�
 | `test_ascii_filenames` | 遍历 `model/`、`results/`、`common/demo_data/` | 文件名匹配 `^[a-z0-9_.]+$` | `REQ-DATA-006` |
 | `test_schema_untouched` | `git diff --stat common/schema.py` | 输出为空 | `REQ-CONST-002`、`REQ-DATA-001` |
 | `test_lock_pinned` | 解析 `requirements.lock.txt` | B 侧三依赖为 `==` 精确版本；不含 DL 框架 | `REQ-DATA-010`、`REQ-CONST-001` |
+| `test_cross_platform_paths` | 正则扫描 `model/`、`results/` | 无硬编码 `\\`/`/` 路径拼接；读写 `encoding="utf-8"`；JSON `ensure_ascii=False` | `REQ-QUAL-006`、`REQ-DATA-007` |
 
-→ `REQ-QUAL-005`、`REQ-DATA-006/007/010`、`REQ-CONST-001/002/003`
+→ `REQ-QUAL-005`、`REQ-QUAL-006`、`REQ-DATA-006/007/010`、`REQ-CONST-001/002/003`
 
 ### 2.10.3 D2–D3 验收测试（`tests/test_acceptance.py`）
 
@@ -2061,6 +2067,8 @@ test_acceptance_imu_five_cases_nonempty():
 | 2.11 风险技术债 | `REQ-CONST-009`、`REQ-ACC-008` | `MODEL_CARD.md` 核对 | MVP |
 | 2.12 可选扩展 | `REQ-OPT-001`~`003` | 开关关闭回归 | P2 |
 | 2.2.3 契约自检 | `REQ-DATA-001/009/011` | T8 + T10 | MVP |
+| 2.2.2 B-5 告警展示 / 2.5.5 `location`、`people_count` | `REQ-FUNC-053` | T8 + CLI 人工核对四项要素 | MVP |
+| 2.1.2 工程规则(7) 跨平台路径与编码 | `REQ-QUAL-006`、`REQ-DATA-007` | T10 静态检查（分隔符 / `encoding="utf-8"` / `ensure_ascii=False`） | MVP |
 
 **未被本文档覆盖的需求（明确归属他人或阶段）**
 

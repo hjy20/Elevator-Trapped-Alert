@@ -1,0 +1,48 @@
+{
+  "mode": "demo",
+  "demo_threshold": true,
+  "device_id": "ELEV-DEMO-001",
+  "location": "3F",
+  "seed": 0,
+  "align_tolerance_ms": 500,
+  "align_hold_ms": 10000,
+  "thresholds": {
+    "dwell_threshold": 8.0,
+    "fall_thresh": 0.7,
+    "door_thresh": 0.6,
+    "estop_thresh": 0.8,
+    "idle_thresh": 0.8,
+    "move_thresh": 0.15,
+    "stop_thresh": 0.05,
+    "dwell_accel_factor": 2.0,
+    "fall_persist_sec": 3.0,
+    "door_open_timeout": 120.0
+  },
+  "imu": {
+    "start_ts_ms": null,
+    "imu_epoch_base_ms": 1763300000000,
+    "estop_rate_center": 3.0,
+    "estop_rate_gain": 6.0,
+    "estop_win_steps": 10,
+    "vib_band_low_hz": 2.0,
+    "vib_band_high_hz": 8.0,
+    "vib_ratio_low": 0.25,
+    "vib_ratio_high": 0.6,
+    "idle_var_center": 0.02,
+    "idle_var_gain": 200.0
+  },
+  "reason": {
+    "crowded_reason_thresh": 0.6,
+    "vib_reason_thresh": 0.6,
+    "conf_w_dwell": 0.4,
+    "conf_w_person": 0.25,
+    "conf_w_imu": 0.2,
+    "conf_w_fall": 0.1,
+    "conf_w_door": 0.05
+  },
+  "ablation": {
+    "no_fall": false,
+    "no_imu": false,
+    "no_temporal": false
+  }
+}

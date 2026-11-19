@@ -1,0 +1,14 @@
+{
+  "case": "demo_faint",
+  "event_type": "faint",
+  "urgency": 3,
+  "trapped": true,
+  "people_max": 2,
+  "duration_sec": 20.0,
+  "label_level": "scene",
+  "summary": "轿厢内晕倒：一人 6.9s 起倒地不起，另一人蹲下查看，紧急度 3",
+  "notes": [
+    "场景级弱标签：只标这一段属于哪一类，不逐帧标",
+    "逐帧真值见 data/processed/demo_faint_gt.json"
+  ]
+}

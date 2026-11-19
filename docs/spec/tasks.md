@@ -1,6 +1,6 @@
 # B · 算法与决策 —— 编码任务拆解（tasks.md）
 
-> 上游依据：`docs/spec/requirement.md`（SPEC-ELEV-RESCUE-001 v1.1，123 条 EARS 需求，DEC-01/02/03）、`docs/spec/design.md`（2133 行，B 侧技术实现方案）。
+> 上游依据：`docs/spec/requirement.md`（SPEC-ELEV-RESCUE-001 v1.1，123 条 EARS 需求，DEC-01/02/03）、`docs/spec/design.md`（2140 行，B 侧技术实现方案）。
 > 已落地只读基线：`common/schema.py`（`CONTRACT_VERSION="L1-1.0"`）、`tests/test_schema_contract.py`（11 项通过）、`requirements.lock.txt`。
 > 团队任务卡：`E:\DSH工作区\电梯困人预警-交付包\B_算法与决策_任务卡.md`、`00_协作总览与接口契约.md`。
 
@@ -77,7 +77,7 @@
 | T-B-031 | `results/EVAL_REPORT.md` | 阶段 6 | T-B-024、T-B-026、T-B-027、T-B-030 | `results/EVAL_REPORT.md` | 人工核对 + 禁用词扫描 | 一天 | ✅ |
 | T-B-032 | 关键代码片段解读 2 段 | 阶段 6 | T-B-010、T-B-019、T-B-031 | `results/KEY_CODE_WALKTHROUGH.md` | `python tests/test_engineering_rules.py -v` | 一天 | — |
 | T-B-033 | 工程规范静态检查（T10） | 阶段 6 | T-B-021 | `tests/test_engineering_rules.py` | `python tests/test_engineering_rules.py -v` | 半天 | ✅ |
-| T-B-034 | **D12 冻结回归（P2 关闭 + 全量回归）** | 阶段 6 | T-B-024、T-B-025、T-B-030、T-B-031、T-B-032、T-B-033 | `results/FREEZE_CHECKLIST.md` | 12 个测试文件全绿 + 两次评测一致 | 半天 | 🔴 卡 D12 |
+| T-B-034 | **D12 冻结回归（P2 关闭 + 全量回归）** | 阶段 6 | T-B-024、T-B-025、T-B-030、T-B-031、T-B-032、T-B-033 | `results/FREEZE_CHECKLIST.md` | 15 个测试文件全绿 + 两次评测一致 | 半天 | 🔴 卡 D12 |
 | T-B-OPT-01 | 1D-CNN IMU 对照实验（可选） | 可选 | T-B-014（主线全绿后） | `model/imu_cnn.py`（可选）、`results/cnn_vs_rule.md` | `python tests/test_imu_detect.py -v` | 一天 | ❌ 不进主线 |
 | T-B-OPT-02 | 昇腾一致性比对（可选） | 可选 | T-B-021 + A 侧 NPU 输出 | `model/eval.py --compare-runs`、`results/npu_consistency.md` | `python model/eval.py --compare-runs a.json b.json` | 半天 | ❌ 不进主线 |
 
@@ -439,12 +439,13 @@
   2. npy 用 `mmap_mode='r'` 控制内存；VisionOut 序列从 A 的 JSONL 逐行 `VisionOut(**d)` 构造，字段不符则跳过该帧并 WARN（不中断）。
   3. 落盘：`<case>_decision.json`（`asdict`、`ensure_ascii=False`、浮点 `round(x,6)`、禁 `NaN/Inf`）、`timeline_<case>.jsonl`（`ts/state/trapped/urgency/event_type/dwell_ms/raw_dwell_ms/flags/match/delta_ms`）、`config_snapshot.json`。
   4. 退出码：全部成功 0；单段失败记 `FAILED` 其余继续（仍 0）；全部失败 1；配置非法 2。
-  5. 日志首行固定 `{"event":"run_start","config":config_snapshot(cfg)}`（REQ-CFG-005）。
-  6. 控制台打印 `[i/5] <case> ... frames=... event=... trapped_frames=... OK|FAILED`。
+  5. 日志首行固定 `{"event":"run_start","config":config_snapshot(cfg)}`，其余运行日志统一 JSON Lines 写 `results/run_<ts>.jsonl`（REQ-CFG-005、REQ-QUAL-003）。
+  6. 控制台打印 `[i/5] <case> ... frames=... event=... trapped_frames=... OK|FAILED`；对 `urgency ≥ 2` 的帧打印四项告警要素 `location/people_count/urgency/reason`（REQ-FUNC-053）。
+  7. `--timing` 开关：输出单窗检测 P95、批处理总耗时与进程 RSS 峰值（REQ-PERF-001/002/003）；RSS 取数在 Windows/Linux 均可用的实现路径，取不到时打印 `RSS=N/A` 而非崩溃。
 - **验收方式**：
   - `python model/eval.py --cases all --mock --out results/` → 退出码 0；
   - `ls results/*_decision.json | wc -l` == **5**；逐个 `python -c "json.load(open(f))"` 成功且字段缺失数为 0；`timeline_*.jsonl` 行数 == 对应帧数。
-- **追溯**：REQ-EVAL-001、REQ-DATA-004/005/009、REQ-CFG-005、REQ-FUNC-051、REQ-QUAL-002、设计 2.9.1 / 2.9.6
+- **追溯**：REQ-EVAL-001、REQ-DATA-004/005/009、REQ-CFG-005、REQ-FUNC-051/053、REQ-QUAL-002/003、REQ-PERF-001/002/003、设计 2.9.1 / 2.9.6
 - **预估工作量**：一天
 
 ### T-B-022 · `labels.json` 与指标计算（段级 + 帧级 + 响应时长）
@@ -639,9 +640,10 @@
   3. `git diff --stat common/schema.py` 输出为空；`tests/test_schema_contract.py` 内容哈希与基线一致（字节级不变）。
   4. 解析 `requirements.lock.txt`：B 三依赖为 `==` 精确版本；无 PyTorch/TensorFlow/PaddlePaddle；`model/` 源码中不出现 `import onnxruntime`（该依赖虽在 lock 中但归属 A）。
   5. `test_no_matplotlib_in_init`：`model/__init__.py` 导入链不含 `matplotlib`（冷启动 ≤3s）。
+  6. `test_cross_platform_paths`：源码中无字符串拼接的路径分隔符（`"\\"` / `"/"` 硬编码），路径统一经 `pathlib.Path`；文件读写显式 `encoding="utf-8"`、JSON `ensure_ascii=False`；同一命令在 Windows 与 Linux 下路径输出等价（REQ-QUAL-006）。
 - **验收方式**：
-  - `python tests/test_engineering_rules.py -v` → **6 条通过**。
-- **追溯**：REQ-QUAL-005、REQ-DATA-006/007/010、REQ-CONST-001/002/003、REQ-PERF-004、设计 2.1.2 依赖方向、2.10.2 T10
+  - `python tests/test_engineering_rules.py -v` → **7 条通过**。
+- **追溯**：REQ-QUAL-005/006、REQ-DATA-006/007/010、REQ-CONST-001/002/003、REQ-PERF-004、设计 2.1.2 依赖方向与工程规则(7)、2.10.2 T10
 - **预估工作量**：半天
 
 ### T-B-034 · D12 冻结回归（P2 关闭 + 全量回归）
@@ -649,13 +651,13 @@
 - **交付物**：`results/FREEZE_CHECKLIST.md`、全量测试绿
 - **依赖前置**：T-B-024、T-B-025、T-B-030、T-B-031、T-B-032、T-B-033
 - **实现要点**：
-  1. 依次执行 12 个测试文件（契约、时间语义、配置、信号、状态机、reason、误报、IMU、融合、端到端、评测、工程规范 + 守门 + 验收），记录通过数；**任何红项禁止冻结**。
+  1. 依次执行附录 A 的 15 个测试文件（既有契约基线 1 个 + 新增 14 个：时间语义、配置、信号、状态机、reason、IMU、融合、误报、预设切换、守门、端到端、评测、工程规范、验收），记录通过数；**任何红项禁止冻结**。
   2. 关闭全部 P2 开关后（默认即关闭）端到端 5 段与评测全绿，产物可复现（REQ-OPT-003）。
   3. 一键复现两次：`python model/eval.py --cases all --mock --seed 0` 两次 `metrics` 差异为 0（浮点 `1e-6`）。
   4. 冻结清单：契约文件哈希、阈值表、产物清单、已知局限、责任人与日期；D12 后只允许缺陷修复。
   5. 归档 `docs/spec/tasks.md` 的勾选状态与 `results/FREEZE_CHECKLIST.md`。
 - **验收方式**：
-  - 12 条命令全部退出码 0（见附录 A 的冻结回归命令清单）；
+  - 15 条命令全部退出码 0（见附录 A 的冻结回归命令清单）；
   - 两次评测 `metrics.csv` 逐格相等（浮点 `1e-6`）；
   - `results/FREEZE_CHECKLIST.md` 无未勾选项。
 - **追溯**：REQ-CONST-008、REQ-ACC-010、REQ-ACC-011、REQ-FUNC-054、REQ-EVAL-007、REQ-OPT-003、任务卡 D12 冻结
@@ -870,7 +872,7 @@ T-B-001 → T-B-002 → T-B-004 → T-B-005 → T-B-006 → T-B-007 → T-B-008 
 |---|---|---|---|---|
 | **D3** | D3 晚 | T-B-010（假数据到 `OCCUPIED` 并 `trapped=True`） | T-B-001 → 002 → 004 → 005 → 006 → 007 → 008 → 009 → **010** | 砍 IMU 通道，只留视觉；`fuse` 走 `imu=[]` 降级路径（T-B-017 已内置） |
 | **D7** | D7 晚 | T-B-024（`demo_normal` `trapped=True` 次数 == 0）+ T-B-021（5 份 JSON） | T-B-011 → 016 → 017 → 018 → 020 → 021 → 022 → **024** | 状态机降级为纯规则（本就是 MVP）；A 未交付则 `--mock` 产出 5 份 JSON，D7 指标标注「合成数据」 |
-| **D12** | D12 | T-B-034（12 个测试文件全绿 + 两次评测一致 + P2 关闭回归） | T-B-024 → 026 → 027 → 029 → 031 → **034** | 冻结清单如实记录未完成项；PM 侧只做缺陷修复与材料完善（REQ-CONST-008） |
+| **D12** | D12 | T-B-034（15 个测试文件全绿 + 两次评测一致 + P2 关闭回归） | T-B-024 → 026 → 027 → 029 → 031 → **034** | 冻结清单如实记录未完成项；PM 侧只做缺陷修复与材料完善（REQ-CONST-008） |
 
 **卡住 D3 的任务（缺一则 D3 红）**：T-B-002、T-B-004、T-B-005、T-B-006、T-B-007、T-B-008、T-B-009、T-B-010。
 **卡住 D7 的任务（缺一则 D7 红）**：T-B-011、T-B-016、T-B-017、T-B-018、T-B-021、T-B-022、T-B-024。
@@ -956,11 +958,121 @@ diff results/metrics.csv results/_rerun/metrics.csv   # 期望无差异（浮点
 | REQ-EVAL-001~012（评测消融） | T-B-021~T-B-023、T-B-027、T-B-028、T-B-030 | 指标、混淆矩阵、四行消融、口径 |
 | REQ-CFG-001~005（配置） | T-B-002、T-B-019 | 单一源、双预设、CLI、校验、留痕 |
 | REQ-CONST-001~010（约束） | T-B-015、T-B-026、T-B-029、T-B-033、T-B-034 | 技术栈、契约锁死、目录边界、标定优先级、冻结 |
+| REQ-QUAL-001~006（质量属性） | T-B-002、T-B-005、T-B-021、T-B-033 | 确定性、非法输入不崩溃、结构化日志、可测试性、模块边界、跨平台 |
+| REQ-PERF-001~003（性能） | T-B-021（`--timing`）、T-B-020、T-B-034 | 单窗 P95、批处理总耗时、RSS 峰值；实测数值 D7–D10 补录 |
+| `REQ-ACC-001`、`REQ-ACC-004`、`REQ-ACC-006`、`REQ-ACC-011` | T-B-021、T-B-025、T-B-008、T-B-009、T-B-031、T-B-034 | 文档基线、端到端 5→5、理由可读、可选隔离 |
 | REQ-ACC-002/003/005/007/008/009/010 | T-B-010、T-B-014、T-B-024、T-B-029、T-B-031、T-B-032、T-B-034 | 逐条验收锚点 |
 | REQ-OPT-001~003（可选） | T-B-OPT-01/02 | 仅作可选扩展，关闭时不阻塞主线 |
 
-> 未在本表覆盖的实现项：`REQ-FUNC-040`（视频规格防护）归 A；`REQ-DATA-011` 的 HTTP 信封由 C 添加；`REQ-PERF-001~004` 的实测数据在 T-B-020（对齐耗时）、T-B-021（批处理耗时）与 T-B-034（复现）中留痕，具体 P95 数值待 D7–D10 补录。
+> 未在本表覆盖的实现项：`REQ-FUNC-040`（视频规格防护）归 A；`REQ-DATA-011` 的 HTTP 信封由 C 添加；`REQ-PERF-004`（离线可运行）由 T-B-033 的依赖与静态检查保证。`REQ-PERF-001~003` 的实测数据在 T-B-020（对齐耗时）、T-B-021（`--timing`：单窗 P95 / 批处理总耗时 / RSS 峰值）与 T-B-034（复现）中留痕，具体数值待 D7–D10 补录。
+
+---
+
+## 附录 C · 设计章节 → 任务兜底映射
+
+> 与附录 B 互补：附录 B 回答"每条需求由哪个任务兜住"，本表回答"每个设计小节由哪个任务落地"，用于 D1 评审与 D12 冻结时双向核对。标注"全局"者为架构/说明性章节，不单独派任务。
+
+| 设计小节 | 覆盖任务 | 说明 |
+|---|---|---|
+| 2.1 / 2.1.1 实现模型与上下文视图 | 全局（T-B-002 起） | 模块边界与依赖方向的全景说明 |
+| 2.1.2 模块架构与依赖方向 | T-B-033 | import 图静态检查 |
+| 2.1.3(1) 状态机数据模型与转移 | T-B-006、T-B-007 | 六态、转移表、时序保护 |
+| 2.1.3(2) 毫秒时间基准 | T-B-001、T-B-003、T-B-007 | `ts` 解析、量级断言、`dwell` 双量 |
+| 2.1.3(3) 融合驱动数据流时序 | T-B-016、T-B-017 | 对齐与逐帧驱动 |
+| 2.1.3(4) 扩展点设计 | T-B-OPT-01、T-B-OPT-02 | 可选扩展入口 |
+| 2.2.1 接口总体设计 | T-B-033 | 接口签名与依赖一致性 |
+| 2.2.2 B-1/B-4 IMU 接口与 CLI | T-B-011、T-B-012、T-B-013 | 检测入口与命令行 |
+| 2.2.2 B-2 `fuse` | T-B-017 | 融合编排 |
+| 2.2.2 B-3 `step` | T-B-006 | 单帧调试入口 |
+| 2.2.2 B-5 `eval` CLI | T-B-021 | 批处理、`--timing`、告警要素打印 |
+| 2.2.2 B-6 配置构造 | T-B-002 | `build_runtime_config` / `validate_config` |
+| 2.2.2 B-7 reason 渲染 | T-B-008、T-B-009 | `ReasonBuilder` 与黄金用例 |
+| 2.2.2 B-8 假数据生成 | T-B-004 | 五类场景生成器 |
+| 2.2.3 接口与契约一致性自检 | T-B-003、T-B-033 | 契约测试与静态检查 |
+| 2.3.1 数据模型设计目标 | T-B-002、T-B-006 | 不可变配置、实例化状态载体 |
+| 2.3.2 模型实现 | T-B-005、T-B-006、T-B-008 | 信号证据、上下文、判决结构 |
+| 2.3.3 时间模型与数值确定性 | T-B-001、T-B-003、T-B-007 | 毫秒整数、`round(·,6)` |
+| 2.4.1 IMU 层不做困人判定的前提 | T-B-011 | 职责隔离 |
+| 2.4.2 窗口切分 | T-B-011 | 200 步、`ts` 生成 |
+| 2.4.3 `estop` | T-B-012 | 变化率 + 峰值 + sigmoid |
+| 2.4.4 `vibration` | T-B-013 | 2–8 Hz 能量占比 |
+| 2.4.5 `idle` | T-B-013 | 方差反向映射 |
+| 2.4.6 三分数与窗口聚合边界 | T-B-011、T-B-014 | 边界语义与测试收口 |
+| 2.5.1 逐帧驱动流程 | T-B-017 | 总编排 |
+| 2.5.2 毫秒最近邻对齐 | T-B-016 | `Aligner` |
+| 2.5.3 关键点降级路径 | T-B-017、T-B-018 | 降级钳制与抑制 |
+| 2.5.4 判决树 | T-B-008、T-B-009 | 五类推导与合法配对 |
+| 2.5.5 `location` 与 `people_count` | T-B-005、T-B-008、T-B-021 | 封顶、展示、打印 |
+| 2.5.6 `confidence` 口径 | T-B-008 | 归一化聚合 |
+| 2.6.1 生成器目标与硬约束 | T-B-008 | 非空、只列触发项 |
+| 2.6.2 标记型条目格式 | T-B-008、T-B-009 | `key=true` 写法 |
+| 2.6.3 拼接顺序 | T-B-008 | 固定 pipeline |
+| 2.6.4 三条完整示例 | T-B-009 | 逐条字符串相等断言 |
+| 2.6.5 生成器机器校验 | T-B-009、T-B-033 | 白名单与正则校验 |
+| 2.7.1 三层不可变 dataclass | T-B-002 | 配置载体 |
+| 2.7.2 生产/演示双默认 | T-B-002、T-B-019 | 双预设与切换验收 |
+| 2.7.3 CLI 覆盖 | T-B-002 | 命令行覆盖优先级 |
+| 2.7.4 参数合法性校验 | T-B-002 | 非法配置拒绝启动 |
+| 2.7.5 配置留痕 | T-B-002、T-B-021 | 配置快照与日志首行 |
+| 2.8 误报抑制落点映射 | T-B-018 | M1–M7 注释反查 |
+| 2.9.1 eval 输入与输出 | T-B-021、T-B-022 | 骨架与指标 |
+| 2.9.2 `labels.json` 结构 | T-B-022 | 段级/帧级真值 |
+| 2.9.3 指标定义与单位换算 | T-B-022、T-B-023 | 指标与混淆矩阵 |
+| 2.9.4 四项消融实现 | T-B-027、T-B-028 | 开关注入与一致性 |
+| 2.9.5 措辞约束固化 | T-B-023、T-B-031 | 禁用词与口径声明 |
+| 2.9.6 `results/` 产物清单 | T-B-021、T-B-031 | 产物落盘 |
+| 2.10.1 测试分层与文件布局 | T-B-033、T-B-034 | 静态检查与回归清单 |
+| 2.10.2 T1–T10 用例设计 | T-B-003（T1）、T-B-002（T2）、T-B-005（T3）、T-B-006/007（T4）、T-B-009（T5）、T-B-014（T6）、T-B-016/017/020（T7）、T-B-025（T8）、T-B-030（T9）、T-B-033（T10） | 逐层落为测试文件 |
+| 2.10.3 D2–D3 验收测试 | T-B-010 | 假数据到 `OCCUPIED` |
+| 2.10.4 测试与需求覆盖校验 | T-B-034 | 冻结期逐条核对 |
+| 2.11 风险与技术债 | T-B-020、T-B-029 | 对齐健康度、MODEL_CARD 局限 |
+| 2.12 可选扩展点 | T-B-OPT-01、T-B-OPT-02 | P2 不阻塞主线 |
+| 2.13 B 侧需求追溯矩阵 | 全局（D1 评审） | 矩阵本身即核对工具 |
+| 2.14 需求侧开放问题 | T-B-001（Q-01）、T-B-015（Q-09） | 阻塞项解耦与标定回填 |
+| 2.15 设计→实现→验收节奏映射 | 第 11 节关键路径与死亡线对照表 | 阶段对齐 |
+
+> 说明：`2.13`–`2.15` 为评审与节奏类小节，按"全局"处理，不单独派任务；其余小节均有至少一个主线任务兜住。
 
 ---
 
 **文档状态**：本文件为 B 侧**任务规划**，不含任何实现代码；`model/` 目录与 `results/` 目录在任务执行阶段才会创建。
+
+---
+
+## 附录 D · A/B/C 联调任务（交叉引用）
+
+> 本附录只做指针式引用，**不定义**任务内容、不修改 T-B-001~T-B-034 任何条目。
+> 联调任务的完整描述（边界、产出物、依赖、阻塞关系、风险）见 `docs/spec/integration.md` 第 5 章；
+> 对应的需求条目见同文件第 3 章（`REQ-INT-001`~`REQ-INT-024`），差异清单见第 2 章（`INT-DIFF-01`~`INT-DIFF-11`），
+> 验收命令见第 4 章（CMD-01~CMD-13）。
+
+| 联调任务 | 任务主题 | `integration.md` 章节 | 关联差异 | 关联需求 |
+|---|---|---|---|---|
+| T-INT-001 | 三侧一次性合流并回归 | 5（任务表）、5.1（关键路径） | INT-DIFF-01 | REQ-INT-001~004 |
+| T-INT-002 | 冲突消解与冻结产物保护 | 5、2.3（可维护性红线） | INT-DIFF-01 | REQ-INT-003、REQ-INT-013 |
+| T-INT-003 | 真实视觉序列入口 | 5、3.2 | INT-DIFF-02、INT-DIFF-08 | REQ-INT-005、REQ-INT-008 |
+| T-INT-004 | 视觉输入契约校验 | 5、3.2 | INT-DIFF-08 | REQ-INT-006 |
+| T-INT-005 | 真实 IMU 张量消费验证 | 5、3.2 | INT-DIFF-03 | REQ-INT-007 |
+| T-INT-006 | 侧车契约对齐（命名 + 起点字段） | 5、3.3、2.2 | INT-DIFF-03、INT-DIFF-04 | REQ-INT-009、REQ-INT-010 |
+| T-INT-007 | 时基失配的可观测告警 | 5、3.3 | INT-DIFF-04 | REQ-INT-011 |
+| T-INT-008 | 五类场景真实联跑（演示预设） | 5、3.4、4.2 | INT-DIFF-06 | REQ-INT-012~014 |
+| T-INT-009 | 判决直通服务端与去重验证 | 5、3.5 | INT-DIFF-05 | REQ-INT-015、REQ-INT-016 |
+| T-INT-010 | 看板与统计口径联调 | 5、3.5 | INT-DIFF-05 | REQ-INT-017、REQ-INT-018 |
+| T-INT-011 | 演示降级路径双向验证 | 5、3.6、4.1 | INT-DIFF-07 | REQ-INT-019~021 |
+| T-INT-012 | 联调验收与结论签署 | 5、4.1、4.3 | INT-DIFF-01~INT-DIFF-10 | REQ-INT-022~024 |
+
+> 与附录 B / 附录 C 的关系：附录 B（需求→任务）与附录 C（设计→任务）覆盖的是 `REQ-XXX-NNN` 与设计章节；
+> 本附录覆盖的是**跨侧联调**这一维度，两者互补，不重叠，不替代。
+
+### 首轮执行状态（2026-11-20）
+
+| 任务 | 状态 | 实测落点 |
+|---|---|---|
+| T-INT-001 | 部分完成（工作树级对齐，未写历史） | 三侧文件同树；`CMD-01` 仍返回 1 |
+| T-INT-003 | 已完成 | `model/eval.py --real`，产物 `results_integration/` |
+| T-INT-004 | 已完成 | `load_vision_sequence` 逐帧六字段校验（缺失字段名入错误信息） |
+| T-INT-005 | 已完成 | 5 段各 5 条 `IMUEvent`，`window_sec=10.0` |
+| T-INT-006 | 已完成（B 侧兼容） | `model/config.py` 兼容 A 的 `_imu_meta.json` 与场景元数据 |
+| T-INT-008 | 已执行、未达标 | 2/5 达标；`normal` 误报 273 帧（见 `integration.md` 6.3） |
+| T-INT-009/010/011 | 环境阻塞 | 本机 Python 3.9、无 `fastapi/uvicorn` |
+| T-INT-012 | 未签署 | 结论为「链路已打通、判决未达标」 |

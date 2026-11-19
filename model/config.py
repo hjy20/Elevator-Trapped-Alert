@@ -18,6 +18,8 @@ MODE_DEMO = "demo"
 
 DEFAULT_IMU_EPOCH_BASE_MS = 1763300000000
 SIDECAR_SUFFIX = "_imu.meta.json"
+LEGACY_SIDECAR_SUFFIX = "_imu_meta.json"
+SCENE_META_SUFFIX = "_meta.json"
 MILLISECOND_SCALE_MIN = 10 ** 12
 DWELL_THRESHOLD_MAX_SEC = 500.0
 
@@ -203,31 +205,54 @@ def config_snapshot(cfg: RuntimeConfig) -> Dict[str, Any]:
     }
 
 
-def sidecar_path(npy_path: str) -> Path:
-    """`<case>_imu.npy` -> `<case>_imu.meta.json`。"""
+def _swap_suffix(npy_path: str, suffix: str) -> Path:
     path = Path(npy_path)
     name = path.name
     if name.endswith("_imu.npy"):
-        name = name[: -len(".npy")] + ".meta.json"
+        name = name[: -len(".npy")] + suffix
     else:
-        name = path.stem + ".meta.json"
+        name = path.stem + suffix
     return path.with_name(name)
 
 
-def _read_sidecar(sidecar: Path) -> Tuple[Optional[int], Optional[str]]:
-    if not sidecar.exists():
-        return None, "missing"
+def sidecar_path(npy_path: str) -> Path:
+    """`<case>_imu.npy` -> `<case>_imu.meta.json`。"""
+    return _swap_suffix(npy_path, ".meta.json")
 
+
+def legacy_sidecar_path(npy_path: str) -> Path:
+    """A 侧实际交付命名：`<case>_imu.npy` -> `<case>_imu_meta.json`。"""
+    return _swap_suffix(npy_path, LEGACY_SIDECAR_SUFFIX)
+
+
+def scene_meta_path(npy_path: str) -> Path:
+    """A 侧场景元数据：`<case>_imu.npy` -> `<case>_meta.json`（去掉 `_imu`）。"""
+    path = Path(npy_path)
+    name = path.name
+    if name.endswith("_imu.npy"):
+        name = name[: -len("_imu.npy")] + SCENE_META_SUFFIX
+    else:
+        name = path.stem + SCENE_META_SUFFIX
+    return path.with_name(name)
+
+
+def _load_json_object(path: Path) -> Tuple[Optional[dict], Optional[str]]:
+    if not path.exists():
+        return None, "missing"
     try:
-        payload = json.loads(sidecar.read_text(encoding="utf-8"))
+        payload = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, UnicodeDecodeError, OSError):
         return None, "json_decode"
     except Exception:
         return None, "unreadable"
+    if not isinstance(payload, dict):
+        return None, "not_object"
+    return payload, None
 
-    if not isinstance(payload, dict) or "start_ts_ms" not in payload:
+
+def _extract_start_ts(payload: dict) -> Tuple[Optional[int], Optional[str]]:
+    if "start_ts_ms" not in payload:
         return None, "missing_field"
-
     value = payload["start_ts_ms"]
     if isinstance(value, bool) or not isinstance(value, int):
         return None, "not_int"
@@ -236,10 +261,25 @@ def _read_sidecar(sidecar: Path) -> Tuple[Optional[int], Optional[str]]:
     return value, None
 
 
+def _read_sidecar(sidecar: Path) -> Tuple[Optional[int], Optional[str]]:
+    payload, reason = _load_json_object(sidecar)
+    if payload is None:
+        return None, reason
+    return _extract_start_ts(payload)
+
+
+def _read_scene_start_ts(npy_path: str) -> Tuple[Optional[int], Optional[str]]:
+    payload, reason = _load_json_object(scene_meta_path(npy_path))
+    if payload is None:
+        return None, reason
+    return _extract_start_ts(payload)
+
+
 def resolve_start_ts_ms(npy_path: str, cfg: RuntimeConfig) -> Tuple[int, str]:
     """解析 IMU 段起点毫秒时间戳，返回 `(t0_ms, source)`。
 
-    优先级：sidecar -> `cfg.imu.start_ts_ms`（CLI）-> `cfg.imu.imu_epoch_base_ms`。
+    优先级：主侧车 -> A 侧 legacy 侧车 / 场景元数据 -> CLI -> epoch 默认值。
+    `source` 取值为 `sidecar` / `sidecar_legacy` / `scene_meta` / `cli` / `default`。
     本函数不读取 `.npy`。
     """
     sidecar = sidecar_path(npy_path)
@@ -251,6 +291,22 @@ def resolve_start_ts_ms(npy_path: str, cfg: RuntimeConfig) -> Tuple[int, str]:
         logger.warning("sidecar_invalid:%s path=%s", reason, sidecar.name)
     elif reason == "missing":
         logger.info("sidecar_absent path=%s", sidecar.name)
+
+    legacy = legacy_sidecar_path(npy_path)
+    if legacy.exists():
+        value, reason = _read_sidecar(legacy)
+        if value is not None:
+            logger.info("ts_base_source=sidecar_legacy path=%s", legacy.name)
+            return value, "sidecar_legacy"
+        if reason != "missing":
+            logger.warning("sidecar_legacy_invalid:%s path=%s", reason, legacy.name)
+
+    value, reason = _read_scene_start_ts(npy_path)
+    if value is not None:
+        logger.info("ts_base_source=scene_meta path=%s", scene_meta_path(npy_path).name)
+        return value, "scene_meta"
+    if reason not in (None, "missing"):
+        logger.warning("scene_meta_invalid:%s path=%s", reason, scene_meta_path(npy_path).name)
 
     if cfg.imu.start_ts_ms is not None:
         logger.info("ts_base_source=cli")

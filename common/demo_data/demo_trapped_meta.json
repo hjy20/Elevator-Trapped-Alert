@@ -1,0 +1,16 @@
+{
+  "case": "demo_trapped",
+  "scene": "synthetic",
+  "fps": 25.0,
+  "frames": 500,
+  "width": 1280,
+  "height": 720,
+  "duration_sec": 20.0,
+  "start_ts_ms": 1794915600000,
+  "door_roi": "demo_cabin",
+  "event_type": "trapped",
+  "expected_urgency": 2,
+  "summary": "停梯困人：门始终未开，轿厢内 2 人滞留 20 秒（演示阈值 8s 会触发）",
+  "keypoint_sidecar": "demo_trapped_kpts.jsonl",
+  "generator": "data/scripts/build_demo_data.py"
+}

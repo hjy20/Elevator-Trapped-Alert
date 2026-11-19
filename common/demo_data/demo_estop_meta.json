@@ -1,0 +1,16 @@
+{
+  "case": "demo_estop",
+  "scene": "synthetic",
+  "fps": 25.0,
+  "frames": 500,
+  "width": 1280,
+  "height": 720,
+  "duration_sec": 20.0,
+  "start_ts_ms": 1794915300000,
+  "door_roi": "demo_cabin",
+  "event_type": "estop",
+  "expected_urgency": 1,
+  "summary": "电梯急停：轿厢剧烈抖动，轿厢内 1 人站立未倒地，紧急度 1（关注）",
+  "keypoint_sidecar": "demo_estop_kpts.jsonl",
+  "generator": "data/scripts/build_demo_data.py"
+}

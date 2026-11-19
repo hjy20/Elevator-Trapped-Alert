@@ -16,7 +16,7 @@ _ROOT = pathlib.Path(__file__).resolve().parents[1]
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
-from common.schema import Decision  # noqa: E402
+from common.schema import Decision, VisionOut  # noqa: E402
 from model.config import (  # noqa: E402
     AblationSwitch,
     ConfigError,
@@ -32,7 +32,17 @@ logger = logging.getLogger(__name__)
 
 SCOPE_STATEMENT = "在自建场景库（5 段/5 类）上测得"
 DATA_SOURCE_MOCK = "合成场景库（mock，非真实采集）"
-DATA_SOURCE_REAL = "自建场景库（真实采集）"
+DATA_SOURCE_REAL = "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）"
+REAL_VISION_DIR = pathlib.Path("results")
+REAL_DATA_DIR = pathlib.Path("common") / "demo_data"
+VISION_FIELDS: Tuple[str, ...] = (
+    "ts",
+    "person_count",
+    "fall_prob",
+    "door_approach",
+    "crowded",
+    "keypoints_ok",
+)
 EVENT_TYPES: Tuple[str, ...] = ("normal", "estop", "trapped", "pry", "faint")
 EVENT_PRIORITY: Dict[str, int] = {
     "normal": 0,
@@ -61,6 +71,121 @@ def run_case(kind: str, cfg: RuntimeConfig, seed: int = 0) -> dict:
     return {
         "case": bundle.case,
         "kind": kind,
+        "decisions": decisions,
+        "trace": runner.trace,
+        "observed_ms": observed_ms,
+        "stop_enter_ts": stop_enter_ts,
+    }
+
+
+def _vision_row(row: dict, index: int) -> VisionOut:
+    if not isinstance(row, dict):
+        raise ValueError(f"vision row {index}: expected object, got {type(row)!r}")
+    missing = [name for name in VISION_FIELDS if name not in row]
+    if missing:
+        raise ValueError(f"vision row {index}: missing fields {missing}")
+
+    ts = row["ts"]
+    if isinstance(ts, bool) or not isinstance(ts, int) or ts < 10 ** 12:
+        raise ValueError(f"vision row {index}: ts must be 13-digit ms int, got {ts!r}")
+
+    person_count = row["person_count"]
+    if isinstance(person_count, bool) or not isinstance(person_count, int):
+        raise ValueError(f"vision row {index}: person_count must be int, got {person_count!r}")
+    if not 0 <= person_count <= 8:
+        raise ValueError(f"vision row {index}: person_count out of range 0-8: {person_count}")
+
+    for name in ("fall_prob", "door_approach", "crowded"):
+        value = row[name]
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
+            raise ValueError(f"vision row {index}: {name} must be number, got {value!r}")
+        if not 0.0 <= float(value) <= 1.0:
+            raise ValueError(f"vision row {index}: {name} out of range 0-1: {value}")
+
+    keypoints_ok = row["keypoints_ok"]
+    if not isinstance(keypoints_ok, bool):
+        raise ValueError(f"vision row {index}: keypoints_ok must be bool, got {keypoints_ok!r}")
+
+    return VisionOut(
+        ts=int(ts),
+        person_count=int(person_count),
+        fall_prob=float(row["fall_prob"]),
+        door_approach=float(row["door_approach"]),
+        crowded=float(row["crowded"]),
+        keypoints_ok=bool(keypoints_ok),
+    )
+
+
+def load_vision_sequence(path: pathlib.Path) -> List[VisionOut]:
+    """读取 A 侧视觉产物，兼容 JSON 数组与 JSON Lines，逐行校验六字段。"""
+    if not path.exists():
+        raise FileNotFoundError(f"vision sequence not found: {path}")
+
+    text = path.read_text(encoding="utf-8")
+    if path.suffix == ".jsonl":
+        rows = [json.loads(line) for line in text.splitlines() if line.strip()]
+    else:
+        payload = json.loads(text)
+        if isinstance(payload, list):
+            rows = payload
+        elif isinstance(payload, dict) and isinstance(payload.get("frames"), list):
+            rows = payload["frames"]
+        else:
+            raise ValueError(f"vision sequence must be list or {{frames: []}}: {path}")
+
+    frames = [_vision_row(row, index) for index, row in enumerate(rows)]
+    frames.sort(key=lambda frame: frame.ts)
+    for previous, current in zip(frames, frames[1:]):
+        if current.ts <= previous.ts:
+            raise ValueError(f"vision ts not strictly increasing: {previous.ts} -> {current.ts}")
+    if not frames:
+        raise ValueError(f"empty vision sequence: {path}")
+    return frames
+
+
+def real_vision_path(case: str, vision_dir: pathlib.Path) -> pathlib.Path:
+    for name in (f"vision_{case}.json", f"vision_{case}.jsonl"):
+        candidate = vision_dir / name
+        if candidate.exists():
+            return candidate
+    raise FileNotFoundError(
+        f"no vision sequence for {case} under {vision_dir} (expected vision_{case}.json|.jsonl)"
+    )
+
+
+def run_real_case(
+    kind: str,
+    cfg: RuntimeConfig,
+    vision_dir: pathlib.Path = REAL_VISION_DIR,
+    data_dir: pathlib.Path = REAL_DATA_DIR,
+) -> dict:
+    case = f"demo_{kind}"
+    vision_path = real_vision_path(case, vision_dir)
+    vision = load_vision_sequence(vision_path)
+    imu_path = data_dir / f"{case}_imu.npy"
+    if not imu_path.exists():
+        raise FileNotFoundError(f"imu tensor not found: {imu_path}")
+    imu = detect_imu(str(imu_path))
+
+    runner = FusionRunner(cfg)
+    decisions = runner.run(vision, imu)
+    observed_ms = int(vision[-1].ts - vision[0].ts) + 1000
+    stop_enter_ts = next(
+        (row["ts"] for row in runner.trace if row["state"] == "STOPPED"), None
+    )
+    logger.info(
+        "real_case case=%s vision=%s frames=%d imu=%d health=%s",
+        case,
+        vision_path.name,
+        len(vision),
+        len(imu),
+        runner.health.as_dict(),
+    )
+    return {
+        "case": case,
+        "kind": kind,
+        "vision_source": str(vision_path),
+        "imu_source": str(imu_path),
         "decisions": decisions,
         "trace": runner.trace,
         "observed_ms": observed_ms,
@@ -632,7 +757,10 @@ def _load_labels(path: pathlib.Path) -> dict:
 def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="eval", description="B 侧评测：5 段场景 → Decision 与指标")
     parser.add_argument("--cases", default="all", help="all 或逗号分隔的场景类别")
-    parser.add_argument("--mock", action="store_true", help="使用合成场景库")
+    parser.add_argument("--mock", action="store_true", help="使用合成场景库（默认）")
+    parser.add_argument("--real", action="store_true", help="使用 A 侧真实视觉序列与 IMU 张量")
+    parser.add_argument("--vision-dir", default=str(REAL_VISION_DIR), help="真实视觉产物目录")
+    parser.add_argument("--data-dir", default=str(REAL_DATA_DIR), help="真实 IMU/场景元数据目录")
     parser.add_argument("--demo", action="store_true", help="使用演示阈值预设")
     parser.add_argument("--out", default="results", help="产物目录")
     parser.add_argument("--seed", type=int, default=0, help="合成数据随机种子")
@@ -657,12 +785,17 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         print(f"config error: {exc}", file=sys.stderr)
         return 2
 
-    if not args.mock:
+    if args.mock and args.real:
+        print("--mock and --real are mutually exclusive", file=sys.stderr)
+        return 2
+    if not args.mock and not args.real:
         print(
-            "real-data mode not available in this stage; use --mock "
-            "(A 侧真实 VisionOut 与 npy 到位后接入)",
+            "choose a data mode: --mock (合成场景库) or --real (A 侧真实产物)",
             file=sys.stderr,
         )
+        return 2
+    if args.real and (args.calibrate or args.ablation):
+        print("--calibrate/--ablation only support --mock in this stage", file=sys.stderr)
         return 2
 
     selected = list(KINDS) if args.cases == "all" else [c.strip() for c in args.cases.split(",")]
@@ -671,7 +804,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         print(f"unknown cases: {unknown}", file=sys.stderr)
         return 2
 
-    data_source = DATA_SOURCE_MOCK
+    data_source = DATA_SOURCE_REAL if args.real else DATA_SOURCE_MOCK
+    vision_dir = pathlib.Path(args.vision_dir)
+    data_dir = pathlib.Path(args.data_dir)
     out_dir = pathlib.Path(args.out)
     labels = _load_labels(pathlib.Path(args.labels))
 
@@ -704,14 +839,22 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     failed = 0
     for index, kind in enumerate(selected, start=1):
         try:
-            result = run_case(kind, cfg, seed=args.seed)
+            if args.real:
+                result = run_real_case(kind, cfg, vision_dir=vision_dir, data_dir=data_dir)
+            else:
+                result = run_case(kind, cfg, seed=args.seed)
             materialize(result, out_dir)
             results.append(result)
             event = segment_level(result["decisions"])
             trapped_frames = sum(1 for item in result["decisions"] if item.trapped)
+            source = (
+                f" vision={pathlib.Path(result['vision_source']).name}"
+                if args.real
+                else ""
+            )
             print(
                 f"[{index}/{len(selected)}] {result['case']:<14} frames={len(result['decisions']):<5} "
-                f"event={event:<8} trapped_frames={trapped_frames:<4} OK"
+                f"event={event:<8} trapped_frames={trapped_frames:<4}{source} OK"
             )
         except Exception as exc:  # noqa: BLE001
             failed += 1
@@ -725,7 +868,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     metrics = compute_metrics(records, cfg)
 
     write_metrics(metrics, out_dir, cfg, command, data_source)
-    write_claims(metrics, out_dir, "results/metrics.csv", data_source)
+    write_claims(metrics, out_dir, str(out_dir / "metrics.csv"), data_source)
     plot_confusion(records, out_dir / "confusion_matrix.png")
     (out_dir / "config_snapshot.json").write_text(
         json.dumps(config_snapshot(cfg), ensure_ascii=False, indent=2), encoding="utf-8"

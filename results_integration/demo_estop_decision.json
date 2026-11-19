@@ -1,0 +1,8060 @@
+[
+  {
+    "ts": 1794915300000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915300960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915301960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915302960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915303960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915304960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915305960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915306960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915307960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=6.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915308960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=7.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915309000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915309040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915309080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.30649,
+    "reason": [
+      "dwell=8s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.309132,
+    "reason": [
+      "dwell=8.1s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.311585,
+    "reason": [
+      "dwell=8.1s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.314093,
+    "reason": [
+      "dwell=8.2s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.316545,
+    "reason": [
+      "dwell=8.2s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.319097,
+    "reason": [
+      "dwell=8.2s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.32159,
+    "reason": [
+      "dwell=8.3s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.324199,
+    "reason": [
+      "dwell=8.3s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.326589,
+    "reason": [
+      "dwell=8.4s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.329003,
+    "reason": [
+      "dwell=8.4s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.331534,
+    "reason": [
+      "dwell=8.4s > 8s",
+      "person_count=1 >= 1",
+      "imu_unavailable=true",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.469161,
+    "reason": [
+      "dwell=8.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.473032,
+    "reason": [
+      "dwell=8.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.477058,
+    "reason": [
+      "dwell=8.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.481158,
+    "reason": [
+      "dwell=8.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.485216,
+    "reason": [
+      "dwell=8.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.489281,
+    "reason": [
+      "dwell=8.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.49341,
+    "reason": [
+      "dwell=9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.497414,
+    "reason": [
+      "dwell=9.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.501425,
+    "reason": [
+      "dwell=9.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.50537,
+    "reason": [
+      "dwell=9.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.509308,
+    "reason": [
+      "dwell=9.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915309960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.513212,
+    "reason": [
+      "dwell=9.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.517235,
+    "reason": [
+      "dwell=9.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.521275,
+    "reason": [
+      "dwell=9.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.525207,
+    "reason": [
+      "dwell=9.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.529199,
+    "reason": [
+      "dwell=9.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.533228,
+    "reason": [
+      "dwell=9.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.537242,
+    "reason": [
+      "dwell=9.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.541227,
+    "reason": [
+      "dwell=10s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.545138,
+    "reason": [
+      "dwell=10s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.549142,
+    "reason": [
+      "dwell=10.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.553172,
+    "reason": [
+      "dwell=10.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.557244,
+    "reason": [
+      "dwell=10.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.561193,
+    "reason": [
+      "dwell=10.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.565213,
+    "reason": [
+      "dwell=10.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.569243,
+    "reason": [
+      "dwell=10.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.573211,
+    "reason": [
+      "dwell=10.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.57725,
+    "reason": [
+      "dwell=10.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.581237,
+    "reason": [
+      "dwell=10.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.585208,
+    "reason": [
+      "dwell=10.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.589121,
+    "reason": [
+      "dwell=10.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.593238,
+    "reason": [
+      "dwell=11s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.597311,
+    "reason": [
+      "dwell=11.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.601388,
+    "reason": [
+      "dwell=11.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.605421,
+    "reason": [
+      "dwell=11.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.609446,
+    "reason": [
+      "dwell=11.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915310960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.61333,
+    "reason": [
+      "dwell=11.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.617328,
+    "reason": [
+      "dwell=11.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.621307,
+    "reason": [
+      "dwell=11.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.625258,
+    "reason": [
+      "dwell=11.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.629258,
+    "reason": [
+      "dwell=11.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.633177,
+    "reason": [
+      "dwell=11.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.637189,
+    "reason": [
+      "dwell=11.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.641241,
+    "reason": [
+      "dwell=12s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.645198,
+    "reason": [
+      "dwell=12s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.649083,
+    "reason": [
+      "dwell=12.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.653229,
+    "reason": [
+      "dwell=12.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.657219,
+    "reason": [
+      "dwell=12.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.661212,
+    "reason": [
+      "dwell=12.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.66516,
+    "reason": [
+      "dwell=12.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.669124,
+    "reason": [
+      "dwell=12.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.673154,
+    "reason": [
+      "dwell=12.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.677166,
+    "reason": [
+      "dwell=12.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.681155,
+    "reason": [
+      "dwell=12.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.685206,
+    "reason": [
+      "dwell=12.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.689161,
+    "reason": [
+      "dwell=12.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.6931,
+    "reason": [
+      "dwell=13s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.697146,
+    "reason": [
+      "dwell=13.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.70107,
+    "reason": [
+      "dwell=13.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.705116,
+    "reason": [
+      "dwell=13.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.709102,
+    "reason": [
+      "dwell=13.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915311960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.7131,
+    "reason": [
+      "dwell=13.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.717155,
+    "reason": [
+      "dwell=13.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.721237,
+    "reason": [
+      "dwell=13.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.725148,
+    "reason": [
+      "dwell=13.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.729169,
+    "reason": [
+      "dwell=13.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.733196,
+    "reason": [
+      "dwell=13.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.737158,
+    "reason": [
+      "dwell=13.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.741202,
+    "reason": [
+      "dwell=14s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.745091,
+    "reason": [
+      "dwell=14s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.749122,
+    "reason": [
+      "dwell=14.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.753147,
+    "reason": [
+      "dwell=14.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.757152,
+    "reason": [
+      "dwell=14.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.761154,
+    "reason": [
+      "dwell=14.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.765224,
+    "reason": [
+      "dwell=14.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.769206,
+    "reason": [
+      "dwell=14.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.773111,
+    "reason": [
+      "dwell=14.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.777176,
+    "reason": [
+      "dwell=14.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.78115,
+    "reason": [
+      "dwell=14.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.785129,
+    "reason": [
+      "dwell=14.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.789136,
+    "reason": [
+      "dwell=14.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.793183,
+    "reason": [
+      "dwell=15s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.797193,
+    "reason": [
+      "dwell=15.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.801254,
+    "reason": [
+      "dwell=15.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.805235,
+    "reason": [
+      "dwell=15.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.8092,
+    "reason": [
+      "dwell=15.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915312960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.813219,
+    "reason": [
+      "dwell=15.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.817199,
+    "reason": [
+      "dwell=15.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.821099,
+    "reason": [
+      "dwell=15.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.825173,
+    "reason": [
+      "dwell=15.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.829105,
+    "reason": [
+      "dwell=15.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.833097,
+    "reason": [
+      "dwell=15.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.837261,
+    "reason": [
+      "dwell=15.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.841201,
+    "reason": [
+      "dwell=16s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.8432,
+    "reason": [
+      "dwell=16s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84319,
+    "reason": [
+      "dwell=16.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843175,
+    "reason": [
+      "dwell=16.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843172,
+    "reason": [
+      "dwell=16.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843201,
+    "reason": [
+      "dwell=16.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843284,
+    "reason": [
+      "dwell=16.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843228,
+    "reason": [
+      "dwell=16.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843289,
+    "reason": [
+      "dwell=16.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843297,
+    "reason": [
+      "dwell=16.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843239,
+    "reason": [
+      "dwell=16.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843217,
+    "reason": [
+      "dwell=16.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843227,
+    "reason": [
+      "dwell=16.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843203,
+    "reason": [
+      "dwell=17s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843286,
+    "reason": [
+      "dwell=17.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843263,
+    "reason": [
+      "dwell=17.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843236,
+    "reason": [
+      "dwell=17.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843183,
+    "reason": [
+      "dwell=17.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915313960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843174,
+    "reason": [
+      "dwell=17.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843234,
+    "reason": [
+      "dwell=17.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843233,
+    "reason": [
+      "dwell=17.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843125,
+    "reason": [
+      "dwell=17.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843107,
+    "reason": [
+      "dwell=17.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843105,
+    "reason": [
+      "dwell=17.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843086,
+    "reason": [
+      "dwell=17.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.8432,
+    "reason": [
+      "dwell=18s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84321,
+    "reason": [
+      "dwell=18s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843192,
+    "reason": [
+      "dwell=18.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843227,
+    "reason": [
+      "dwell=18.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843231,
+    "reason": [
+      "dwell=18.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843249,
+    "reason": [
+      "dwell=18.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843246,
+    "reason": [
+      "dwell=18.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843229,
+    "reason": [
+      "dwell=18.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843289,
+    "reason": [
+      "dwell=18.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843228,
+    "reason": [
+      "dwell=18.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843213,
+    "reason": [
+      "dwell=18.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843166,
+    "reason": [
+      "dwell=18.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843107,
+    "reason": [
+      "dwell=18.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843165,
+    "reason": [
+      "dwell=19s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843196,
+    "reason": [
+      "dwell=19.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843124,
+    "reason": [
+      "dwell=19.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843109,
+    "reason": [
+      "dwell=19.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843086,
+    "reason": [
+      "dwell=19.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915314960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843083,
+    "reason": [
+      "dwell=19.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843078,
+    "reason": [
+      "dwell=19.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843192,
+    "reason": [
+      "dwell=19.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843194,
+    "reason": [
+      "dwell=19.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843196,
+    "reason": [
+      "dwell=19.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84328,
+    "reason": [
+      "dwell=19.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843278,
+    "reason": [
+      "dwell=19.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84323,
+    "reason": [
+      "dwell=20s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843208,
+    "reason": [
+      "dwell=20s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84319,
+    "reason": [
+      "dwell=20.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843229,
+    "reason": [
+      "dwell=20.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843185,
+    "reason": [
+      "dwell=20.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843163,
+    "reason": [
+      "dwell=20.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84322,
+    "reason": [
+      "dwell=20.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843169,
+    "reason": [
+      "dwell=20.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843099,
+    "reason": [
+      "dwell=20.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843137,
+    "reason": [
+      "dwell=20.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843153,
+    "reason": [
+      "dwell=20.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843089,
+    "reason": [
+      "dwell=20.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843047,
+    "reason": [
+      "dwell=20.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.8431,
+    "reason": [
+      "dwell=21s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843108,
+    "reason": [
+      "dwell=21.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843119,
+    "reason": [
+      "dwell=21.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84312,
+    "reason": [
+      "dwell=21.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843097,
+    "reason": [
+      "dwell=21.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915315960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84318,
+    "reason": [
+      "dwell=21.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843249,
+    "reason": [
+      "dwell=21.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843219,
+    "reason": [
+      "dwell=21.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843281,
+    "reason": [
+      "dwell=21.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843202,
+    "reason": [
+      "dwell=21.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843267,
+    "reason": [
+      "dwell=21.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843194,
+    "reason": [
+      "dwell=21.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843156,
+    "reason": [
+      "dwell=22s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843185,
+    "reason": [
+      "dwell=22s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843262,
+    "reason": [
+      "dwell=22.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843121,
+    "reason": [
+      "dwell=22.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843235,
+    "reason": [
+      "dwell=22.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84327,
+    "reason": [
+      "dwell=22.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843158,
+    "reason": [
+      "dwell=22.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843288,
+    "reason": [
+      "dwell=22.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843334,
+    "reason": [
+      "dwell=22.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843282,
+    "reason": [
+      "dwell=22.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84332,
+    "reason": [
+      "dwell=22.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843317,
+    "reason": [
+      "dwell=22.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843296,
+    "reason": [
+      "dwell=22.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843311,
+    "reason": [
+      "dwell=23s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84328,
+    "reason": [
+      "dwell=23.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843303,
+    "reason": [
+      "dwell=23.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843346,
+    "reason": [
+      "dwell=23.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843302,
+    "reason": [
+      "dwell=23.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915316960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843394,
+    "reason": [
+      "dwell=23.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843344,
+    "reason": [
+      "dwell=23.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843397,
+    "reason": [
+      "dwell=23.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84335,
+    "reason": [
+      "dwell=23.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843407,
+    "reason": [
+      "dwell=23.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843387,
+    "reason": [
+      "dwell=23.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84339,
+    "reason": [
+      "dwell=23.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843329,
+    "reason": [
+      "dwell=24s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843359,
+    "reason": [
+      "dwell=24s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843373,
+    "reason": [
+      "dwell=24.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843398,
+    "reason": [
+      "dwell=24.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843307,
+    "reason": [
+      "dwell=24.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843322,
+    "reason": [
+      "dwell=24.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843325,
+    "reason": [
+      "dwell=24.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843323,
+    "reason": [
+      "dwell=24.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843211,
+    "reason": [
+      "dwell=24.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843246,
+    "reason": [
+      "dwell=24.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843237,
+    "reason": [
+      "dwell=24.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843309,
+    "reason": [
+      "dwell=24.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843288,
+    "reason": [
+      "dwell=24.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843308,
+    "reason": [
+      "dwell=25s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843183,
+    "reason": [
+      "dwell=25.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843194,
+    "reason": [
+      "dwell=25.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843221,
+    "reason": [
+      "dwell=25.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843114,
+    "reason": [
+      "dwell=25.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915317960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843146,
+    "reason": [
+      "dwell=25.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843213,
+    "reason": [
+      "dwell=25.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843126,
+    "reason": [
+      "dwell=25.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843226,
+    "reason": [
+      "dwell=25.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843178,
+    "reason": [
+      "dwell=25.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843245,
+    "reason": [
+      "dwell=25.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843287,
+    "reason": [
+      "dwell=25.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843268,
+    "reason": [
+      "dwell=26s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84326,
+    "reason": [
+      "dwell=26s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843244,
+    "reason": [
+      "dwell=26.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843249,
+    "reason": [
+      "dwell=26.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843247,
+    "reason": [
+      "dwell=26.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843148,
+    "reason": [
+      "dwell=26.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843169,
+    "reason": [
+      "dwell=26.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843231,
+    "reason": [
+      "dwell=26.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843233,
+    "reason": [
+      "dwell=26.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843303,
+    "reason": [
+      "dwell=26.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843253,
+    "reason": [
+      "dwell=26.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843329,
+    "reason": [
+      "dwell=26.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843285,
+    "reason": [
+      "dwell=26.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843284,
+    "reason": [
+      "dwell=27s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843244,
+    "reason": [
+      "dwell=27.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843185,
+    "reason": [
+      "dwell=27.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843209,
+    "reason": [
+      "dwell=27.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843283,
+    "reason": [
+      "dwell=27.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915318960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843227,
+    "reason": [
+      "dwell=27.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843149,
+    "reason": [
+      "dwell=27.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843164,
+    "reason": [
+      "dwell=27.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843269,
+    "reason": [
+      "dwell=27.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843372,
+    "reason": [
+      "dwell=27.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843321,
+    "reason": [
+      "dwell=27.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843267,
+    "reason": [
+      "dwell=27.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843161,
+    "reason": [
+      "dwell=28s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843196,
+    "reason": [
+      "dwell=28s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843128,
+    "reason": [
+      "dwell=28.1s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.84306,
+    "reason": [
+      "dwell=28.2s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843122,
+    "reason": [
+      "dwell=28.3s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843167,
+    "reason": [
+      "dwell=28.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.843175,
+    "reason": [
+      "dwell=28.4s > 8s",
+      "person_count=1 >= 1",
+      "imu.estop=1.00 > 0.80",
+      "imu.idle=0.89 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.83939,
+    "reason": [
+      "dwell=28.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839382,
+    "reason": [
+      "dwell=28.5s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839369,
+    "reason": [
+      "dwell=28.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839348,
+    "reason": [
+      "dwell=28.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839521,
+    "reason": [
+      "dwell=28.6s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839491,
+    "reason": [
+      "dwell=28.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839415,
+    "reason": [
+      "dwell=28.7s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839455,
+    "reason": [
+      "dwell=28.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839506,
+    "reason": [
+      "dwell=28.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839449,
+    "reason": [
+      "dwell=28.8s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839427,
+    "reason": [
+      "dwell=28.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915319960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 1,
+    "event_type": "trapped",
+    "confidence": 0.839457,
+    "reason": [
+      "dwell=28.9s > 8s",
+      "person_count=1 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  }
+]

@@ -121,6 +121,14 @@ def _stop_steady(ev: FrameEvidence, s: _Signals, ctx: MachineContext, cfg: Runti
     return ev.motion_level < cfg.thresholds.stop_thresh and s.stop_ms >= _min_ms(cfg, 1000)
 
 
+def _idle_stopped_person(ev: FrameEvidence, s: _Signals, ctx: MachineContext, cfg: RuntimeConfig) -> bool:
+    return (
+        ev.person_count >= 1
+        and ev.motion_level < cfg.thresholds.stop_thresh
+        and s.stop_ms >= _min_ms(cfg, 1000)
+    )
+
+
 def _occupied_person(ev: FrameEvidence, s: _Signals, ctx: MachineContext, cfg: RuntimeConfig) -> bool:
     return ev.person_count >= 1 and not ev.door_open_signal and s.not_open_ms >= _min_ms(cfg, 1000)
 
@@ -149,6 +157,7 @@ _RULES: Tuple[TransitionRule, ...] = (
     TransitionRule("idle_estop_stop", (S.IDLE,), S.STOPPED, _estop_hit),
     TransitionRule("moving_estop_stop", (S.MOVING,), S.STOPPED, _estop_hit),
     TransitionRule("idle_motion_start", (S.IDLE,), S.MOVING, _motion_start),
+    TransitionRule("idle_stopped_person", (S.IDLE,), S.STOPPED, _idle_stopped_person),
     TransitionRule("moving_stop_steady", (S.MOVING,), S.STOPPED, _stop_steady),
     TransitionRule("stopped_to_closed", (S.STOPPED,), S.DOOR_CLOSED, _occupied_person),
     TransitionRule("stopped_recover", (S.STOPPED,), S.MOVING, _motion_start),

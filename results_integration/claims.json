@@ -1,0 +1,192 @@
+[
+  {
+    "metric": "normal_trapped_frames",
+    "value": 273,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "metrics.normal_trapped_frames",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "segment_fp_rate",
+    "value": 1.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "metrics.segment_fp_rate",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "frame_fp_rate",
+    "value": 0.546,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "metrics.frame_fp_rate",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "miss_rate",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "metrics.miss_rate",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "mean_response_sec",
+    "value": 25292598.328,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "metrics.mean_response_sec",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "fp_per_day",
+    "value": 132.923077,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "metrics.fp_per_day",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": true,
+    "observed_hours": 0.180556
+  },
+  {
+    "metric": "normal_precision",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.normal.precision",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "normal_recall",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.normal.recall",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "normal_f1",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.normal.f1",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "estop_precision",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.estop.precision",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "estop_recall",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.estop.recall",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "estop_f1",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.estop.f1",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "trapped_precision",
+    "value": 0.25,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.trapped.precision",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "trapped_recall",
+    "value": 1.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.trapped.recall",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "trapped_f1",
+    "value": 0.4,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.trapped.f1",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "pry_precision",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.pry.precision",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "pry_recall",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.pry.recall",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "pry_f1",
+    "value": 0.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.pry.f1",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "faint_precision",
+    "value": 1.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.faint.precision",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "faint_recall",
+    "value": 1.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.faint.recall",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  },
+  {
+    "metric": "faint_f1",
+    "value": 1.0,
+    "source_file": "results_integration\\metrics.csv",
+    "key_path": "per_class.faint.f1",
+    "scope": "在自建场景库（5 段/5 类）上测得",
+    "data_source": "自建场景库（A 侧视觉/IMU 产物，合成生成，非真机采集）",
+    "extrapolated": false
+  }
+]

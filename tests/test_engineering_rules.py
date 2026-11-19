@@ -36,7 +36,8 @@ def _imports(path: pathlib.Path) -> set:
 
 
 def _sha256(path: pathlib.Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    data = path.read_bytes().replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()
 
 
 class TestImportGraph(unittest.TestCase):

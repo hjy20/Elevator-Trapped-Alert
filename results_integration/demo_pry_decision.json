@@ -1,0 +1,7278 @@
+[
+  {
+    "ts": 1794915900000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915900960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915901960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915902960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915903960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=2.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915904960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=3.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915905960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=4.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=5.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915906960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915907960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.3s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.4s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.5s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.6s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915908960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.7s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.8s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=0.9s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.1s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 1.0,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "imu_unavailable=true"
+    ]
+  },
+  {
+    "ts": 1794915909520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915909960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=1.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915910960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=2.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915911960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=3.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915912960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=4.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915913960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=5.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915914960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=6.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.1s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.2s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.3s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.4s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.5s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.6s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915915960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.7s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=7.9s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": false,
+    "urgency": 0,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "normal",
+    "confidence": 0.96642,
+    "reason": [
+      "dwell=8s <= 8s",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.437938,
+    "reason": [
+      "dwell=8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.439915,
+    "reason": [
+      "dwell=8.1s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.441892,
+    "reason": [
+      "dwell=8.1s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.443866,
+    "reason": [
+      "dwell=8.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.445815,
+    "reason": [
+      "dwell=8.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.447717,
+    "reason": [
+      "dwell=8.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.449823,
+    "reason": [
+      "dwell=8.3s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.451716,
+    "reason": [
+      "dwell=8.3s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.453749,
+    "reason": [
+      "dwell=8.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.455784,
+    "reason": [
+      "dwell=8.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.457731,
+    "reason": [
+      "dwell=8.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.459823,
+    "reason": [
+      "dwell=8.5s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.461784,
+    "reason": [
+      "dwell=8.5s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.463774,
+    "reason": [
+      "dwell=8.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.465793,
+    "reason": [
+      "dwell=8.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.467805,
+    "reason": [
+      "dwell=8.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915916960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.469831,
+    "reason": [
+      "dwell=8.7s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.471877,
+    "reason": [
+      "dwell=8.7s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.473918,
+    "reason": [
+      "dwell=8.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.475731,
+    "reason": [
+      "dwell=8.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.477805,
+    "reason": [
+      "dwell=8.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.479883,
+    "reason": [
+      "dwell=8.9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.481795,
+    "reason": [
+      "dwell=8.9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.48371,
+    "reason": [
+      "dwell=9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.485762,
+    "reason": [
+      "dwell=9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.487715,
+    "reason": [
+      "dwell=9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.489814,
+    "reason": [
+      "dwell=9.1s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.491816,
+    "reason": [
+      "dwell=9.1s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.493814,
+    "reason": [
+      "dwell=9.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.495924,
+    "reason": [
+      "dwell=9.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.497867,
+    "reason": [
+      "dwell=9.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.499824,
+    "reason": [
+      "dwell=9.3s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.501831,
+    "reason": [
+      "dwell=9.3s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.50381,
+    "reason": [
+      "dwell=9.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.505816,
+    "reason": [
+      "dwell=9.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.507702,
+    "reason": [
+      "dwell=9.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.509786,
+    "reason": [
+      "dwell=9.5s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.511872,
+    "reason": [
+      "dwell=9.5s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.513885,
+    "reason": [
+      "dwell=9.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.515882,
+    "reason": [
+      "dwell=9.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.517947,
+    "reason": [
+      "dwell=9.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915917960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.519932,
+    "reason": [
+      "dwell=9.7s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.521854,
+    "reason": [
+      "dwell=9.7s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.523839,
+    "reason": [
+      "dwell=9.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.525837,
+    "reason": [
+      "dwell=9.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.527816,
+    "reason": [
+      "dwell=9.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.529834,
+    "reason": [
+      "dwell=9.9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.531788,
+    "reason": [
+      "dwell=9.9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.533743,
+    "reason": [
+      "dwell=10s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.535663,
+    "reason": [
+      "dwell=10s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.537742,
+    "reason": [
+      "dwell=10s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.539767,
+    "reason": [
+      "dwell=10.1s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.541872,
+    "reason": [
+      "dwell=10.1s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.543933,
+    "reason": [
+      "dwell=10.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.54592,
+    "reason": [
+      "dwell=10.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.547789,
+    "reason": [
+      "dwell=10.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.549783,
+    "reason": [
+      "dwell=10.3s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.551759,
+    "reason": [
+      "dwell=10.3s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.553726,
+    "reason": [
+      "dwell=10.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.555641,
+    "reason": [
+      "dwell=10.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.55759,
+    "reason": [
+      "dwell=10.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.559684,
+    "reason": [
+      "dwell=10.5s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.561743,
+    "reason": [
+      "dwell=10.5s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.563799,
+    "reason": [
+      "dwell=10.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.565747,
+    "reason": [
+      "dwell=10.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.567782,
+    "reason": [
+      "dwell=10.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915918960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.569696,
+    "reason": [
+      "dwell=10.7s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919000,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.571736,
+    "reason": [
+      "dwell=10.7s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919040,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.573674,
+    "reason": [
+      "dwell=10.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919080,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.575761,
+    "reason": [
+      "dwell=10.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919120,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.577842,
+    "reason": [
+      "dwell=10.8s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919160,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.579836,
+    "reason": [
+      "dwell=10.9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919200,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.581794,
+    "reason": [
+      "dwell=10.9s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919240,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.583701,
+    "reason": [
+      "dwell=11s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919280,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.58573,
+    "reason": [
+      "dwell=11s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919320,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.587738,
+    "reason": [
+      "dwell=11s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919360,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.589765,
+    "reason": [
+      "dwell=11.1s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919400,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.591676,
+    "reason": [
+      "dwell=11.1s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919440,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.593662,
+    "reason": [
+      "dwell=11.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919480,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.595738,
+    "reason": [
+      "dwell=11.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919520,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.597181,
+    "reason": [
+      "dwell=11.2s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919560,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.59919,
+    "reason": [
+      "dwell=11.3s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919600,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.601154,
+    "reason": [
+      "dwell=11.3s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919640,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.603303,
+    "reason": [
+      "dwell=11.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919680,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.605214,
+    "reason": [
+      "dwell=11.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919720,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.607188,
+    "reason": [
+      "dwell=11.4s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919760,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.609218,
+    "reason": [
+      "dwell=11.5s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919800,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.611163,
+    "reason": [
+      "dwell=11.5s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919840,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.613177,
+    "reason": [
+      "dwell=11.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919880,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.61526,
+    "reason": [
+      "dwell=11.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919920,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.617196,
+    "reason": [
+      "dwell=11.6s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  },
+  {
+    "ts": 1794915919960,
+    "device_id": "ELEV-DEMO-001",
+    "trapped": true,
+    "urgency": 2,
+    "location": "3F",
+    "people_count": 2,
+    "event_type": "trapped",
+    "confidence": 0.619131,
+    "reason": [
+      "dwell=11.7s > 8s",
+      "person_count=2 >= 1",
+      "imu.idle=0.98 > 0.80",
+      "imu.vibration=1.00",
+      "demo_threshold=true"
+    ]
+  }
+]

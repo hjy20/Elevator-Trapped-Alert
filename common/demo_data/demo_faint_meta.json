@@ -1,0 +1,16 @@
+{
+  "case": "demo_faint",
+  "scene": "synthetic",
+  "fps": 25.0,
+  "frames": 500,
+  "width": 1280,
+  "height": 720,
+  "duration_sec": 20.0,
+  "start_ts_ms": 1794916200000,
+  "door_roi": "demo_cabin",
+  "event_type": "faint",
+  "expected_urgency": 3,
+  "summary": "轿厢内晕倒：一人 6.9s 起倒地不起，另一人蹲下查看，紧急度 3",
+  "keypoint_sidecar": "demo_faint_kpts.jsonl",
+  "generator": "data/scripts/build_demo_data.py"
+}

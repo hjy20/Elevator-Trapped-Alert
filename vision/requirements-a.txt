@@ -1,0 +1,57 @@
+# A · 数据与感知 的依赖（锁版本）
+
+> 任务卡要求 `requirements.txt` 锁版本。这里只列 **A 负责的两个目录**（`vision/`、`data/`）
+> 需要的东西，不动 C 的后端依赖、也不动 B 的算法依赖。
+>
+> 版本说明：契约文档里写的是 Python 3.10/3.11 + ultralytics 8.3.x + opencv 4.10.x + numpy 1.26.x，
+> 那是 D1 时的规划值。本机实际环境是 **Python 3.14 + 下列版本**，已经跑通全链路
+> （5 段数据生成、契约自检、推理、回归、标注视频、出图）。**装的时候按本文件装**，
+> 如果团队最后统一到 3.11，就按契约表回退，接口（`VisionOut` 6 字段）不变，互相不阻塞。
+
+## 必需（跑通视觉规则与数据脚本）
+
+```
+numpy==2.5.5
+opencv-python-headless==5.0.0.93
+imageio-ffmpeg==0.8.1
+pillow==13.0.0
+matplotlib==3.11.2
+```
+
+## 实拍视频 / ONNX 时才需要
+
+```
+torch==2.15.0                    # CPU 版即可：pip install torch --index-url https://download.pytorch.org/whl/cpu
+ultralytics==8.4.215             # YOLOv8n-Pose 推理与导出
+onnxruntime==1.32.0              # ONNX 后端（无 torch 环境 / 昇腾对照）
+```
+
+## 安装
+
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS / Linux
+source .venv/bin/activate
+
+pip install -r vision/requirements-a.txt
+```
+
+国内网络不稳时建议加镜像并加大重试：
+
+```bash
+pip install -r vision/requirements-a.txt \
+  -i https://mirrors.aliyun.com/pypi/simple \
+  --retries 15 --timeout 60
+```
+
+> 提示：`opencv-python-headless` 不带 GUI，`calibrate_roi.py` 的交互标定需要换成
+> `opencv-python`（带 highgui）。只用命令行参数 `--roi x,y,w,h --seam N` 的话，
+> headless 版本足够。
+
+## 版本自检
+
+```bash
+python vision/doctor.py      # 打印 Python / 各依赖版本 / 后端可用性 / 演示数据齐全度
+```

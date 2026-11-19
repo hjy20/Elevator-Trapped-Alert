@@ -1,0 +1,14 @@
+{
+  "case": "demo_normal",
+  "event_type": "normal",
+  "urgency": 0,
+  "trapped": false,
+  "people_max": 2,
+  "duration_sec": 20.0,
+  "label_level": "scene",
+  "summary": "正常乘梯：2 人进出，中途一人蹲下捡东西，不触发任何告警",
+  "notes": [
+    "场景级弱标签：只标这一段属于哪一类，不逐帧标",
+    "逐帧真值见 data/processed/demo_normal_gt.json"
+  ]
+}

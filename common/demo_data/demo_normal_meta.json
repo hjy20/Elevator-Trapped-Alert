@@ -1,0 +1,16 @@
+{
+  "case": "demo_normal",
+  "scene": "synthetic",
+  "fps": 25.0,
+  "frames": 500,
+  "width": 1280,
+  "height": 720,
+  "duration_sec": 20.0,
+  "start_ts_ms": 1794915000000,
+  "door_roi": "demo_cabin",
+  "event_type": "normal",
+  "expected_urgency": 0,
+  "summary": "正常乘梯：2 人进出，中途一人蹲下捡东西，不触发任何告警",
+  "keypoint_sidecar": "demo_normal_kpts.jsonl",
+  "generator": "data/scripts/build_demo_data.py"
+}
