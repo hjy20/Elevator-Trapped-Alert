@@ -1,0 +1,12 @@
+{
+  "source": "bus.jpg",
+  "video": null,
+  "frames_compared": 3,
+  "persons_matched": 5,
+  "keypoints_compared": 83,
+  "mean_px": 0.073,
+  "p95_px": 0.248,
+  "max_px": 0.272,
+  "pass_mean_lt_1px": true,
+  "note": "同一帧分别用 ultralytics(.pt) 与 onnxruntime(.onnx) 推理，17 个关键点像素坐标的 L2 距离"
+}

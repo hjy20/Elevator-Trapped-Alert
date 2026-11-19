@@ -1,0 +1,34 @@
+# 电梯困人主动预警 —— Git 忽略规则
+# A（数据与感知）负责的范围内文件一律保留；下面是环境与中间产物。
+
+# --- Python 环境 ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- A 的开发辅助目录（不进仓库：里面有本地 shim 和下载的 wheel） ---
+.devenv/
+.tmp/
+
+# --- 模型权重：不进 Git（6.5 MB pt + 13 MB onnx，可由脚本重新获取） ---
+# ultralytics 首次运行会自动下载 yolov8n-pose.pt；
+# ONNX 用 `python vision/onnx_export.py --export` 现场导出。
+models/*.pt
+models/*.onnx
+
+# --- 实拍原始素材：体积大、且可能涉及真人肖像，不进 Git ---
+data/raw/*
+!data/raw/.gitkeep
+
+# --- 运行时产物 ---
+*.log
+results/bench_vision*.json
+
+# --- 编辑器 / 系统 ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
