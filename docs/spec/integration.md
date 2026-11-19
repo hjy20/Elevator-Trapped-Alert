@@ -586,6 +586,7 @@ T6 --> T7
 | ACT-03 | 真实视觉序列入口：支持 JSON 数组 / JSONL，逐帧校验六字段 | `model/eval.py`（`load_vision_sequence`、`run_real_case`、`--real`） | `--real` 可跑，产物落 `results_integration/` |
 | ACT-04 | 状态机补「已静止且有人」入 STOPPED 的物理规则 | `model/state_machine.py`（`idle_stopped_person`） | mock 指标零变化，真实数据可进 OCCUPIED |
 | ACT-05 | 契约哈希在 Windows CRLF 下归一为 LF | `tests/test_engineering_rules.py`（`_sha256`） | 168 项全绿 |
+| ACT-06 | 正式合流：`merge origin/monke`、`merge origin/mason`（两次 merge commit，冲突仅 `.gitattributes`/`.gitignore`，按并集解决） | `main` 历史 | `CMD-01` 两条均为 0 |
 
 > ACT-05 只消除行尾差异，不改契约内容；`common/schema.py` 与 `tests/test_schema_contract.py` 字节级未动。
 
@@ -636,7 +637,7 @@ T6 --> T7
 1. **A**：为 `demo_normal` 补可区分特征（门开下降沿或人员进出），并为 `demo_estop` 补「急停后离场/开门」语义；`demo_pry` 的贴门时段需与 `OCCUPIED` 窗口重叠。
 2. **B**：在 A 补数据后重跑 `--real --demo`，核对五类达标；必要时把 `REQ-DATA-004` 的取帧时刻口径落到 `reason`。
 3. **C**：在 3.10+ 环境装 `fastapi==0.115.0`、`uvicorn==0.32.0` 后跑 `smoke_test.py` 与 `play_case.py --no-video`，完成 T-INT-009/010。
-4. **合流**：本轮为工作树级对齐，正式 `merge origin/monke origin/mason` 与 `CMD-01` 仍需在代码冻结后由三人确认执行。
+4. **合流**：已完成 —— `main` 上两次 merge commit（A/C 各一次），`CMD-01` 两条均返回 0；未 push 远端。
 
 ### 6.7 新增差异与风险登记
 
@@ -644,5 +645,5 @@ T6 --> T7
 |---|---|---|---|
 | `INT-DIFF-12` | `demo_normal` 与 `demo_trapped` 六字段 + IMU 三分数不可分 | normal 必然误报或 trapped 必然漏报，二选一 | A（补特征） |
 | `INT-DIFF-13` | `demo_pry` 贴门时段与 OCCUPIED 窗口不重叠 | 事件类型降级为 trapped | A（时序重制）/ B（取帧口径） |
-| `R6-01` | 工作树级取出未写入 git 历史 | 换机器/重clone 后需重做 ACT-01 | B（合流时固化） |
+| `R6-01` | ~~工作树级取出未写入 git 历史~~ | 已由 ACT-06 关闭（两侧 merge commit 固化） | — |
 | `R6-02` | 本机 Python 3.9 与 lock 版本不匹配 | C 侧全部 HTTP 验收不可执行 | C（换 3.10+ 环境） |

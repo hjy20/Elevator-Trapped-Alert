@@ -1068,7 +1068,7 @@ diff results/metrics.csv results/_rerun/metrics.csv   # 期望无差异（浮点
 
 | 任务 | 状态 | 实测落点 |
 |---|---|---|
-| T-INT-001 | 部分完成（工作树级对齐，未写历史） | 三侧文件同树；`CMD-01` 仍返回 1 |
+| T-INT-001 | 已完成（两次 merge commit，`CMD-01` 返回 0） | 三侧同树；168 项全绿；`common/demo_data/` 非空；未 push 远端 |
 | T-INT-003 | 已完成 | `model/eval.py --real`，产物 `results_integration/` |
 | T-INT-004 | 已完成 | `load_vision_sequence` 逐帧六字段校验（缺失字段名入错误信息） |
 | T-INT-005 | 已完成 | 5 段各 5 条 `IMUEvent`，`window_sec=10.0` |
