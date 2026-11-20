@@ -117,8 +117,24 @@ python model/eval.py --cases all --mock --seed 0
 python model/fuse.py --mock --report-health
 ```
 
-**A（视觉）** —— `vision/` 尚未交付，`common/demo_data/` 下的 mp4 到位后
-`python scripts/play_case.py --case demo_trapped` 才能启用视频同步。
+**A（视觉）** —— 五段演示视频 + 关键点轨迹已交付在 `common/demo_data/`：
+
+```powershell
+python data/scripts/validate_demo_data.py     # L1 契约自检（11 项）
+python vision/infer.py --all                  # 视频 -> VisionOut
+python data/scripts/regression.py             # 人数/倒地/贴门回归
+python vision/doctor.py                       # 环境自检
+```
+
+**全链路联调（A -> B -> C，合并后新增）** —— 需要服务端已启动：
+
+```powershell
+python scripts/e2e_full_chain.py --mode demo         # 演示阈值（dwell 8s）
+python scripts/e2e_full_chain.py --mode production   # 生产阈值（dwell 180s）
+```
+
+合并过程中修掉的接口问题（IMU 元数据命名、窗口 stride、IMU 起始时刻、行驶段振动等）
+都记在 `docs/INTEGRATION.md`，**改 A/B 交接的数据格式之前先看那份文档**。
 
 ---
 

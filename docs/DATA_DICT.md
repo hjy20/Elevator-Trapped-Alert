@@ -105,9 +105,9 @@ common/demo_data/                    ← 三人共用的演示样本（A 生成�
 ├── demo_<case>.mp4                  视频 1280×720 / 25fps / H.264
 ├── demo_<case>_kpts.jsonl           逐帧 17 关键点轨迹（合成场景专用）
 ├── demo_<case>_meta.json            起始时间戳 / ROI / 场景说明
-├── demo_<case>_imu.npy              (5,200,3) float32，[-1,1]
+├── demo_<case>_imu.npy              (3,200,3) float32，[-1,1]
 ├── demo_<case>_imu_raw.npy          (600,3) float32，m/s²
-└── demo_<case>_imu_meta.json        采样率 / 窗口 / 归一化常数 / 窗口结束时间戳
+└── demo_<case>_imu.meta.json        采样率 / 窗口 / 归一化常数 / start_ts_ms / 窗口结束时间戳
 
 data/
 ├── raw/                             实拍原始素材（不进 Git）
@@ -250,7 +250,7 @@ keypoints_ok = 可用人数 ≥ ⌈0.5 × 检出人数⌉
 ```
 _imu.npy       (N, 200, 3) float32      # N=5，窗口 = 200 步 @20Hz = 10 s，步长 5 s
 _imu_raw.npy   (600, 3)    float32      # 30 s 连续原始采样，m/s²
-_imu_meta.json {fs:20, window:200, stride:100,
+_imu.meta.json {fs:20, window:200, stride:200,
                 channels:["ax","ay","az"],
                 normalize:{ax:3, ay:3, az_offset:9.81, az_scale:6},
                 window_end_ts_ms:[...]}  # 每个窗口结束的毫秒时间戳，B 对齐用

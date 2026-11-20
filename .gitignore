@@ -40,3 +40,7 @@ elevator.db-journal
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# 本地 pip/pytest 残留临时目录（ACL 受限，删不掉，别进库）
+pip-*/
+pytest-cache-files-*/

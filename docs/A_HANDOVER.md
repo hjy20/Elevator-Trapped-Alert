@@ -32,7 +32,7 @@ outputs = infer_video("common/demo_data/demo_faint.mp4")   # list[VisionOut]
 1. `keypoints_ok=False` 时**不要用 `fall_prob`**，降级成"人数 + dwell"（详细见 §5）；
 2. `door_approach` 是"手腕停在门缝附近 + 持续时间"的几何量，**不是动作识别**（任务卡禁止做动作识别，A 没有越界）。
 
-数据是 20 s 一段，每段 500 条；IMU 每段 5 个窗口，窗口结束时间在 `demo_<case>_imu_meta.json` 的 `window_end_ts_ms` 里，可以直接和 `VisionOut.ts` 对齐。
+数据是 20 s 一段，每段 500 条；IMU 每段 3 个不重叠窗口（10 s 一个，覆盖视频开始前 10 s 到视频结束），`start_ts_ms` 在 `demo_<case>_imu.meta.json` 里（B 的读取入口），`window_end_ts_ms` 是每个窗口的结束时间，两者与 `VisionOut.ts` 同一条时间轴。
 
 ---
 
@@ -81,7 +81,7 @@ results/                 A 的产物：VisionOut / 回归 / 标注视频 / 图
 |---|---|---|---|
 | 1 | 感知代码（人数/倒地/贴门/拥挤） | `vision/` | ✅ 跑通 |
 | 2 | 5 段演示数据（视频+H.264+1280×720+25fps） | `common/demo_data/` | ✅ |
-| 3 | IMU 演示数据 `(5,200,3)` float32 | `common/demo_data/*_imu.npy` | ✅ |
+| 3 | IMU 演示数据 `(3,200,3)` float32 | `common/demo_data/*_imu.npy` | ✅ |
 | 4 | 场景标签 + 逐帧真值 | `data/labels/`、`data/processed/` | ✅ |
 | 5 | `docs/DATA_DICT.md` | `docs/` | ✅ |
 | 6 | 契约自检脚本 + 报告 | `data/scripts/validate_demo_data.py`、`results/contract_check.json` | ✅ |
@@ -248,23 +248,27 @@ python vision/visualize.py --case demo_faint
 - [ ] `keypoints_ok=False` 的降级逻辑是否已在状态机里实现
 - [ ] `fall.window_sec` 用 3.0 还是 2.0（影响延迟 2.6 s ↔ 1.8 s）
 - [ ] 是否需要 A 额外输出"每帧人数变化的时刻"（入场/离场事件）
-- [ ] **IMU 时长口径要对齐**（见下方说明）
+- [x] ~~IMU 时长口径要对齐~~ → **已按 B 的消费约定改完**（见下）
 
-> **⚠️ IMU 时长口径（A↔B 需要拍板）**
+> **✅ IMU 口径（合并时已与 B 对齐，结论留档）**
 >
-> | | A 的 `common/demo_data/*_imu.npy` | B 的 `results/_mock/*_imu.npy` |
+> | | A 现在的 `common/demo_data/*_imu.npy` | B 的 `results/_mock/*_imu.npy` |
 > |---|---|---|
-> | estop / normal | `(5,200,3)` = 30 s | `(3,200,3)` = 30 s（窗口不重叠） |
-> | trapped / faint / pry | `(5,200,3)` = 30 s | `(21,200,3)` ≈ 105 s |
+> | estop / normal | `(3,200,3)` = 30 s，不重叠 | `(3,200,3)` = 30 s，不重叠 |
+> | trapped / faint / pry | `(3,200,3)` = 30 s | `(21,200,3)` ≈ 105 s |
 >
-> 形状与 dtype **完全一致**（`(N,200,3)` float32），两边的代码可以直接互喂，差别只在"记录多长"：
-> A 的视频是 20 s，所以 IMU 给 30 s；B 在 mock 里把困人场景拉到 105 s，符合"困人是分钟级"的物理事实。
+> 合并时改了三处，原因都写在 `docs/INTEGRATION.md` §2：
+> 1. **文件名/字段**：改成 B 的 `<case>_imu.meta.json` + `start_ts_ms`；
+> 2. **stride 100 → 200**：B 假设窗口不重叠（`ts_i = start_ts_ms + (i+1)×10 s`）；
+> 3. **IMU 整体前移 10 秒**：从"视频开始前 10 秒"起录，否则 B 会把视频前 10 秒判成 `warmup`。
 >
-> 三个方案，B 拍一个我就照做：
-> 1. **B 用自己的 mock IMU**，A 的 30 s 版本只用于链路自检 —— 最省事；
-> 2. **A 把 trapped/faint 段视频延长到 60~90 s**（`build_demo_data.py --seconds 90`），
->    同时出 105 s IMU —— 最真实，代价是视频体积与渲染时间上升；
-> 3. **A 单独生成一份长 IMU**（只有 npy、不对应视频），专供 B 的 dwell 逻辑压测。
+> 另外给"行驶段"补了 10~14 Hz 的导轨振动，否则 B 的 `idle` 恒为 0.98、
+> 状态机永远停在 `IDLE`，一个告警都出不来。
+>
+> **仍未解决的是"时长"，不是格式**：B 的困人判据是 `dwell > 180 s`，
+> 而 A 的演示片只有 20 s，**物理上不可能被困 3 分钟**。要演完整升级链，
+> 要么用 B 的演示阈值（`--mode demo`，dwell 8 s，已实测能出 faint/trapped），
+> 要么 A 再出 200 秒长片（体积约 12 MB/段，需要定是否进 Git）。
 
 **需要 C 确认**
 - [ ] 根 `.gitignore` 按 §6 加上

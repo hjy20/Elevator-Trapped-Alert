@@ -108,9 +108,31 @@ class Checker:
         lo, hi = float(np.min(arr)), float(np.max(arr))
         if lo < -1.001 or hi > 1.001:
             self.error(f"[{case}] IMU 取值范围 [{lo:.2f},{hi:.2f}] 超出 [-1,1]")
-        meta_file = DEMO_DIR / f"{case}_imu_meta.json"
+        # B 的读取约定：<case>_imu.meta.json 里的 start_ts_ms（model/config.py: sidecar_path）
+        meta_file = DEMO_DIR / f"{case}_imu.meta.json"
         if not meta_file.exists():
-            self.warn(f"[{case}] 缺 {meta_file.name}（B 不知道窗口时间戳）")
+            self.error(f"[{case}] 缺 {meta_file.name}（B 拿不到窗口时间戳，会落到默认基准）")
+        else:
+            try:
+                meta = json.loads(meta_file.read_text(encoding="utf-8"))
+            except Exception as exc:  # noqa: BLE001
+                self.error(f"[{case}] {meta_file.name} 解析失败：{exc}")
+                meta = None
+            if isinstance(meta, dict):
+                start = meta.get("start_ts_ms")
+                if not isinstance(start, int) or isinstance(start, bool):
+                    self.error(f"[{case}] {meta_file.name} 缺整型 start_ts_ms")
+                elif start < 10**12:
+                    self.error(f"[{case}] start_ts_ms={start} 不是毫秒量级")
+                else:
+                    ends = meta.get("window_end_ts_ms") or []
+                    if ends:
+                        expected = start + 10_000
+                        if abs(int(ends[0]) - expected) > 1:
+                            self.error(
+                                f"[{case}] start_ts_ms 与首个窗口结束时间对不上："
+                                f"{start}+10000={expected} vs {ends[0]}"
+                            )
         return {"shape": list(arr.shape), "dtype": str(arr.dtype), "range": [round(lo, 3), round(hi, 3)]}
 
     def check_sidecar(self, case: str, video_frames: Optional[int]) -> Optional[Dict[str, Any]]:

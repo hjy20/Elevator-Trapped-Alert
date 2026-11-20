@@ -1,12 +1,14 @@
 {
   "case": "demo_normal",
+  "start_ts_ms": 1794914990000,
   "fs": 20.0,
+  "source": "synthetic",
   "window": 200,
   "window_sec": 10.0,
-  "stride": 100,
-  "stride_sec": 5.0,
+  "stride": 200,
+  "stride_sec": 10.0,
   "shape": [
-    5,
+    3,
     200,
     3
   ],
@@ -24,11 +26,9 @@
   },
   "raw_samples": 600,
   "window_end_ts_ms": [
-    1794915009950,
-    1794915014950,
-    1794915019950,
-    1794915024950,
-    1794915029950
+    1794915000000,
+    1794915010000,
+    1794915020000
   ],
   "generator": "data/scripts/build_demo_data.py:synth_imu(kind=normal)",
   "disclaimer": "简化物理模型合成信号，不是真机采集；形态与真实事件一致，数值不可当真机标定依据。"

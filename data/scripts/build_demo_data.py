@@ -341,19 +341,26 @@ CASE_ORDER = ["demo_normal", "demo_estop", "demo_trapped", "demo_pry", "demo_fai
 # ---------------------------------------------------------------------------
 
 
-def synth_imu(kind: str, seconds: float, fs: float = 20.0, seed: int = 5) -> np.ndarray:
+def synth_imu(
+    kind: str, seconds: float, fs: float = 20.0, seed: int = 5, lead: float = 10.0
+) -> np.ndarray:
     """生成 (M,3) 的 [ax, ay, az]（m/s²）。
 
     这是一个**简化物理模型**，只求"事件在信号上的形态是对的"：
-      * 匀速/停止：az ≈ 9.81，三轴只有传感器噪声；
-      * 启动/到站：az 有 ±0.35 m/s² 的平滑加减速包络；
-      * 急停：az 在 0.4s 内跌到 ~6.2、回弹到 ~15.5，随后 3-8Hz 余振；
+      * 停止：az ≈ 9.81，三轴只有传感器噪声（方差 ≈ 0.002，B 判 idle）；
+      * 行驶：10~14 Hz 的导轨宽带振动（幅度 ~0.12 m/s²）+ 起步/停车加减速包络
+        （方差 ≥ 0.015，B 判"运动中"——这一点很关键，B 的状态机靠它离开 IDLE）；
+      * 急停：az 在 0.4s 内跌到 ~6.4、回弹到 ~15.2，随后 3-8Hz 余振；
       * 拍门：4-8Hz 的冲击串，幅度 ~0.8 m/s²；
-      * 倒地：一次性 ~1.5 m/s² 的脉冲（低频冲击）。
+      * 倒地：一次性 ~1.6 m/s² 的脉冲（低频冲击）。
+
+    **时间轴是"视频相对"的**：`t = -lead … seconds`。
+    `lead` 秒是视频开始前的预录段——传感器比摄像头先开机，于是视频第 0 帧时
+    车里正好有一段"刚停稳"的运动历史，B 的 Aligner 不会把开头判成 warmup。
     """
     rng = np.random.default_rng(seed)
-    n = int(round(seconds * fs))
-    t = np.arange(n) / fs
+    n = int(round((seconds + lead) * fs))
+    t = np.arange(n) / fs - lead          # 视频时间轴：负数是视频之前
     ax = rng.normal(0.0, 0.035, n)
     ay = rng.normal(0.0, 0.035, n)
     az = 9.81 + rng.normal(0.0, 0.045, n)
@@ -362,32 +369,50 @@ def synth_imu(kind: str, seconds: float, fs: float = 20.0, seed: int = 5) -> np.
         env = np.exp(-0.5 * ((t - center) / max(1e-3, width)) ** 2)
         return amp * env
 
+    def travel(t_start: float, t_stop: float) -> None:
+        """[t_start, t_stop) 期间轿厢在运动：导轨宽带振动 + 起停加减速。"""
+        nonlocal ax, ay, az
+        mask = ((t >= t_start) & (t < t_stop)).astype(float)
+        if not mask.any():
+            return
+        # 宽带振动（固定随机相位，避免每段都一样）
+        az += mask * (
+            1.200 * np.sin(2 * np.pi * 11.3 * t + 0.7)
+            + 0.750 * np.sin(2 * np.pi * 7.1 * t + 2.1)
+            + 0.450 * np.sin(2 * np.pi * 13.7 * t + 4.0)
+        )
+        ax += mask * 0.550 * np.sin(2 * np.pi * 9.4 * t + 1.3)
+        ay += mask * 0.450 * np.sin(2 * np.pi * 8.2 * t + 3.2)
+        # 起步加速、停车减速（真实电梯 ±0.5 m/s² 量级，取保守值）
+        az += bump(t_start + 0.9, 0.45, 0.32)
+        az += bump(t_stop - 0.6, 0.45, -0.30)
+
     if kind == "normal":
-        # 两段运行：起步加速 + 到站减速
-        for center, amp in ((1.6, 0.35), (3.4, -0.35), (23.0, 0.30), (25.0, -0.30)):
-            az += bump(center, 0.55, amp)
+        travel(-lead, 0.0)                     # 视频开始时刚停稳
         az += 0.02 * np.sin(2 * np.pi * 0.7 * t)
     elif kind == "estop":
-        az += bump(1.2, 0.6, 0.30)
-        az += bump(4.05, 0.16, -3.4)                       # 急停冲击
-        az += bump(4.42, 0.22, 5.4)                        # 回弹
+        travel(-lead, 4.0)                     # 还在行驶中
+        az += bump(4.05, 0.16, -3.4)           # 急停冲击
+        az += bump(4.42, 0.22, 5.4)            # 回弹
         ring = np.exp(-(t - 4.3).clip(min=0) * 0.75) * (t >= 4.3)
         az += 1.1 * ring * np.sin(2 * np.pi * 5.2 * (t - 4.3))
         ax += 0.30 * ring * np.sin(2 * np.pi * 4.1 * (t - 4.3) + 0.6)
         ax += 0.18 * ring * np.sin(2 * np.pi * 7.3 * (t - 4.3))
     elif kind == "trapped":
+        travel(-lead, -0.2)                    # 进站停稳后门没开
         az += 0.015 * np.sin(2 * np.pi * 0.25 * t)
         ax += 0.010 * np.sin(2 * np.pi * 0.31 * t + 1.0)
     elif kind == "pry":
+        travel(-lead, -0.2)
         for center in (6.0, 8.2, 10.4, 12.6):
             burst = (np.abs(t - center) < 0.45).astype(float) * np.exp(-np.abs(t - center) * 6)
             ax += 0.85 * burst * np.sin(2 * np.pi * 6.4 * (t - center))
             ay += 0.55 * burst * np.sin(2 * np.pi * 5.1 * (t - center) + 1.2)
             az += 0.35 * burst * np.sin(2 * np.pi * 7.5 * (t - center))
-        # 人拍门时轿厢有轻微晃
         az += 0.03 * np.sin(2 * np.pi * 0.9 * t)
     elif kind == "faint":
-        az += bump(7.55, 0.10, 1.6)                        # 身体落地冲击
+        travel(-lead, -0.2)
+        az += bump(7.55, 0.10, 1.6)            # 身体落地冲击
         az += 0.25 * np.exp(-(t - 7.6).clip(min=0) * 2.2) * (t >= 7.6) * np.sin(2 * np.pi * 3.4 * (t - 7.6))
     return np.stack([ax, ay, az], axis=1).astype(np.float32)
 
@@ -408,7 +433,7 @@ def normalize_imu(raw: np.ndarray, scales: Dict[str, float] = IMU_SCALES) -> np.
     return out
 
 
-def make_windows(samples: np.ndarray, window: int = 200, stride: int = 100) -> np.ndarray:
+def make_windows(samples: np.ndarray, window: int = 200, stride: int = 200) -> np.ndarray:
     """把连续采样切成 (N, window, 3) 的窗口张量。"""
     chunks = []
     for start in range(0, max(1, len(samples) - window + 1), stride):
@@ -517,25 +542,33 @@ def build_case(
             )
 
     # ---- IMU ----
-    raw = synth_imu(scenario.imu_kind, seconds=seconds + 10.0, fs=20.0, seed=seed + 1000)
+    # IMU 传感器是连续采集的，比视频早开机：这里让 IMU 段从"视频开始前 10 秒"起，
+    # 于是第一个 10 秒窗口正好在视频第 0 帧结束。这对 B 很关键——
+    # B 的 Aligner 在第一个窗口结束前一律判 warmup（没有 IMU 就不推进状态机），
+    # 若 IMU 从视频开始才起，20 秒的演示片前 10 秒全是 warmup，dwell 攒不够。
+    raw = synth_imu(scenario.imu_kind, seconds=seconds, fs=20.0, seed=seed + 1000, lead=10.0)
     normalized = normalize_imu(raw)
-    windows = make_windows(normalized, window=200, stride=100)
+    windows = make_windows(normalized, window=200, stride=200)
     np.save(DEMO_DIR / f"{scenario.case}_imu.npy", windows)
     np.save(DEMO_DIR / f"{scenario.case}_imu_raw.npy", raw)
     fs_imu = 20.0
-    window_end_ts = [
-        start_ts_ms + int(round((start + 199) / fs_imu * 1000))
-        for start in range(0, len(raw) - 199, 100)
-    ]
-    (DEMO_DIR / f"{scenario.case}_imu_meta.json").write_text(
+    imu_start_ts = int(start_ts_ms) - 10_000
+    # B 的公式：ts_i = start_ts_ms + (i+1)*10000，这里就按它生成，保证逐毫秒对齐
+    window_end_ts = [imu_start_ts + (index + 1) * 10_000 for index in range(windows.shape[0])]
+    # 文件名与字段按 B 的读取约定（model/config.py: sidecar_path / resolve_start_ts_ms）
+    (DEMO_DIR / f"{scenario.case}_imu.meta.json").write_text(
         json.dumps(
             {
                 "case": scenario.case,
+                # ↓ B 的契约字段
+                "start_ts_ms": imu_start_ts,
                 "fs": fs_imu,
+                "source": "synthetic",
+                # ↓ A 的补充字段（B 忽略多余键）
                 "window": 200,
                 "window_sec": 10.0,
-                "stride": 100,
-                "stride_sec": 5.0,
+                "stride": 200,
+                "stride_sec": 10.0,
                 "shape": list(windows.shape),
                 "channels": ["ax", "ay", "az"],
                 "unit": "m/s^2 (raw) / [-1,1] (normalized)",

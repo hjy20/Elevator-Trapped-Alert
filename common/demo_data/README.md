@@ -11,9 +11,9 @@
 | `demo_<case>.mp4` | 视频：1280×720 / 25 fps / H.264 / 20 s |
 | `demo_<case>_kpts.jsonl` | 逐帧关键点轨迹（合成场景专用；实拍素材没有这个文件） |
 | `demo_<case>_meta.json` | `start_ts_ms`（时间轴锚点）、`door_roi`、场景说明 |
-| `demo_<case>_imu.npy` | IMU：`(5,200,3)` float32，归一化到 `[-1,1]` |
+| `demo_<case>_imu.npy` | IMU：`(3,200,3)` float32，归一化到 `[-1,1]` |
 | `demo_<case>_imu_raw.npy` | IMU 原始值：`(600,3)` float32，单位 m/s² |
-| `demo_<case>_imu_meta.json` | 采样率、窗口、归一化常数、每个窗口的结束时间戳 |
+| `demo_<case>_imu.meta.json` | 采样率、窗口、归一化常数、`start_ts_ms`、每个窗口的结束时间戳 |
 
 ## 5 段场景
 
@@ -38,8 +38,8 @@ rows = json.load(open("results/vision_demo_faint.json", encoding="utf-8"))
 
 # IMU 窗口（B 的 IMUEvent 输入）
 import numpy as np
-windows = np.load("common/demo_data/demo_faint_imu.npy")      # (5,200,3)
-meta = json.load(open("common/demo_data/demo_faint_imu_meta.json", encoding="utf-8"))
+windows = np.load("common/demo_data/demo_faint_imu.npy")      # (3,200,3)
+meta = json.load(open("common/demo_data/demo_faint_imu.meta.json", encoding="utf-8"))
 print(meta["window_end_ts_ms"])                                # 与 VisionOut.ts 同一时间轴
 ```
 
