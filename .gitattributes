@@ -2,12 +2,15 @@
 # 否则 Windows 提交的 .sh 到 Ubuntu 上会报 "bash^M: bad interpreter"
 * text=auto eol=lf
 
-# 二进制文件不做换行符转换
+# 二进制文件不做换行符转换（模型权重、数据、影像、Office 文档）
 *.png  binary
 *.jpg  binary
 *.jpeg binary
 *.mp4  binary
 *.npy  binary
+*.pt   binary
+*.onnx binary
+*.whl  binary
 *.db   binary
 *.xlsx binary
 *.pptx binary

@@ -1,0 +1,14 @@
+{
+  "case": "demo_pry",
+  "event_type": "pry",
+  "urgency": 2,
+  "trapped": true,
+  "people_max": 2,
+  "duration_sec": 20.0,
+  "label_level": "scene",
+  "summary": "扒门求助：门未开，一人反复扒门缝/拍门，一只手在门缝持续 >1s",
+  "notes": [
+    "场景级弱标签：只标这一段属于哪一类，不逐帧标",
+    "逐帧真值见 data/processed/demo_pry_gt.json"
+  ]
+}

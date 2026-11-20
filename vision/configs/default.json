@@ -1,0 +1,47 @@
+{
+  "model": {
+    "backend": "auto",
+    "weights": "models/yolov8n-pose.pt",
+    "onnx": "models/yolov8n-pose.onnx",
+    "imgsz": 480,
+    "conf": 0.30,
+    "iou": 0.45,
+    "max_det": 12,
+    "device": "cpu",
+    "kpt_conf": 0.30
+  },
+  "runtime": {
+    "frame_skip": 2,
+    "base_ts": null,
+    "warmup": 3,
+    "video_backend": "opencv"
+  },
+  "fall": {
+    "angle_deg": 60.0,
+    "window_sec": 3.0,
+    "vote_ratio": 0.70,
+    "hold_ratio": 0.30,
+    "high_prob": 0.90,
+    "low_scale": 0.35,
+    "hip_drop_ratio": 0.50,
+    "min_visible_kpts": 6,
+    "kpt_conf": 0.30,
+    "head_below_hip": true,
+    "sustain_sec": 0.60
+  },
+  "door": {
+    "roi": "demo_cabin",
+    "near_ratio": 0.12,
+    "persist_sec": 1.00,
+    "decay_sec": 1.50,
+    "wrist_conf": 0.30
+  },
+  "crowd": {
+    "saturation": 0.55
+  },
+  "quality": {
+    "kpt_conf": 0.30,
+    "min_visible_kpts": 8,
+    "min_mean_conf": 0.35
+  }
+}

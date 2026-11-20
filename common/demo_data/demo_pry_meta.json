@@ -1,0 +1,16 @@
+{
+  "case": "demo_pry",
+  "scene": "synthetic",
+  "fps": 25.0,
+  "frames": 500,
+  "width": 1280,
+  "height": 720,
+  "duration_sec": 20.0,
+  "start_ts_ms": 1794915900000,
+  "door_roi": "demo_cabin",
+  "event_type": "pry",
+  "expected_urgency": 2,
+  "summary": "扒门求助：门未开，一人反复扒门缝/拍门，一只手在门缝持续 >1s",
+  "keypoint_sidecar": "demo_pry_kpts.jsonl",
+  "generator": "data/scripts/build_demo_data.py"
+}

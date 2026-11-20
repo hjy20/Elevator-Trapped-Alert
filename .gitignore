@@ -1,23 +1,42 @@
-# 敏感配置
+# 电梯困人主动预警 —— Git 忽略规则（A + C 合并版）
+# 原则：三人的代码与演示数据全部进仓库；只忽略环境、密钥、大原始素材。
+
+# ---------- 敏感配置 ----------
 .env
 
-# Python
+# ---------- Python 环境 ----------
 .venv/
 .venv-test/
+venv/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*.egg-info/
+.pytest_cache/
 
-# 本地数据库（sqlite 兜底）
+# ---------- 本地开发辅助目录（A，含 shim 与已下载的 wheel） ----------
+.devenv/
+.tmp/
+
+# ---------- 模型权重：由脚本获取，不进仓库 ----------
+# ultralytics 首次运行自动下载 yolov8n-pose.pt；
+# ONNX 用 `python vision/onnx_export.py --export` 现场导出。
+models/*.pt
+models/*.onnx
+
+# ---------- 大文件与中间产物（注意：common/demo_data 下的 mp4/npy 必须保留） ----------
+data/raw/*
+!data/raw/.gitkeep
+results/*.tmp
+results/bench_vision*.json
+*.log
+
+# ---------- 本地数据库（sqlite 兜底模式） ----------
 elevator.db
 elevator.db-journal
 
-# 大文件与中间产物（注意：不要忽略 common/demo_data 下的 mp4/npy）
-data/raw/
-results/*.tmp
-*.log
-
-# 编辑器
+# ---------- 编辑器 / 系统 ----------
 .vscode/
 .idea/
 .DS_Store
+Thumbs.db
+desktop.ini
