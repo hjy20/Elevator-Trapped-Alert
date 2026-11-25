@@ -108,7 +108,13 @@ class Scenario:
 
 
 def build_normal() -> Scenario:
-    """正常乘梯：两人进出，中途一人蹲下捡东西（考"不误报"）。"""
+    """正常乘梯：两人先出画、再回场，中途一人蹲下捡东西（考"不误报"）。
+
+    时间轴（对齐 supplement_ac.md C1/C2/C3）：
+      0–6.6 s 两人在场（「有人 + 门未开」6.6 s < 8 s dwell）；
+      6.6–12.5 s 两人真出画（人数归零 ≥3 s，触发 B 的 empty_steady 复位）；
+      12.5–14.2 s 从右侧回场；14.5–17.0 s 蹲下防误报用例。
+    """
     p1 = Track(
         label="p1",
         depth=0.93,
@@ -121,13 +127,13 @@ def build_normal() -> Scenario:
             TrackKey(2.4, "walk_b", x=0.35),
             TrackKey(3.6, "walk_a", x=0.55),
             TrackKey(4.6, "stand", x=0.55, note="停下"),
-            TrackKey(7.6, "stand", x=0.55),
-            TrackKey(8.6, "crouch", x=0.55, note="蹲下捡东西（防误报用例）"),
-            TrackKey(11.0, "crouch", x=0.55),
-            TrackKey(12.0, "stand", x=0.55),
-            TrackKey(13.6, "walk_b", x=0.10),
-            TrackKey(15.0, "walk_a", x=-1.35, note="开门后走出去"),
-            TrackKey(19.9, "walk_a", x=-1.35),
+            TrackKey(5.0, "walk_b", x=0.55),
+            TrackKey(6.4, "walk_a", x=4.70, note="向右真出画（depth 0.93 阈值 3.44 m）"),
+            TrackKey(12.5, "walk_a", x=4.70, note="画外等待"),
+            TrackKey(13.8, "walk_b", x=0.00, note="从右侧回场"),
+            TrackKey(14.5, "crouch", x=0.00, note="蹲下捡东西（防误报用例）"),
+            TrackKey(17.0, "stand", x=0.00),
+            TrackKey(19.9, "stand", x=0.00),
         ],
     )
     p2 = Track(
@@ -138,10 +144,11 @@ def build_normal() -> Scenario:
         seed=23,
         keys=[
             TrackKey(0.0, "stand"),
-            TrackKey(6.0, "stand_shift", x=-0.10),
-            TrackKey(13.6, "walk_b", x=-0.35),
-            TrackKey(15.2, "walk_a", x=-0.95, note="跟随走出"),
-            TrackKey(19.9, "walk_a", x=-0.95),
+            TrackKey(5.4, "stand_shift", x=-0.10),
+            TrackKey(6.6, "walk_a", x=3.50, note="向右真出画（depth 0.82 阈值 3.28 m）"),
+            TrackKey(12.8, "walk_a", x=3.50, note="画外等待"),
+            TrackKey(14.2, "walk_b", x=-0.10, note="跟随回场"),
+            TrackKey(19.9, "stand", x=-0.10),
         ],
     )
     return Scenario(
@@ -149,15 +156,30 @@ def build_normal() -> Scenario:
         event_type="normal",
         urgency=0,
         trapped=False,
-        summary="正常乘梯：2 人进出，中途一人蹲下捡东西，不触发任何告警",
+        summary="正常乘梯：2 人先出画再回场，中途一人蹲下捡东西，不触发任何告警",
         tracks=[p1, p2],
-        door_keys=[(0.0, 0.0), (13.4, 0.0), (14.6, 1.0), (16.4, 1.0), (17.6, 0.0), (19.9, 0.0)],
+        door_keys=[
+            (0.0, 0.0),
+            (6.2, 0.0),
+            (7.0, 1.0),
+            (8.6, 0.0),
+            (12.8, 0.0),
+            (13.6, 1.0),
+            (15.0, 0.0),
+            (19.9, 0.0),
+        ],
         imu_kind="normal",
     )
 
 
 def build_estop() -> Scenario:
-    """急停：轿厢猛停并轻微抖动，人跟着晃但没倒。"""
+    """急停：轿厢猛停并轻微抖动，1 人被晃后自行脱困离场。
+
+    时间轴（对齐 supplement_ac.md C1/C2）：
+      0–5.5 s 1 人在场（含 4.05 s 急停冲击）；
+      5.5–7.4 s 向右真出画（depth 0.90 阈值 3.56 m）；
+      7.4–20.0 s 画面无人，覆盖 IMU 窗口 1（结束 9.95 s）的对齐起点 9.45 s。
+    """
     p1 = Track(
         label="p1",
         depth=0.90,
@@ -169,9 +191,9 @@ def build_estop() -> Scenario:
             TrackKey(4.05, "stand", note="急停瞬间"),
             TrackKey(4.6, "bend", note="被晃得前倾，但很快站直"),
             TrackKey(5.4, "stand"),
-            TrackKey(9.0, "stand_shift", x=0.08),
-            TrackKey(14.0, "stand", x=0.10),
-            TrackKey(19.9, "stand", x=0.10),
+            TrackKey(5.5, "walk_b", x=0.00, note="转身离开"),
+            TrackKey(7.4, "walk_a", x=3.95, note="向右真出画（急停后自行脱困）"),
+            TrackKey(19.9, "walk_a", x=3.95, note="画外，保持无人"),
         ],
     )
     return Scenario(
@@ -179,7 +201,7 @@ def build_estop() -> Scenario:
         event_type="estop",
         urgency=1,
         trapped=False,
-        summary="电梯急停：轿厢剧烈抖动，轿厢内 1 人站立未倒地，紧急度 1（关注）",
+        summary="电梯急停：轿厢剧烈抖动，1 人站立未倒地并自行脱困离开轿厢，紧急度 1（关注）",
         tracks=[p1],
         door_keys=[(0.0, 0.0), (19.9, 0.0)],
         shake_keys=[(0.0, 0.0), (4.1, 7.0), (4.9, 0.0)],
@@ -237,7 +259,13 @@ def build_trapped() -> Scenario:
 
 
 def build_pry() -> Scenario:
-    """扒门：两人被困，一人反复拍门、扒门缝。"""
+    """扒门：两人被困，一人从 10 s 起反复拍门、扒门缝。
+
+    时间轴（对齐 supplement_ac.md 2.4）：
+      0–10.0 s 两人在场且不贴门（「有人 + 门未开」10 s 内 dwell 尚未达阈值）；
+      10.0–18.0 s 贴门（door>0.6 与 trapped 窗口重叠 ≥2 s）；
+      18.8 s 起 p2 蹲下（贴门段外）。
+    """
     p1 = Track(
         label="p1",
         depth=0.86,
@@ -246,15 +274,16 @@ def build_pry() -> Scenario:
         seed=61,
         keys=[
             TrackKey(0.0, "stand"),
-            TrackKey(4.0, "walk_a", x=-0.10),
-            TrackKey(5.2, "reach_door", note="伸手扒门缝"),
-            TrackKey(7.4, "push_door"),
-            TrackKey(9.2, "reach_door"),
-            TrackKey(11.4, "push_door"),
-            TrackKey(13.0, "reach_door"),
-            TrackKey(14.4, "walk_b", x=-0.45),
-            TrackKey(16.2, "stand", x=-0.55),
-            TrackKey(19.9, "stand", x=-0.55),
+            TrackKey(9.0, "walk_a", x=-0.60, note="走向门"),
+            TrackKey(10.0, "reach_door", x=-0.60, note="伸手扒门缝"),
+            TrackKey(11.2, "push_door"),
+            TrackKey(12.8, "reach_door"),
+            TrackKey(14.4, "push_door"),
+            TrackKey(15.6, "reach_door"),
+            TrackKey(16.8, "push_door"),
+            TrackKey(18.0, "reach_door"),
+            TrackKey(19.0, "walk_b", x=-0.30),
+            TrackKey(19.9, "stand", x=-0.30),
         ],
     )
     p2 = Track(
@@ -265,8 +294,8 @@ def build_pry() -> Scenario:
         seed=71,
         keys=[
             TrackKey(0.0, "stand"),
-            TrackKey(10.0, "stand_shift", x=0.05),
-            TrackKey(15.0, "crouch", note="蹲下抱头"),
+            TrackKey(9.0, "stand_shift", x=0.05),
+            TrackKey(18.8, "crouch", note="蹲下抱头（贴门段外）"),
             TrackKey(19.9, "crouch"),
         ],
     )
@@ -379,7 +408,7 @@ def synth_imu(kind: str, seconds: float, fs: float = 20.0, seed: int = 5) -> np.
         az += 0.015 * np.sin(2 * np.pi * 0.25 * t)
         ax += 0.010 * np.sin(2 * np.pi * 0.31 * t + 1.0)
     elif kind == "pry":
-        for center in (6.0, 8.2, 10.4, 12.6):
+        for center in (10.6, 12.2, 13.8, 15.4):
             burst = (np.abs(t - center) < 0.45).astype(float) * np.exp(-np.abs(t - center) * 6)
             ax += 0.85 * burst * np.sin(2 * np.pi * 6.4 * (t - center))
             ay += 0.55 * burst * np.sin(2 * np.pi * 5.1 * (t - center) + 1.2)

@@ -30,6 +30,8 @@ def check_python() -> None:
     ver = f"{v.major}.{v.minor}.{v.micro}"
     if (v.major, v.minor) in ((3, 10), (3, 11)):
         line(OK, f"Python {ver}（与契约 §7.4 一致）")
+    elif (v.major, v.minor) == (3, 9):
+        line(WARN, f"Python {ver}：低于契约 3.10/3.11，但本地兜底依赖已兼容，服务端功能可跑")
     elif (v.major, v.minor) == (3, 12):
         line(WARN, f"Python {ver} 可用，契约要求 3.10/3.11，提交前建议统一")
     elif (v.major, v.minor) >= (3, 13):

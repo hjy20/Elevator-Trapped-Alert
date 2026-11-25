@@ -178,11 +178,11 @@ class Checker:
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(description="L1 契约自检")
-    parser.add_argument("--case", choices=CASE_ORDER, default=None)
+    parser.add_argument("--case", choices=list(CASE_ORDER) + ["all"], default=None)
     parser.add_argument("--json", default=None, help="把结果写成 JSON")
     args = parser.parse_args(argv)
 
-    cases = [args.case] if args.case else CASE_ORDER
+    cases = CASE_ORDER if args.case in (None, "all") else [args.case]
     checker = Checker()
     report: Dict[str, Any] = {"cases": {}, "errors": [], "warnings": []}
 

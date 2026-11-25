@@ -10,13 +10,14 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from typing import Optional
 
 BASE = "http://127.0.0.1:18080"
 DEVICE = "ELEV-SMOKE-001"
 results = []
 
 
-def call(method: str, path: str, body: dict | None = None, timeout: float = 5.0):
+def call(method: str, path: str, body: Optional[dict] = None, timeout: float = 5.0):
     data = json.dumps(body, ensure_ascii=False).encode("utf-8") if body is not None else None
     req = urllib.request.Request(
         BASE + path, data=data, method=method,

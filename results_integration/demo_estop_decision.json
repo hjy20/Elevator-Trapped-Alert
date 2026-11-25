@@ -2511,7 +2511,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2525,7 +2525,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2539,7 +2539,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2553,7 +2553,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2567,7 +2567,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2581,7 +2581,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2595,7 +2595,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2609,7 +2609,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2623,7 +2623,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2637,11 +2637,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2651,11 +2651,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2665,11 +2665,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2679,11 +2679,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2693,11 +2693,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2707,11 +2707,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2721,11 +2721,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2735,11 +2735,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2749,11 +2749,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2763,11 +2763,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2777,11 +2777,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2791,11 +2791,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2805,11 +2805,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2819,11 +2819,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2833,11 +2833,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2847,11 +2847,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.1s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2861,11 +2861,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.1s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2875,11 +2875,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2889,11 +2889,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2903,11 +2903,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2917,11 +2917,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.3s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2931,11 +2931,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.3s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2945,11 +2945,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2959,11 +2959,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2973,11 +2973,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2987,11 +2987,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3001,11 +3001,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3015,11 +3015,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3029,11 +3029,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3043,11 +3043,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3057,11 +3057,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3071,11 +3071,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3085,11 +3085,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3099,11 +3099,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3113,11 +3113,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3127,11 +3127,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3141,11 +3141,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3155,11 +3155,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3169,204 +3169,181 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 1,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.30649,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.309132,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.1s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.311585,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.1s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.314093,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.2s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.316545,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.2s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.319097,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.2s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.32159,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.3s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.324199,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.3s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.326589,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.4s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.329003,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.4s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.331534,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.4s > 8s",
-      "person_count=1 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915309520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.469161,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3374,17 +3351,16 @@
   {
     "ts": 1794915309560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.473032,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3392,17 +3368,16 @@
   {
     "ts": 1794915309600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.477058,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3410,17 +3385,16 @@
   {
     "ts": 1794915309640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.481158,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3428,17 +3402,16 @@
   {
     "ts": 1794915309680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.485216,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3446,17 +3419,16 @@
   {
     "ts": 1794915309720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.489281,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3464,17 +3436,16 @@
   {
     "ts": 1794915309760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.49341,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3482,17 +3453,16 @@
   {
     "ts": 1794915309800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.497414,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3500,17 +3470,16 @@
   {
     "ts": 1794915309840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.501425,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3518,17 +3487,16 @@
   {
     "ts": 1794915309880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.50537,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3536,17 +3504,16 @@
   {
     "ts": 1794915309920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.509308,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3554,17 +3521,16 @@
   {
     "ts": 1794915309960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.513212,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3572,17 +3538,16 @@
   {
     "ts": 1794915310000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.517235,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3590,17 +3555,16 @@
   {
     "ts": 1794915310040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.521275,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3608,17 +3572,16 @@
   {
     "ts": 1794915310080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.525207,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3626,17 +3589,16 @@
   {
     "ts": 1794915310120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.529199,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3644,17 +3606,16 @@
   {
     "ts": 1794915310160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.533228,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3662,17 +3623,16 @@
   {
     "ts": 1794915310200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.537242,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3680,17 +3640,16 @@
   {
     "ts": 1794915310240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.541227,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3698,17 +3657,16 @@
   {
     "ts": 1794915310280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.545138,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3716,17 +3674,16 @@
   {
     "ts": 1794915310320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.549142,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3734,17 +3691,16 @@
   {
     "ts": 1794915310360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.553172,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3752,17 +3708,16 @@
   {
     "ts": 1794915310400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.557244,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3770,17 +3725,16 @@
   {
     "ts": 1794915310440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.561193,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3788,17 +3742,16 @@
   {
     "ts": 1794915310480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.565213,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3806,17 +3759,16 @@
   {
     "ts": 1794915310520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.569243,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3824,17 +3776,16 @@
   {
     "ts": 1794915310560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.573211,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3842,17 +3793,16 @@
   {
     "ts": 1794915310600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.57725,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3860,17 +3810,16 @@
   {
     "ts": 1794915310640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.581237,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3878,17 +3827,16 @@
   {
     "ts": 1794915310680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.585208,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3896,17 +3844,16 @@
   {
     "ts": 1794915310720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.589121,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3914,17 +3861,16 @@
   {
     "ts": 1794915310760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.593238,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3932,17 +3878,16 @@
   {
     "ts": 1794915310800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.597311,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3950,17 +3895,16 @@
   {
     "ts": 1794915310840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.601388,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3968,17 +3912,16 @@
   {
     "ts": 1794915310880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.605421,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -3986,17 +3929,16 @@
   {
     "ts": 1794915310920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.609446,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4004,17 +3946,16 @@
   {
     "ts": 1794915310960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.61333,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4022,17 +3963,16 @@
   {
     "ts": 1794915311000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.617328,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4040,17 +3980,16 @@
   {
     "ts": 1794915311040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.621307,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4058,17 +3997,16 @@
   {
     "ts": 1794915311080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.625258,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4076,17 +4014,16 @@
   {
     "ts": 1794915311120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.629258,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4094,17 +4031,16 @@
   {
     "ts": 1794915311160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.633177,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4112,17 +4048,16 @@
   {
     "ts": 1794915311200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.637189,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4130,17 +4065,16 @@
   {
     "ts": 1794915311240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.641241,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4148,17 +4082,16 @@
   {
     "ts": 1794915311280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.645198,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4166,17 +4099,16 @@
   {
     "ts": 1794915311320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.649083,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4184,17 +4116,16 @@
   {
     "ts": 1794915311360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.653229,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4202,17 +4133,16 @@
   {
     "ts": 1794915311400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.657219,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4220,17 +4150,16 @@
   {
     "ts": 1794915311440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.661212,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4238,17 +4167,16 @@
   {
     "ts": 1794915311480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.66516,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4256,17 +4184,16 @@
   {
     "ts": 1794915311520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.669124,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4274,17 +4201,16 @@
   {
     "ts": 1794915311560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.673154,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4292,17 +4218,16 @@
   {
     "ts": 1794915311600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.677166,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4310,17 +4235,16 @@
   {
     "ts": 1794915311640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.681155,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4328,17 +4252,16 @@
   {
     "ts": 1794915311680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.685206,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4346,17 +4269,16 @@
   {
     "ts": 1794915311720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.689161,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4364,17 +4286,16 @@
   {
     "ts": 1794915311760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.6931,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4382,17 +4303,16 @@
   {
     "ts": 1794915311800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.697146,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4400,17 +4320,16 @@
   {
     "ts": 1794915311840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.70107,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4418,17 +4337,16 @@
   {
     "ts": 1794915311880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.705116,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4436,17 +4354,16 @@
   {
     "ts": 1794915311920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.709102,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4454,17 +4371,16 @@
   {
     "ts": 1794915311960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.7131,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4472,17 +4388,16 @@
   {
     "ts": 1794915312000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.717155,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4490,17 +4405,16 @@
   {
     "ts": 1794915312040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.721237,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4508,17 +4422,16 @@
   {
     "ts": 1794915312080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.725148,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4526,17 +4439,16 @@
   {
     "ts": 1794915312120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.729169,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4544,17 +4456,16 @@
   {
     "ts": 1794915312160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.733196,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4562,17 +4473,16 @@
   {
     "ts": 1794915312200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.737158,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4580,17 +4490,16 @@
   {
     "ts": 1794915312240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.741202,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4598,17 +4507,16 @@
   {
     "ts": 1794915312280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.745091,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4616,17 +4524,16 @@
   {
     "ts": 1794915312320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.749122,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4634,17 +4541,16 @@
   {
     "ts": 1794915312360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.753147,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4652,17 +4558,16 @@
   {
     "ts": 1794915312400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.757152,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4670,17 +4575,16 @@
   {
     "ts": 1794915312440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.761154,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4688,17 +4592,16 @@
   {
     "ts": 1794915312480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.765224,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4706,17 +4609,16 @@
   {
     "ts": 1794915312520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.769206,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4724,17 +4626,16 @@
   {
     "ts": 1794915312560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.773111,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4742,17 +4643,16 @@
   {
     "ts": 1794915312600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.777176,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4760,17 +4660,16 @@
   {
     "ts": 1794915312640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.78115,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4778,17 +4677,16 @@
   {
     "ts": 1794915312680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.785129,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4796,17 +4694,16 @@
   {
     "ts": 1794915312720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.789136,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4814,17 +4711,16 @@
   {
     "ts": 1794915312760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.793183,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4832,17 +4728,16 @@
   {
     "ts": 1794915312800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.797193,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4850,17 +4745,16 @@
   {
     "ts": 1794915312840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.801254,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4868,17 +4762,16 @@
   {
     "ts": 1794915312880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.805235,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4886,17 +4779,16 @@
   {
     "ts": 1794915312920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.8092,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4904,17 +4796,16 @@
   {
     "ts": 1794915312960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.813219,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4922,17 +4813,16 @@
   {
     "ts": 1794915313000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.817199,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4940,17 +4830,16 @@
   {
     "ts": 1794915313040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.821099,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4958,17 +4847,16 @@
   {
     "ts": 1794915313080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.825173,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4976,17 +4864,16 @@
   {
     "ts": 1794915313120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.829105,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -4994,17 +4881,16 @@
   {
     "ts": 1794915313160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.833097,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5012,17 +4898,16 @@
   {
     "ts": 1794915313200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.837261,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5030,17 +4915,16 @@
   {
     "ts": 1794915313240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.841201,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5048,17 +4932,16 @@
   {
     "ts": 1794915313280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.8432,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5066,17 +4949,16 @@
   {
     "ts": 1794915313320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84319,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5084,17 +4966,16 @@
   {
     "ts": 1794915313360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843175,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5102,17 +4983,16 @@
   {
     "ts": 1794915313400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843172,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5120,17 +5000,16 @@
   {
     "ts": 1794915313440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843201,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5138,17 +5017,16 @@
   {
     "ts": 1794915313480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843284,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5156,17 +5034,16 @@
   {
     "ts": 1794915313520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843228,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5174,17 +5051,16 @@
   {
     "ts": 1794915313560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843289,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5192,17 +5068,16 @@
   {
     "ts": 1794915313600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843297,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5210,17 +5085,16 @@
   {
     "ts": 1794915313640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843239,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5228,17 +5102,16 @@
   {
     "ts": 1794915313680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843217,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5246,17 +5119,16 @@
   {
     "ts": 1794915313720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843227,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5264,17 +5136,16 @@
   {
     "ts": 1794915313760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843203,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5282,17 +5153,16 @@
   {
     "ts": 1794915313800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843286,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5300,17 +5170,16 @@
   {
     "ts": 1794915313840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843263,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5318,17 +5187,16 @@
   {
     "ts": 1794915313880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843236,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5336,17 +5204,16 @@
   {
     "ts": 1794915313920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843183,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5354,17 +5221,16 @@
   {
     "ts": 1794915313960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843174,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5372,17 +5238,16 @@
   {
     "ts": 1794915314000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843234,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5390,17 +5255,16 @@
   {
     "ts": 1794915314040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843233,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5408,17 +5272,16 @@
   {
     "ts": 1794915314080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843125,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5426,17 +5289,16 @@
   {
     "ts": 1794915314120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843107,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5444,17 +5306,16 @@
   {
     "ts": 1794915314160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843105,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5462,17 +5323,16 @@
   {
     "ts": 1794915314200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843086,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5480,17 +5340,16 @@
   {
     "ts": 1794915314240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.8432,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5498,17 +5357,16 @@
   {
     "ts": 1794915314280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84321,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5516,17 +5374,16 @@
   {
     "ts": 1794915314320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843192,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5534,17 +5391,16 @@
   {
     "ts": 1794915314360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843227,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5552,17 +5408,16 @@
   {
     "ts": 1794915314400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843231,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5570,17 +5425,16 @@
   {
     "ts": 1794915314440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843249,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5588,17 +5442,16 @@
   {
     "ts": 1794915314480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843246,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5606,17 +5459,16 @@
   {
     "ts": 1794915314520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843229,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5624,17 +5476,16 @@
   {
     "ts": 1794915314560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843289,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5642,17 +5493,16 @@
   {
     "ts": 1794915314600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843228,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5660,17 +5510,16 @@
   {
     "ts": 1794915314640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843213,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5678,17 +5527,16 @@
   {
     "ts": 1794915314680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843166,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5696,17 +5544,16 @@
   {
     "ts": 1794915314720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843107,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5714,17 +5561,16 @@
   {
     "ts": 1794915314760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843165,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5732,17 +5578,16 @@
   {
     "ts": 1794915314800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843196,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5750,17 +5595,16 @@
   {
     "ts": 1794915314840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843124,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5768,17 +5612,16 @@
   {
     "ts": 1794915314880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843109,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5786,17 +5629,16 @@
   {
     "ts": 1794915314920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843086,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5804,17 +5646,16 @@
   {
     "ts": 1794915314960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843083,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5822,17 +5663,16 @@
   {
     "ts": 1794915315000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843078,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5840,17 +5680,16 @@
   {
     "ts": 1794915315040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843192,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5858,17 +5697,16 @@
   {
     "ts": 1794915315080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843194,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5876,17 +5714,16 @@
   {
     "ts": 1794915315120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843196,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5894,17 +5731,16 @@
   {
     "ts": 1794915315160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84328,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5912,17 +5748,16 @@
   {
     "ts": 1794915315200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843278,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=19.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5930,17 +5765,16 @@
   {
     "ts": 1794915315240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84323,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5948,17 +5782,16 @@
   {
     "ts": 1794915315280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843208,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5966,17 +5799,16 @@
   {
     "ts": 1794915315320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84319,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -5984,17 +5816,16 @@
   {
     "ts": 1794915315360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843229,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6002,17 +5833,16 @@
   {
     "ts": 1794915315400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843185,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6020,17 +5850,16 @@
   {
     "ts": 1794915315440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843163,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6038,17 +5867,16 @@
   {
     "ts": 1794915315480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84322,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6056,17 +5884,16 @@
   {
     "ts": 1794915315520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843169,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6074,17 +5901,16 @@
   {
     "ts": 1794915315560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843099,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6092,17 +5918,16 @@
   {
     "ts": 1794915315600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843137,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6110,17 +5935,16 @@
   {
     "ts": 1794915315640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843153,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6128,17 +5952,16 @@
   {
     "ts": 1794915315680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843089,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6146,17 +5969,16 @@
   {
     "ts": 1794915315720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843047,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=20.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6164,17 +5986,16 @@
   {
     "ts": 1794915315760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.8431,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6182,17 +6003,16 @@
   {
     "ts": 1794915315800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843108,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6200,17 +6020,16 @@
   {
     "ts": 1794915315840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843119,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6218,17 +6037,16 @@
   {
     "ts": 1794915315880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84312,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6236,17 +6054,16 @@
   {
     "ts": 1794915315920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843097,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6254,17 +6071,16 @@
   {
     "ts": 1794915315960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84318,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6272,17 +6088,16 @@
   {
     "ts": 1794915316000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843249,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6290,17 +6105,16 @@
   {
     "ts": 1794915316040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843219,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6308,17 +6122,16 @@
   {
     "ts": 1794915316080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843281,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6326,17 +6139,16 @@
   {
     "ts": 1794915316120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843202,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6344,17 +6156,16 @@
   {
     "ts": 1794915316160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843267,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6362,17 +6173,16 @@
   {
     "ts": 1794915316200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843194,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=21.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6380,17 +6190,16 @@
   {
     "ts": 1794915316240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843156,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6398,17 +6207,16 @@
   {
     "ts": 1794915316280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843185,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6416,17 +6224,16 @@
   {
     "ts": 1794915316320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843262,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6434,17 +6241,16 @@
   {
     "ts": 1794915316360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843121,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6452,17 +6258,16 @@
   {
     "ts": 1794915316400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843235,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6470,17 +6275,16 @@
   {
     "ts": 1794915316440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84327,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6488,17 +6292,16 @@
   {
     "ts": 1794915316480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843158,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6506,17 +6309,16 @@
   {
     "ts": 1794915316520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843288,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6524,17 +6326,16 @@
   {
     "ts": 1794915316560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843334,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6542,17 +6343,16 @@
   {
     "ts": 1794915316600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843282,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6560,17 +6360,16 @@
   {
     "ts": 1794915316640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84332,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6578,17 +6377,16 @@
   {
     "ts": 1794915316680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843317,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6596,17 +6394,16 @@
   {
     "ts": 1794915316720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843296,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=22.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6614,17 +6411,16 @@
   {
     "ts": 1794915316760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843311,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6632,17 +6428,16 @@
   {
     "ts": 1794915316800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84328,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6650,17 +6445,16 @@
   {
     "ts": 1794915316840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843303,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6668,17 +6462,16 @@
   {
     "ts": 1794915316880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843346,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6686,17 +6479,16 @@
   {
     "ts": 1794915316920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843302,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6704,17 +6496,16 @@
   {
     "ts": 1794915316960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843394,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6722,17 +6513,16 @@
   {
     "ts": 1794915317000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843344,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6740,17 +6530,16 @@
   {
     "ts": 1794915317040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843397,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6758,17 +6547,16 @@
   {
     "ts": 1794915317080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84335,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6776,17 +6564,16 @@
   {
     "ts": 1794915317120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843407,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6794,17 +6581,16 @@
   {
     "ts": 1794915317160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843387,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6812,17 +6598,16 @@
   {
     "ts": 1794915317200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84339,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=23.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6830,17 +6615,16 @@
   {
     "ts": 1794915317240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843329,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6848,17 +6632,16 @@
   {
     "ts": 1794915317280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843359,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6866,17 +6649,16 @@
   {
     "ts": 1794915317320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843373,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6884,17 +6666,16 @@
   {
     "ts": 1794915317360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843398,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6902,17 +6683,16 @@
   {
     "ts": 1794915317400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843307,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6920,17 +6700,16 @@
   {
     "ts": 1794915317440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843322,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6938,17 +6717,16 @@
   {
     "ts": 1794915317480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843325,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6956,17 +6734,16 @@
   {
     "ts": 1794915317520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843323,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6974,17 +6751,16 @@
   {
     "ts": 1794915317560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843211,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -6992,17 +6768,16 @@
   {
     "ts": 1794915317600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843246,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7010,17 +6785,16 @@
   {
     "ts": 1794915317640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843237,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7028,17 +6802,16 @@
   {
     "ts": 1794915317680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843309,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7046,17 +6819,16 @@
   {
     "ts": 1794915317720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843288,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=24.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7064,17 +6836,16 @@
   {
     "ts": 1794915317760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843308,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7082,17 +6853,16 @@
   {
     "ts": 1794915317800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843183,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7100,17 +6870,16 @@
   {
     "ts": 1794915317840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843194,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7118,17 +6887,16 @@
   {
     "ts": 1794915317880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843221,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7136,17 +6904,16 @@
   {
     "ts": 1794915317920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843114,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7154,17 +6921,16 @@
   {
     "ts": 1794915317960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843146,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7172,17 +6938,16 @@
   {
     "ts": 1794915318000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843213,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7190,17 +6955,16 @@
   {
     "ts": 1794915318040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843126,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7208,17 +6972,16 @@
   {
     "ts": 1794915318080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843226,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7226,17 +6989,16 @@
   {
     "ts": 1794915318120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843178,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7244,17 +7006,16 @@
   {
     "ts": 1794915318160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843245,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7262,17 +7023,16 @@
   {
     "ts": 1794915318200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843287,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=25.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7280,17 +7040,16 @@
   {
     "ts": 1794915318240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843268,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7298,17 +7057,16 @@
   {
     "ts": 1794915318280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84326,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7316,17 +7074,16 @@
   {
     "ts": 1794915318320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843244,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7334,17 +7091,16 @@
   {
     "ts": 1794915318360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843249,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7352,17 +7108,16 @@
   {
     "ts": 1794915318400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843247,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7370,17 +7125,16 @@
   {
     "ts": 1794915318440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843148,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7388,17 +7142,16 @@
   {
     "ts": 1794915318480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843169,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7406,17 +7159,16 @@
   {
     "ts": 1794915318520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843231,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7424,17 +7176,16 @@
   {
     "ts": 1794915318560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843233,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7442,17 +7193,16 @@
   {
     "ts": 1794915318600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843303,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7460,17 +7210,16 @@
   {
     "ts": 1794915318640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843253,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7478,17 +7227,16 @@
   {
     "ts": 1794915318680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843329,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7496,17 +7244,16 @@
   {
     "ts": 1794915318720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843285,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=26.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7514,17 +7261,16 @@
   {
     "ts": 1794915318760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843284,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7532,17 +7278,16 @@
   {
     "ts": 1794915318800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843244,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7550,17 +7295,16 @@
   {
     "ts": 1794915318840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843185,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7568,17 +7312,16 @@
   {
     "ts": 1794915318880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843209,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7586,17 +7329,16 @@
   {
     "ts": 1794915318920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843283,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7604,17 +7346,16 @@
   {
     "ts": 1794915318960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843227,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7622,17 +7363,16 @@
   {
     "ts": 1794915319000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843149,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.5s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7640,17 +7380,16 @@
   {
     "ts": 1794915319040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843164,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7658,17 +7397,16 @@
   {
     "ts": 1794915319080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843269,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.6s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7676,17 +7414,16 @@
   {
     "ts": 1794915319120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843372,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.7s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7694,17 +7431,16 @@
   {
     "ts": 1794915319160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843321,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.8s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7712,17 +7448,16 @@
   {
     "ts": 1794915319200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843267,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=27.9s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7730,17 +7465,16 @@
   {
     "ts": 1794915319240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843161,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=28s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7748,17 +7482,16 @@
   {
     "ts": 1794915319280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843196,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=28s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7766,17 +7499,16 @@
   {
     "ts": 1794915319320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843128,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=28.1s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7784,17 +7516,16 @@
   {
     "ts": 1794915319360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.84306,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=28.2s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7802,17 +7533,16 @@
   {
     "ts": 1794915319400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843122,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=28.3s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7820,17 +7550,16 @@
   {
     "ts": 1794915319440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843167,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=28.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7838,17 +7567,16 @@
   {
     "ts": 1794915319480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 1,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.843175,
+    "people_count": 0,
+    "event_type": "estop",
+    "confidence": 1.0,
     "reason": [
-      "dwell=28.4s > 8s",
-      "person_count=1 >= 1",
+      "dwell=0s <= 8s",
+      "person_count=0 >= 1",
       "imu.estop=1.00 > 0.80",
-      "imu.idle=0.89 > 0.80",
       "imu.vibration=1.00",
       "demo_threshold=true"
     ]
@@ -7856,204 +7584,168 @@
   {
     "ts": 1794915319520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.83939,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.5s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839382,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.5s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839369,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.6s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839348,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.6s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839521,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.6s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839491,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.7s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839415,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.7s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839455,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.8s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839506,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.8s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839449,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.8s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839427,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.9s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915319960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 1,
-    "event_type": "trapped",
-    "confidence": 0.839457,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 0.999997,
     "reason": [
-      "dwell=28.9s > 8s",
-      "person_count=1 >= 1",
-      "imu.idle=0.98 > 0.80",
-      "imu.vibration=1.00",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   }

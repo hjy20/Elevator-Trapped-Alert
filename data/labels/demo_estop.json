@@ -6,7 +6,7 @@
   "people_max": 1,
   "duration_sec": 20.0,
   "label_level": "scene",
-  "summary": "电梯急停：轿厢剧烈抖动，轿厢内 1 人站立未倒地，紧急度 1（关注）",
+  "summary": "电梯急停：轿厢剧烈抖动，1 人站立未倒地并自行脱困离开轿厢，紧急度 1（关注）",
   "notes": [
     "场景级弱标签：只标这一段属于哪一类，不逐帧标",
     "逐帧真值见 data/processed/demo_estop_gt.json"

@@ -1909,7 +1909,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 1,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -1923,7 +1923,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 1,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -1937,7 +1937,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 1,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2203,7 +2203,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 1,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2217,7 +2217,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 1,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2231,7 +2231,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 1,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2245,7 +2245,7 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 1,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
@@ -2259,11 +2259,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 1,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2273,11 +2273,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2287,11 +2287,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2301,11 +2301,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2315,11 +2315,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2329,11 +2329,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2343,11 +2343,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2357,11 +2357,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2371,11 +2371,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2385,11 +2385,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2399,11 +2399,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2413,11 +2413,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2427,11 +2427,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2441,11 +2441,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=5.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2455,11 +2455,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2469,11 +2469,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2483,11 +2483,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2497,11 +2497,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.1s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2511,11 +2511,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.1s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2525,11 +2525,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2539,11 +2539,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2553,11 +2553,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2567,11 +2567,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.3s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2581,11 +2581,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.3s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2595,11 +2595,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2609,11 +2609,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2623,11 +2623,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2637,11 +2637,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2651,11 +2651,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2665,11 +2665,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2679,11 +2679,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2693,11 +2693,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2707,11 +2707,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2721,11 +2721,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2735,11 +2735,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2749,11 +2749,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2763,11 +2763,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2777,11 +2777,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2791,11 +2791,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=6.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2805,11 +2805,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2819,11 +2819,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2833,11 +2833,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2847,11 +2847,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.1s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2861,11 +2861,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.1s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2875,11 +2875,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2889,11 +2889,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2903,11 +2903,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.2s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2917,11 +2917,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.3s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2931,11 +2931,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.3s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2945,11 +2945,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2959,11 +2959,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2973,11 +2973,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.4s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -2987,11 +2987,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3001,11 +3001,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.5s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3015,11 +3015,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3029,11 +3029,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3043,11 +3043,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.6s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3057,11 +3057,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3071,11 +3071,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.7s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3085,11 +3085,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3099,11 +3099,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3113,11 +3113,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3127,11 +3127,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3141,11 +3141,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=7.9s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3155,11 +3155,11 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
@@ -3169,4379 +3169,3833 @@
     "trapped": false,
     "urgency": 0,
     "location": "3F",
-    "people_count": 2,
+    "people_count": 0,
     "event_type": "normal",
     "confidence": 1.0,
     "reason": [
-      "dwell=8s <= 8s",
+      "dwell=0s <= 8s",
       "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.301121,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.30361,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.1s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.306159,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.1s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.308758,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.2s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.311141,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.2s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.313767,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.2s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.316181,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.3s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.318746,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.3s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.321209,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.4s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.323744,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.4s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.326167,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.4s > 8s",
-      "person_count=2 >= 1",
-      "imu_unavailable=true",
-      "demo_threshold=true"
+      "dwell=0s <= 8s",
+      "imu_unavailable=true"
     ]
   },
   {
     "ts": 1794915009520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.459095,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.461026,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.463026,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.465093,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.467058,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.469051,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.471066,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.473007,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.475008,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.477102,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.479106,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915009960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.481106,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=8.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.483142,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.485048,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.487006,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.488975,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.491107,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.493067,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.495189,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.497185,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.499043,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.50105,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.503115,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.505148,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.50715,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.509127,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.511175,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.513144,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.515088,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.517103,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.519075,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.521117,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.523124,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.52504,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.527069,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.529042,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915010960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.531041,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=9.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.532976,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.534953,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.537056,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.538982,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.54086,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.542885,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.544785,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.546759,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.548761,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.550582,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.552411,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.554382,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.556399,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.55829,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.560254,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.562123,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.563919,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.565811,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.567694,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.569753,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.571498,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.573383,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.575251,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.576935,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915011960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.578905,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=10.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.58096,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.582871,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.584882,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.586781,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.58892,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.590824,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.592796,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.594803,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.596962,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.598946,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.600932,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.602883,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.604934,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.606877,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.608963,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.610926,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.612879,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.614879,
+    "people_count": 0,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.616885,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.618938,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.620854,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.622957,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.624912,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.626894,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915012960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.628833,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=11.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.630771,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
-    "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.63259,
+    "people_count": 1,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.634678,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.636485,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.63833,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.640259,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.642038,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.643985,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.645993,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.647986,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.650101,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.652038,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.653887,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.655964,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.65785,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.659892,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.661922,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=0.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.663911,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.66599,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.668013,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.669882,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.671813,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.673931,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.675973,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915013960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.677993,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=12.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.680072,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.682163,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.68423,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.686324,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.688412,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.690455,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.692323,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.694262,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.696223,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.698323,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.700483,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.702419,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.704431,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.706491,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.708539,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.710526,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.712375,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=1.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.714313,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.716287,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.718189,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.720188,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.722102,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.724101,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.726009,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915014960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.728035,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=13.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.730004,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.731904,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.733941,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.735789,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.737816,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.739892,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.741794,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.743803,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.745788,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.74769,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.749798,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.751741,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.753706,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.755642,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.757681,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.759772,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.761794,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=2.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.763759,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.765737,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.767772,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.769744,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.771828,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.773853,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.775799,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915015960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.777804,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=14.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.779787,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.781882,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.783833,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.785805,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.78769,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.789687,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.791677,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.793615,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.795691,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.797649,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.799738,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.801705,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.803827,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.805676,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.807914,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.809823,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.811664,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=3.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.813719,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.815606,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.817675,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.819643,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.821708,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.823685,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.82564,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915016960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.827596,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=15.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.829624,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831481,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831542,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831608,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.83166,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831676,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831778,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831986,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831788,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831845,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831767,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831767,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831851,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831697,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831775,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831785,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831815,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=4.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831765,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831761,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831881,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831847,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.83175,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.8318,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831878,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915017960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831816,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=16.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.83187,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831789,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831763,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831775,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831848,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831728,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831761,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831668,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831737,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831681,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831732,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.8317,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831856,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831834,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831808,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.83173,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831666,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=5.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831769,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831818,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831801,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.83175,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831888,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831751,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831724,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915018960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831749,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=17.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019000,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831875,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019040,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831812,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.3s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019080,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831925,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019120,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831819,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019160,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831981,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.1s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.4s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019200,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831841,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019240,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831931,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.5s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019280,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.83196,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.2s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019320,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831869,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019360,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831852,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.3s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.6s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019400,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.832013,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019440,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831868,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019480,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831689,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.4s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019520,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831944,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019560,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831965,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.5s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.8s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019600,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831928,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019640,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831994,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=6.9s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019680,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.832018,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.6s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019720,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831923,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019760,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831936,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.7s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=7s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019800,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831966,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=7.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019840,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831914,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=7.1s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019880,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831922,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.8s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=7.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019920,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.832061,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=7.2s <= 8s",
       "demo_threshold=true"
     ]
   },
   {
     "ts": 1794915019960,
     "device_id": "ELEV-DEMO-001",
-    "trapped": true,
-    "urgency": 2,
+    "trapped": false,
+    "urgency": 0,
     "location": "3F",
     "people_count": 2,
-    "event_type": "trapped",
-    "confidence": 0.831969,
+    "event_type": "normal",
+    "confidence": 1.0,
     "reason": [
-      "dwell=18.9s > 8s",
-      "person_count=2 >= 1",
-      "imu.idle=0.98 > 0.80",
+      "dwell=7.2s <= 8s",
       "demo_threshold=true"
     ]
   }

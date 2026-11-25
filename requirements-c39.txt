@@ -1,0 +1,12 @@
+# C · 云服务 在 Python 3.9 的兼容依赖（不修改主 lock）
+# 用法：pip install -r requirements-c39.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 说明：主 requirements.lock.txt 面向 3.10/3.11；本文件仅用于 3.9 本地兜底环境。
+# 本机实测（2026-11-20，Python 3.9.12 / Windows）已成功安装并跑通 service。
+
+fastapi==0.115.0
+uvicorn==0.32.0
+
+# pydantic 2.x 由 fastapi 带出（实测 2.13.5，3.9 有预编译轮子）
+# 仅在 DB_MODE=rds / CACHE_MODE=redis 时需要，按需安装：
+# mysql-connector-python==9.0.0
+# redis==5.0.8

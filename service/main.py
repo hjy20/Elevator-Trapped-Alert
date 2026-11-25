@@ -22,10 +22,14 @@ from typing import Any, Dict
 import uvicorn
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.staticfiles import StaticFiles
+from fastapi import Request, Response
+from fastapi.responses import JSONResponse, StreamingResponse
+from typing import Optional
 
 from . import config
 from .db_local import now_ms
 from .models import DecisionIn
+from . import camera as camera_svc
 
 logging.basicConfig(
     level=logging.INFO,
@@ -89,6 +93,7 @@ async def lifespan(_: FastAPI):
     log.info("启动中… DB_MODE=%s CACHE_MODE=%s", config.DB_MODE, config.CACHE_MODE)
     _load_db()
     _load_cache()
+    camera_svc.bootstrap()  # 画面源预载（幂等，每次启动只记一次「画面源载入」）
     log.info("就绪：http://127.0.0.1:%s/docs", config.PORT)
     yield
     log.info("已停止")
@@ -193,6 +198,104 @@ def stats() -> Dict[str, Any]:
 @app.get("/api/v1/devices", summary="设备在线状态")
 def devices() -> Dict[str, Any]:
     return {"items": _db().list_devices()}
+
+
+# ---------------------------------------------------------------- 现场画面（C · camera）
+# 纯追加块：既有 6 接口零变化（camera.md C-CAM-04 / AMEND-CAM-05）。
+# 必须位于 app.mount("/") 之前，否则 /camera/* 会被静态页兜住（camera.md 4.1 判据 2）。
+
+
+def _camera_http_error(exc: "camera_svc.CameraError") -> HTTPException:
+    return HTTPException(status_code=exc.status_code, detail=exc.detail())
+
+
+@app.get("/api/v1/camera/sources", summary="画面源清单")
+def camera_sources() -> Dict[str, Any]:
+    try:
+        return camera_svc.sources_payload()
+    except camera_svc.CameraError as exc:
+        raise _camera_http_error(exc)
+
+
+@app.get("/api/v1/camera/video", summary="视频分发（支持 Range）")
+def camera_video(request: Request, source_id: str = Query("", description="画面源 ID")):
+    range_header = request.headers.get("range")
+    try:
+        status, headers, path, start, length = camera_svc.video_payload(source_id, range_header)
+    except camera_svc.CameraError as exc:
+        raise _camera_http_error(exc)
+    if status == 416:
+        detail = camera_svc.error_detail(
+            "CAM_RANGE_INVALID", "画面片段不可用", source_id=source_id
+        )
+        return JSONResponse(status_code=416, content={"detail": detail}, headers=headers)
+    return StreamingResponse(
+        camera_svc.iter_video_chunks(path, start, length),
+        status_code=status,
+        headers=headers,
+    )
+
+
+@app.get("/api/v1/camera/kpts", summary="关键点窗口 + 视觉分数")
+def camera_kpts(
+    source_id: str = Query("", description="画面源 ID"),
+    from_frame: Optional[str] = Query(None, description="窗口起始帧"),
+    count: Optional[str] = Query(None, description="返回帧数 1~120"),
+    ts: Optional[str] = Query(None, description="告警墙钟毫秒"),
+) -> Dict[str, Any]:
+    try:
+        return camera_svc.kpts_payload(
+            source_id, from_frame=from_frame, count=count, ts=ts
+        )
+    except camera_svc.CameraError as exc:
+        raise _camera_http_error(exc)
+
+
+@app.get("/api/v1/camera/frame", summary="单帧 JPEG（降级通道）")
+def camera_frame(
+    source_id: str = Query("", description="画面源 ID"),
+    frame: Optional[str] = Query(None, description="帧号"),
+    ts: Optional[str] = Query(None, description="素材时间毫秒"),
+) -> Response:
+    try:
+        data, index, ts_ms = camera_svc.frame_payload(source_id, frame=frame, ts=ts)
+    except camera_svc.CameraError as exc:
+        raise _camera_http_error(exc)
+    return Response(
+        content=data,
+        status_code=200,
+        headers={
+            "Content-Type": "image/jpeg",
+            "Cache-Control": "no-store",
+            "X-Camera-Frame": str(index),
+            "X-Camera-Ts": str(ts_ms),
+        },
+    )
+
+
+@app.get("/api/v1/camera/health", summary="画面子系统自检")
+def camera_health() -> Dict[str, Any]:
+    return camera_svc.health_payload()
+
+
+@app.post("/api/v1/camera/session", summary="起播会话登记（start/stop/heartbeat）")
+async def camera_session_post(request: Request) -> Dict[str, Any]:
+    try:
+        body = await request.json()
+    except Exception:  # noqa: BLE001 - 非 JSON 体统一按 CAM_BAD_REQUEST 处理
+        body = None
+    try:
+        return camera_svc.session_action(body if isinstance(body, dict) else {})
+    except camera_svc.CameraError as exc:
+        raise _camera_http_error(exc)
+
+
+@app.get("/api/v1/camera/session", summary="画面对齐状态")
+def camera_session_get(source_id: str = Query("", description="画面源 ID")) -> Dict[str, Any]:
+    try:
+        return camera_svc.session_payload(source_id)
+    except camera_svc.CameraError as exc:
+        raise _camera_http_error(exc)
 
 
 # ---------------------------------------------------------------- 静态页面

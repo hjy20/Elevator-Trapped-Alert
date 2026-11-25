@@ -60,3 +60,7 @@ STATE_TTL_SEC = 60               # 最新状态缓存 60s
 
 DASHBOARD_DIR = BASE_DIR / "dashboard"
 DB_SQLITE_PATH = BASE_DIR / "elevator.db"
+
+# 现场画面（摄像头视图）开关与源模式（camera.md 2.2 C-CAM-09）
+CAMERA_ENABLE = _s("CAMERA_ENABLE", "1")                      # "0"/"false" 视为关闭
+CAMERA_SOURCE_MODE = (_s("CAMERA_SOURCE_MODE", "demo").lower() or "demo")  # demo|file|usb|rtsp

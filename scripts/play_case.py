@@ -17,6 +17,7 @@ import time
 import urllib.error
 import urllib.request
 from pathlib import Path
+from typing import Optional
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -32,12 +33,27 @@ def post(base_url: str, payload: dict, timeout: float = 5.0) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
+def post_session(base_url: str, payload: dict, timeout: float = 5.0) -> Optional[dict]:
+    """画面会话登记（T-CAM-006）：失败返回 None，不影响既有回放行为。"""
+    req = urllib.request.Request(
+        base_url.rstrip("/") + "/api/v1/camera/session",
+        data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.URLError:
+        return None
+
+
 class Counter:
     def __init__(self) -> None:
         self.sent = self.created = self.deduped = self.failed = 0
         self.peak = 0
 
-    def hit(self, item: dict, resp: dict | None) -> None:
+    def hit(self, item: dict, resp: Optional[dict]) -> None:
         if resp is None:
             self.failed += 1
             return
@@ -166,6 +182,8 @@ def main() -> int:
     ap.add_argument("--no-video", action="store_true", help="只发数据，不播视频")
     ap.add_argument("--base-url", default="http://127.0.0.1:18080")
     ap.add_argument("--keep-ts", action="store_true", help="保留原始时间戳（默认平移到当前时刻）")
+    ap.add_argument("--camera-session", action="store_true",
+                    help="起播时登记画面会话（看板进入跟随对齐，默认关）")
     args = ap.parse_args()
 
     items = load_items(args.case)
@@ -174,6 +192,19 @@ def main() -> int:
     video = BASE_DIR / "common" / "demo_data" / f"{args.case}.mp4"
     counter = Counter()
     t0 = time.time()
+
+    session_on = False
+    if args.camera_session:
+        started = post_session(
+            args.base_url,
+            {"source_id": args.case, "event": "start", "start_wall_ms": int(time.time() * 1000)},
+        )
+        if started and started.get("session"):
+            session_on = True
+            print("画面会话：%s offset=%s" % (
+                started["session"]["session_id"], started["session"]["offset_ms"]))
+        else:
+            print("[WARN] 画面会话登记失败，看板将显示「画面未对齐」")
 
     if args.no_video or not video.exists():
         if not video.exists() and not args.no_video:
@@ -185,6 +216,9 @@ def main() -> int:
         except ImportError:
             print("[WARN] 未安装 opencv-python，改为只发数据")
             play_data_only(items, args.base_url, args.speed, counter)
+
+    if session_on:
+        post_session(args.base_url, {"source_id": args.case, "event": "stop"})
 
     counter.summary(args.case, time.time() - t0)
     print("看板：http://127.0.0.1:18080/")

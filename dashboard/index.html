@@ -7,233 +7,1168 @@
 <style>
   :root {
     --bg: #0b0f14;
-    --panel: #141b23;
-    --panel-2: #1b242e;
-    --line: #26313d;
-    --text: #e8eef5;
-    --muted: #8b97a5;
-    --gray: #8b97a5;
-    --yellow: #d29922;
-    --orange: #e8712b;
-    --red: #f85149;
-    --ok: #3fb950;
+    --panel: #151d26;
+    --panel-2: #1d2833;
+    --line: #2b3846;
+    --text: #eef4fb;
+    --muted: #a8b6c5;
+    --u0: #9fb0c0;
+    --u1: #e9c25c;
+    --u2: #ff9a55;
+    --u3: #ff7a7a;
+    --ok: #4cd07a;
+    --warn-bg: #2a1f12;
+    --warn-line: #5a4322;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    background: var(--bg);
-    color: var(--text);
+    background: var(--bg); color: var(--text);
     font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
-    padding: 24px 32px 48px;
+    padding: 18px 26px 22px; display: flex; flex-direction: column; gap: 14px;
   }
-  header {
-    display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap;
-    padding-bottom: 18px; border-bottom: 1px solid var(--line);
-  }
-  h1 { font-size: 26px; font-weight: 500; margin: 0; letter-spacing: 1px; }
+  h1 { font-size: 25px; font-weight: 600; margin: 0; letter-spacing: 1px; }
+  h2 { font-size: 16px; font-weight: 500; margin: 0; letter-spacing: .5px; }
+
+  .topbar { display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+            padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
   .sub { font-size: 14px; color: var(--muted); }
-  .conn { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 15px; }
-  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--gray); }
+  .status-cluster { margin-left: auto; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .conn { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted); }
   .dot.on { background: var(--ok); }
-  .dot.off { background: var(--red); }
+  .dot.warn { background: var(--u1); }
+  .dot.off { background: var(--u3); }
+  .fresh { font-size: 13px; color: var(--muted); }
+  .fresh.warn { color: var(--u1); }
+  .clock { font-family: Consolas, "Courier New", monospace; font-size: 16px; color: var(--muted); }
 
-  .cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: 24px 0; }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
-  .card .label { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
-  .card .value { font-size: 40px; font-weight: 500; line-height: 1; }
-  .card .unit { font-size: 15px; color: var(--muted); margin-left: 4px; }
+  .cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; }
+  .card.primary { border-color: #4a3a22; box-shadow: inset 3px 0 0 var(--u2); }
+  .card .label { font-size: 14px; color: var(--muted); margin-bottom: 6px; }
+  .card .value { font-size: 38px; font-weight: 600; line-height: 1; }
+  .card.primary .value { color: var(--u2); }
+  .card .unit { font-size: 14px; color: var(--muted); margin-left: 4px; }
+  .card .hint { font-size: 12px; color: var(--muted); margin-top: 6px; }
 
-  .bar { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-bottom: 16px; }
-  .bar .tag { background: var(--panel-2); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; }
-  .bar .warn { color: var(--orange); border-color: #4a3020; background: #26180f; }
+  .statusbar { display: flex; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .tag { background: var(--panel-2); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; }
+  .tag.warn { color: var(--u1); border-color: var(--warn-line); background: var(--warn-bg); }
 
-  .section-title { font-size: 16px; color: var(--muted); margin: 8px 0 14px; letter-spacing: 1px; }
+  .grid { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 14px; flex: 1; min-height: 0; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+           display: flex; flex-direction: column; min-height: 0; }
+  .panel-head { display: flex; align-items: center; gap: 12px; padding: 12px 16px;
+                border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  .muted { color: var(--muted); font-size: 13px; }
 
-  #list { display: flex; flex-direction: column; gap: 12px; }
-  .alert {
-    display: grid; grid-template-columns: 6px 1fr auto; gap: 0;
-    background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
-    animation: slide .28s ease-out;
-  }
-  @keyframes slide { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
-  .stripe { background: var(--gray); }
-  .body { padding: 16px 20px; }
-  .row1 { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 8px; }
-  .floor { font-size: 34px; font-weight: 500; line-height: 1; min-width: 76px; }
-  .badge { font-size: 14px; padding: 3px 10px; border-radius: 6px; border: 1px solid currentColor; }
-  .event { font-size: 19px; font-weight: 500; }
+  .tabs { display: flex; gap: 6px; }
+  .tabs button { background: transparent; color: var(--muted); border: 1px solid var(--line);
+                 border-radius: 8px; padding: 6px 14px; font-size: 14px; cursor: pointer;
+                 font-family: inherit; }
+  .tabs button[aria-selected="true"] { color: var(--text); border-color: var(--muted); background: var(--panel-2); }
+
+  .list { padding: 12px 14px; display: flex; flex-direction: column; gap: 10px; }
+  .alert { display: grid; grid-template-columns: 6px minmax(0, 1fr) auto; gap: 0;
+           background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px;
+           overflow: hidden; }
+  .alert.is-new { animation: flash 3s ease-out; }
+  .stripe { background: var(--u0); }
+  .body { padding: 12px 16px; min-width: 0; }
+  .row1 { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .u-icon { font-size: 20px; line-height: 1; color: var(--u0); }
+  .floor { font-size: 30px; font-weight: 600; line-height: 1; min-width: 64px; }
+  .event { font-size: 19px; font-weight: 600; }
+  .badge { font-size: 13px; padding: 2px 10px; border-radius: 6px; border: 1px solid currentColor; }
+  .tag-trapped { font-size: 12px; color: var(--u3); border: 1px solid #6a2a2a;
+                 background: #2a1515; border-radius: 6px; padding: 2px 8px; }
   .meta { font-size: 14px; color: var(--muted); }
-  .reasons { display: flex; gap: 8px; flex-wrap: wrap; }
-  .reasons code {
-    font-family: Consolas, "Courier New", monospace; font-size: 13px;
-    background: var(--panel-2); border: 1px solid var(--line);
-    border-radius: 6px; padding: 4px 9px; color: #b9c6d4;
-  }
-  .side { padding: 16px 20px; display: flex; align-items: center; }
-  button {
-    background: transparent; color: var(--text); border: 1px solid var(--line);
-    border-radius: 8px; padding: 10px 18px; font-size: 15px; cursor: pointer;
-    font-family: inherit; white-space: nowrap;
-  }
-  button:hover { border-color: var(--muted); background: var(--panel-2); }
-  button:active { transform: translateY(1px); }
+  .row2 { display: flex; align-items: center; gap: 10px; margin-top: 8px; flex-wrap: wrap; }
+  .row3 { margin-top: 6px; }
+  .device { font-size: 12px; color: var(--muted); font-family: Consolas, monospace; }
+  .link-btn { background: transparent; color: var(--muted); border: 1px dashed var(--line);
+              border-radius: 6px; padding: 3px 10px; font-size: 13px; cursor: pointer; font-family: inherit; }
+  .link-btn:hover { color: var(--text); border-color: var(--muted); }
+  .reasons { display: flex; gap: 6px; flex-wrap: wrap; }
+  .reasons code { font-family: Consolas, "Courier New", monospace; font-size: 12.5px;
+                  background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+                  padding: 3px 8px; color: #c7d4e2; max-width: 100%; overflow-wrap: anywhere; }
+  .side { padding: 12px 14px; display: flex; align-items: center; }
+  .ack { background: transparent; color: var(--text); border: 1px solid var(--line);
+         border-radius: 8px; padding: 9px 14px; font-size: 14px; cursor: pointer;
+         font-family: inherit; white-space: nowrap; }
+  .ack:hover { border-color: var(--muted); background: var(--panel); }
+  .ack.confirming { color: var(--u3); border-color: #6a2a2a; background: #2a1515; }
+  .ack:disabled { opacity: .65; cursor: progress; }
 
-  .pulse .stripe { animation: pulse 1.1s ease-in-out infinite; }
-  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  .devices { padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+  .dev { display: flex; align-items: center; gap: 10px; padding: 10px 12px;
+         background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; }
+  .dev .name { font-family: Consolas, monospace; font-size: 13.5px; }
+  .dev .state { font-size: 12px; border-radius: 6px; padding: 2px 8px; border: 1px solid currentColor; }
+  .dev.online .state { color: var(--ok); }
+  .dev.offline .state { color: var(--u1); }
+  .dev .seen { margin-left: auto; font-size: 12px; color: var(--muted); }
 
-  .empty { color: var(--muted); font-size: 16px; padding: 40px; text-align: center;
-           border: 1px dashed var(--line); border-radius: 12px; }
-  .stale { opacity: .45; }
-  footer { margin-top: 32px; font-size: 13px; color: #5f6b78; line-height: 1.8; }
+  .empty { color: var(--muted); font-size: 15px; padding: 34px; text-align: center;
+           border: 1px dashed var(--line); border-radius: 10px; }
+
+  footer { display: flex; gap: 18px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted);
+           border-top: 1px solid var(--line); padding-top: 10px; }
+  .legend { display: inline-flex; align-items: center; gap: 6px; }
+
+  button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--u1); outline-offset: 2px; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  @keyframes flash { 0% { box-shadow: 0 0 0 2px var(--u2); } 100% { box-shadow: none; } }
+
+  @media (min-width: 1200px) {
+    body { height: 100vh; overflow: hidden; }
+    .list, .devices { overflow: auto; }
+    .grid { min-height: 0; }
+  }
+  @media (max-width: 1199px) {
+    .grid { grid-template-columns: minmax(0, 1fr); }
+    .list, .devices { overflow: visible; }
+  }
+  @media (max-width: 768px) {
+    body { padding: 12px; gap: 10px; }
+    h1 { font-size: 20px; }
+    .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .card .value { font-size: 30px; }
+    .alert { grid-template-columns: 5px minmax(0, 1fr); }
+    .side { grid-column: 1 / -1; justify-content: flex-end; padding-top: 0; }
+    .floor { font-size: 24px; }
+    .status-cluster { width: 100%; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+
+  .side-col { display: flex; flex-direction: column; gap: 14px; min-height: 0; }
+  .side-col > .panel { min-height: 0; }
+  .cam-panel { flex: 0 0 auto; }
+  .cam-sel { margin-left: auto; background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
+             border-radius: 8px; padding: 5px 8px; font-family: inherit; font-size: 13px; max-width: 62%; }
+  .cam-state { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px;
+               padding: 3px 9px; white-space: nowrap; }
+  .cam-state.on { color: var(--ok); border-color: #245138; }
+  .cam-state.warn { color: var(--u1); border-color: var(--warn-line); background: var(--warn-bg); }
+  .cam-state.off { color: var(--u3); border-color: #6a2a2a; background: #2a1515; }
+  .cam-media { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #070b10; overflow: hidden; }
+  @supports not (aspect-ratio: 16 / 9) { .cam-media { height: 0; padding-top: 56.25%; } }
+  .cam-media video, .cam-media canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  .cam-media video { object-fit: contain; background: #070b10; }
+  .cam-media canvas { pointer-events: none; }
+  .cam-badge { position: absolute; top: 8px; left: 8px; font-size: 12px; line-height: 1.55; color: var(--text);
+               background: rgba(6, 10, 14, .82); border: 1px solid rgba(43, 56, 70, .9); border-radius: 8px;
+               padding: 5px 9px; max-width: 80%; }
+  .cam-wm { position: absolute; right: 8px; bottom: 8px; font-size: 12px; color: #e6eef7;
+            background: rgba(6, 10, 14, .82); padding: 2px 7px; border-radius: 6px; }
+  .cam-ctrl { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-top: 1px solid var(--line); }
+  .cam-ctrl .link-btn { min-height: 30px; }
+  .cam-msg { font-size: 12.5px; color: var(--muted); padding: 0 12px 10px; min-height: 18px; }
+  .cam-media.cam-hit { outline: 3px solid var(--u1); outline-offset: -3px; }
+  @media (max-width: 1199px) {
+    .side-col { order: -1; }
+    .cam-media { max-height: 260px; }
+  }
+  @media (max-width: 768px) {
+    .cam-ctrl .link-btn { min-height: 44px; }
+    .cam-media { max-height: 200px; }
+    .cam-sel { max-width: 100%; }
+  }
 </style>
 </head>
 <body>
-<header>
-  <h1>电梯困人主动预警</h1>
-  <span class="sub">采集「人的处境」，而不只是「机器故障」</span>
-  <span class="conn"><span id="dot" class="dot"></span><span id="connText">连接中…</span></span>
+<header class="topbar">
+  <div class="brand">
+    <h1>电梯困人主动预警</h1>
+    <span class="sub">采集「人的处境」，而不只是「机器故障」</span>
+  </div>
+  <div class="status-cluster">
+    <span class="conn" role="status" aria-live="polite">
+      <i id="dot" class="dot" aria-hidden="true"></i>
+      <span id="connText">连接中…</span>
+      <span id="freshness" class="fresh"></span>
+    </span>
+    <span id="clock" class="clock" aria-label="当前时间">--:--:--</span>
+    <button id="fsBtn" type="button" class="link-btn" aria-label="切换全屏显示">全屏</button>
+  </div>
 </header>
 
-<div class="cards">
-  <div class="card"><div class="label">今日告警</div><div class="value" id="cToday">–</div></div>
-  <div class="card"><div class="label">未处理</div><div class="value" id="cActive">–</div></div>
-  <div class="card"><div class="label">平均响应</div><div class="value" id="cAck">–<span class="unit">秒</span></div></div>
-  <div class="card"><div class="label">设备在线</div><div class="value" id="cDev">–</div></div>
-</div>
+<section class="cards" aria-label="关键指标">
+  <article class="card"><div class="label">今日告警</div><div class="value" id="cToday">–</div><div class="hint">今日累计</div></article>
+  <article class="card primary"><div class="label">未处理</div><div class="value" id="cActive">–</div><div class="hint">需要处置</div></article>
+  <article class="card"><div class="label">平均响应</div><div class="value"><span id="cAck">–</span><span class="unit">秒</span></div><div class="hint">已处置告警</div></article>
+  <article class="card"><div class="label">设备在线</div><div class="value" id="cDev">–</div><div class="hint">在线 / 总数</div></article>
+</section>
 
-<div class="bar">
+<section class="statusbar" aria-label="系统状态">
   <span class="tag" id="tDb">数据层：–</span>
   <span class="tag" id="tCache">缓存层：–</span>
-  <span class="tag" id="tOffline" style="display:none"></span>
+  <span class="tag warn" id="tDegraded" hidden>服务降级：兜底模式</span>
+  <span class="tag warn" id="tOffline" hidden></span>
+</section>
+
+<div class="grid">
+  <section class="panel" aria-label="告警列表">
+    <div class="panel-head">
+      <div class="tabs" role="tablist" aria-label="告警筛选">
+        <button type="button" role="tab" id="tabActive" aria-selected="true" data-status="active">活动告警</button>
+        <button type="button" role="tab" id="tabAcked" aria-selected="false" data-status="acked">已处置</button>
+      </div>
+      <span id="listMeta" class="muted"></span>
+    </div>
+    <div id="list" class="list"><div class="empty">正在连接…</div></div>
+  </section>
+
+  <div class="side-col">
+    <section class="panel cam-panel" id="camPanel" aria-label="现场画面">
+      <div class="panel-head">
+        <h2>现场画面</h2>
+        <select id="camSource" class="cam-sel" aria-label="选择画面源">
+          <option value="auto">跟随告警</option>
+        </select>
+        <span id="camState" class="cam-state">加载中…</span>
+      </div>
+      <div class="cam-media" id="camMark">
+        <video id="camVideo" muted playsinline preload="metadata" loop></video>
+        <canvas id="camOverlay" role="img" aria-label="现场画面：暂无"></canvas>
+        <div class="cam-badge" id="camBadge">—</div>
+        <div class="cam-wm">演示数据 · 非取证</div>
+      </div>
+      <div class="cam-ctrl">
+        <button id="camPlay" type="button" class="link-btn" aria-label="播放或暂停画面">播放</button>
+        <button id="camRetry" type="button" class="link-btn" aria-label="重试画面">重试</button>
+        <span id="camTime" class="muted">00:00 / 00:00</span>
+      </div>
+      <div id="camMsg" class="cam-msg" role="note"></div>
+    </section>
+
+    <section class="panel" aria-label="设备状态">
+      <div class="panel-head"><h2>设备心跳</h2><span id="devMeta" class="muted"></span></div>
+      <div id="devices" class="devices"><div class="empty">正在加载…</div></div>
+    </section>
+  </div>
 </div>
 
-<div class="section-title">实时告警</div>
-<div id="list"><div class="empty">正在加载…</div></div>
-
 <footer>
-  <div>紧急度：<span style="color:var(--gray)">0 正常</span> · <span style="color:var(--yellow)">1 关注</span> · <span style="color:var(--orange)">2 告警</span> · <span style="color:var(--red)">3 紧急</span></div>
-  <div>每 2 秒轮询 · 同设备同紧急度 30 秒内去重 · 断网自动降级 sqlite + memory</div>
+  <span class="legend"><span aria-hidden="true" style="color:var(--u0)">●</span>0 正常</span>
+  <span class="legend"><span aria-hidden="true" style="color:var(--u1)">▲</span>1 关注</span>
+  <span class="legend"><span aria-hidden="true" style="color:var(--u2)">◆</span>2 告警</span>
+  <span class="legend"><span aria-hidden="true" style="color:var(--u3)">✚</span>3 紧急</span>
+  <span>每 2 秒轮询 · 同设备同紧急度 30 秒内去重 · 断网自动降级 sqlite + memory</span>
 </footer>
 
+<div id="live" class="sr-only" aria-live="polite" role="status"></div>
+
 <script>
+"use strict";
+
 const URG = {
-  0: { label: "正常", color: "#8b97a5" },
-  1: { label: "关注", color: "#d29922" },
-  2: { label: "告警", color: "#e8712b" },
-  3: { label: "紧急", color: "#f85149" }
+  0: { label: "正常", color: "var(--u0)", shape: "●" },
+  1: { label: "关注", color: "var(--u1)", shape: "▲" },
+  2: { label: "告警", color: "var(--u2)", shape: "◆" },
+  3: { label: "紧急", color: "var(--u3)", shape: "✚" }
 };
 const EVT = {
   normal: "正常乘梯", estop: "电梯急停", trapped: "人员被困", pry: "扒门求助", faint: "有人倒地"
 };
+const CONN = {
+  init: { cls: "", text: "连接中…" },
+  online: { cls: "on", text: "实时在线" },
+  partial: { cls: "warn", text: "部分接口失败" },
+  offline: { cls: "off", text: "连接断开" }
+};
+const API = {
+  alerts: (status) => "/api/v1/alerts?status=" + status + "&limit=50",
+  stats: () => "/api/v1/stats",
+  devices: () => "/api/v1/devices",
+  ack: (id) => "/api/v1/alerts/" + id + "/ack"
+};
+const TIMEOUT_MS = 3000;
+const POLL_OK_MS = 2000;
+const POLL_MAX_MS = 15000;
 
 const $ = (id) => document.getElementById(id);
-let lastIds = new Set();
+const listEl = $("list");
+const devEl = $("devices");
 
-function fmtTime(ms) {
+let currentStatus = "active";
+let nodesById = new Map();
+let devNodes = new Map();
+let lastIds = new Set();
+let listEmpty = null;
+let devEmpty = null;
+let connState = "init";
+let lastOkAt = 0;
+let failCount = 0;
+let currentInterval = POLL_OK_MS;
+let nextPollAt = 0;
+let alertCache = new Map();
+
+function toText(el, value) { el.textContent = String(value); }
+
+function fmtClock(ms) {
   const d = new Date(ms);
   const p = (n) => String(n).padStart(2, "0");
   return p(d.getHours()) + ":" + p(d.getMinutes()) + ":" + p(d.getSeconds());
 }
 
-function setConn(ok) {
-  $("dot").className = "dot " + (ok ? "on" : "off");
-  $("connText").textContent = ok ? "实时在线" : "连接断开";
+function relTime(ms) {
+  if (!ms) return "时间未知";
+  const diff = Math.max(0, Math.round((Date.now() - ms) / 1000));
+  if (diff < 60) return diff + " 秒前";
+  if (diff < 3600) return Math.round(diff / 60) + " 分钟前";
+  return Math.round(diff / 3600) + " 小时前";
+}
+
+function setConn(state) {
+  connState = state;
+  const cfg = CONN[state] || CONN.init;
+  $("dot").className = "dot " + cfg.cls;
+  toText($("connText"), cfg.text);
+  renderFreshness();
+}
+
+function renderFreshness() {
+  const el = $("freshness");
+  if (!lastOkAt) {
+    toText(el, connState === "offline" ? "数据已过期" : "尚无数据");
+    el.classList.toggle("warn", connState === "offline");
+    return;
+  }
+  const age = Math.max(0, Math.round((Date.now() - lastOkAt) / 1000));
+  const stale = connState === "offline" || age > 10;
+  toText(el, (stale ? "数据已过期 · " : "数据 ") + age + " 秒前");
+  el.classList.toggle("warn", stale);
 }
 
 function renderStats(s) {
-  $("cToday").textContent = s.today_total ?? 0;
-  $("cActive").textContent = s.active_count ?? 0;
-  $("cAck").innerHTML = (s.avg_ack_seconds ?? 0) + '<span class="unit">秒</span>';
-  $("cDev").textContent = (s.devices_online ?? 0) + " / " + (s.devices_total ?? 0);
-  $("tDb").textContent = "数据层：" + (s.db_mode === "rds" ? "华为云 RDS" : "SQLite 兜底");
-  $("tCache").textContent = "缓存层：" + (s.cache_mode === "redis" ? "华为云 Redis" : "内存兜底");
+  toText($("cToday"), s.today_total ?? 0);
+  toText($("cActive"), s.active_count ?? 0);
+  toText($("cAck"), s.avg_ack_seconds ?? 0);
+  toText($("cDev"), (s.devices_online ?? 0) + " / " + (s.devices_total ?? 0));
+  toText($("tDb"), "数据层：" + (s.db_mode === "rds" ? "华为云 RDS" : "SQLite 兜底"));
+  toText($("tCache"), "缓存层：" + (s.cache_mode === "redis" ? "华为云 Redis" : "内存兜底"));
+  const dbFallback = s.db_mode !== "rds";
+  const cacheFallback = s.cache_mode !== "redis";
+  $("tDb").classList.toggle("warn", dbFallback);
+  $("tCache").classList.toggle("warn", cacheFallback);
+  $("tDegraded").hidden = !(dbFallback && cacheFallback);
 }
 
-function renderOffline(devices) {
-  const off = (devices || []).filter((d) => !d.online);
+function renderDeviceOffline(items) {
+  const off = items.filter((d) => !d.online);
   const el = $("tOffline");
-  if (!off.length) { el.style.display = "none"; return; }
-  el.style.display = "";
-  el.className = "tag warn";
-  el.textContent = off.length + " 台设备离线：" + off.map((d) => d.device_id).join("、");
+  if (!off.length) { el.hidden = true; return; }
+  el.hidden = false;
+  toText(el, off.length + " 台设备离线：" + off.map((d) => d.device_id).join("、"));
+}
+
+function clearChildren(el) {
+  while (el.firstChild) el.removeChild(el.firstChild);
+}
+
+function ensureListEmpty(text) {
+  if (listEmpty) { listEmpty.textContent = text; return; }
+  listEmpty = document.createElement("div");
+  listEmpty.className = "empty";
+  listEmpty.textContent = text;
+  listEl.appendChild(listEmpty);
+}
+
+function clearListEmpty() {
+  if (listEmpty) { listEmpty.remove(); listEmpty = null; }
+}
+
+function ensureDevEmpty(text) {
+  if (devEmpty) { devEmpty.textContent = text; return; }
+  devEmpty = document.createElement("div");
+  devEmpty.className = "empty";
+  devEmpty.textContent = text;
+  devEl.appendChild(devEmpty);
+}
+
+function clearDevEmpty() {
+  if (devEmpty) { devEmpty.remove(); devEmpty = null; }
+}
+
+function setReasonText(box, reasons) {
+  const key = JSON.stringify(reasons || []);
+  if (box.dataset.key === key) return;
+  box.dataset.key = key;
+  clearChildren(box);
+  for (const reason of reasons || []) {
+    const code = document.createElement("code");
+    code.textContent = String(reason);
+    box.appendChild(code);
+  }
+}
+
+function createAlert(item) {
+  const node = document.createElement("article");
+  node.className = "alert";
+  node.dataset.id = String(item.id);
+
+  const stripe = document.createElement("div");
+  stripe.className = "stripe";
+  stripe.setAttribute("aria-hidden", "true");
+
+  const body = document.createElement("div");
+  body.className = "body";
+
+  const row1 = document.createElement("div");
+  row1.className = "row1";
+  const icon = document.createElement("span");
+  icon.className = "u-icon";
+  icon.setAttribute("aria-hidden", "true");
+  const floor = document.createElement("span");
+  floor.className = "floor";
+  const eventEl = document.createElement("span");
+  eventEl.className = "event";
+  const badge = document.createElement("span");
+  badge.className = "badge";
+  const trappedTag = document.createElement("span");
+  trappedTag.className = "tag-trapped";
+  trappedTag.textContent = "已困人";
+  const meta = document.createElement("span");
+  meta.className = "meta";
+  row1.append(icon, floor, eventEl, badge, trappedTag, meta);
+
+  const row2 = document.createElement("div");
+  row2.className = "row2";
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "link-btn";
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.textContent = "展开判据";
+  const reasons = document.createElement("div");
+  reasons.className = "reasons";
+  reasons.hidden = true;
+  row2.append(toggle, reasons);
+
+  const row3 = document.createElement("div");
+  row3.className = "row3";
+  const device = document.createElement("span");
+  device.className = "device";
+  row3.append(device);
+
+  body.append(row1, row2, row3);
+
+  const side = document.createElement("div");
+  side.className = "side";
+  const camBtn = document.createElement("button");
+  camBtn.type = "button";
+  camBtn.className = "link-btn";
+  camBtn.textContent = "查看画面";
+  camBtn.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    const data = alertCache.get(node.dataset.id);
+    if (data) camSelectAlert(data);
+  });
+  const ackBtn = document.createElement("button");
+  ackBtn.type = "button";
+  ackBtn.className = "ack";
+  ackBtn.textContent = "确认处置";
+  ackBtn.addEventListener("click", () => onAckClick(ackBtn));
+  ackBtn.addEventListener("click", (ev) => ev.stopPropagation());
+  side.append(camBtn, ackBtn);
+
+  node.append(stripe, body, side);
+  node.__parts = { stripe, icon, floor, eventEl, badge, trappedTag, meta, toggle, reasons, device, ackBtn, camBtn };
+
+  node.addEventListener("click", () => {
+    const data = alertCache.get(node.dataset.id);
+    if (data) camSelectAlert(data);
+  });
+
+  toggle.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    const open = reasons.hidden;
+    reasons.hidden = !open;
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.textContent = open ? "收起判据" : "展开判据 (" + reasons.children.length + ")";
+    node.dataset.open = open ? "1" : "0";
+  });
+  return node;
+}
+
+function updateAlert(node, item) {
+  const u = URG[item.urgency] || URG[0];
+  const p = node.__parts;
+  p.stripe.style.background = u.color;
+  p.icon.style.color = u.color;
+  p.icon.textContent = u.shape;
+  toText(p.floor, item.location || "位置未知");
+  toText(p.eventEl, EVT[item.event_type] || item.event_type || "未知事件");
+  toText(p.badge, u.label);
+  p.badge.style.color = u.color;
+  p.badge.style.borderColor = u.color;
+  p.trappedTag.hidden = !item.trapped;
+  toText(p.meta, (item.people_count || 0) + " 人 · 置信度 " +
+    Math.round((item.confidence || 0) * 100) + "% · " + relTime(item.ts));
+  setReasonText(p.reasons, item.reason || []);
+  toText(p.device, "设备 " + (item.device_id || "未知"));
+  if (!p.reasons.hidden) {
+    p.toggle.textContent = "收起判据";
+  } else {
+    p.toggle.textContent = "展开判据 (" + p.reasons.children.length + ")";
+  }
+  p.ackBtn.dataset.id = String(item.id);
+  p.ackBtn.setAttribute("aria-label", "确认处置 " + (item.location || "位置未知") + " " +
+    (EVT[item.event_type] || "告警"));
+  p.camBtn.setAttribute("aria-label", "查看画面 " + (item.location || "位置未知") + " #" + item.id);
+  alertCache.set(String(item.id), item);
+  node.title = fmtClock(item.ts || Date.now()) + " · " + (item.device_id || "未知设备");
+  node.dataset.urgency = String(item.urgency || 0);
+}
+
+function announce(item) {
+  const u = URG[item.urgency] || URG[0];
+  $("live").textContent = "新增告警：" + (item.location || "位置未知") + " " +
+    (EVT[item.event_type] || "未知事件") + "，" + (item.people_count || 0) + " 人，" + u.label;
 }
 
 function renderAlerts(items) {
-  const list = $("list");
-  if (!items.length) {
-    list.innerHTML = '<div class="empty">当前无活动告警 · 系统运行正常</div>';
-    lastIds = new Set();
+  const seen = new Set();
+  const sorted = items.slice().sort((a, b) => (b.urgency - a.urgency) || (b.ts - a.ts));
+  if (!sorted.length) {
+    for (const [id, node] of nodesById) { node.remove(); lastIds.delete(id); }
+    nodesById.clear();
+    lastIds.clear();
+    ensureListEmpty(currentStatus === "active"
+      ? "当前无活动告警 · 系统运行正常"
+      : "暂无已处置告警");
+    toText($("listMeta"), "0 条");
     return;
   }
-  items.sort((a, b) => (b.urgency - a.urgency) || (b.ts - a.ts));
-  list.innerHTML = items.map((a) => {
-    const u = URG[a.urgency] || URG[0];
-    const reasons = (a.reason || []).map((r) => "<code>" + escapeHtml(r) + "</code>").join("");
-    const cls = "alert" + (a.urgency >= 3 ? " pulse" : "");
-    return (
-      '<div class="' + cls + '">' +
-        '<div class="stripe" style="background:' + u.color + '"></div>' +
-        '<div class="body">' +
-          '<div class="row1">' +
-            '<span class="floor">' + escapeHtml(a.location || "?") + '</span>' +
-            '<span class="event">' + (EVT[a.event_type] || a.event_type) + '</span>' +
-            '<span class="badge" style="color:' + u.color + '">' + u.label + '</span>' +
-            '<span class="meta">' + (a.people_count || 0) + ' 人 · 置信度 ' +
-              Math.round((a.confidence || 0) * 100) + '% · ' + fmtTime(a.ts) + '</span>' +
-          '</div>' +
-          '<div class="reasons">' + reasons + '</div>' +
-        '</div>' +
-        '<div class="side"><button data-id="' + a.id + '">确认处置</button></div>' +
-      '</div>'
-    );
-  }).join("");
-  list.querySelectorAll("button[data-id]").forEach((btn) => {
-    btn.addEventListener("click", () => ack(btn.dataset.id, btn));
-  });
-  lastIds = new Set(items.map((a) => a.id));
+  clearListEmpty();
+  for (const item of sorted) {
+    const id = String(item.id);
+    seen.add(id);
+    const isNew = !lastIds.has(id);
+    let node = nodesById.get(id);
+    if (!node) {
+      node = createAlert(item);
+      nodesById.set(id, node);
+    }
+    updateAlert(node, item);
+    if (isNew && currentStatus === "active") {
+      node.classList.add("is-new");
+      setTimeout(() => node.classList.remove("is-new"), 3000);
+      announce(item);
+    }
+    listEl.appendChild(node);
+  }
+  for (const [id, node] of nodesById) {
+    if (!seen.has(id)) {
+      node.remove();
+      nodesById.delete(id);
+      lastIds.delete(id);
+    }
+  }
+  lastIds = seen;
+  toText($("listMeta"), sorted.length + " 条");
 }
 
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+function renderDevices(items) {
+  const seen = new Set();
+  if (!items.length) {
+    for (const node of devNodes.values()) node.remove();
+    devNodes.clear();
+    ensureDevEmpty("暂无设备心跳");
+    toText($("devMeta"), "0 台");
+    return;
+  }
+  clearDevEmpty();
+  for (const d of items) {
+    const key = String(d.device_id || "未知");
+    seen.add(key);
+    let node = devNodes.get(key);
+    if (!node) {
+      node = document.createElement("div");
+      node.className = "dev";
+      const name = document.createElement("span");
+      name.className = "name";
+      const state = document.createElement("span");
+      state.className = "state";
+      const seenEl = document.createElement("span");
+      seenEl.className = "seen";
+      node.append(name, state, seenEl);
+      node.__parts = { name, state, seenEl };
+      devNodes.set(key, node);
+    }
+    node.classList.toggle("online", Boolean(d.online));
+    node.classList.toggle("offline", !d.online);
+    toText(node.__parts.name, key);
+    toText(node.__parts.state, d.online ? "在线" : "离线");
+    const ts = d.last_seen || d.last_seen_ts || d.last_seen_ms || d.last_ts;
+    toText(node.__parts.seenEl, ts ? relTime(ts) : "心跳未知");
+    devEl.appendChild(node);
+  }
+  for (const [key, node] of devNodes) {
+    if (!seen.has(key)) { node.remove(); devNodes.delete(key); }
+  }
+  toText($("devMeta"), items.length + " 台");
 }
 
-async function ack(id, btn) {
+function setStatusTab(status) {
+  currentStatus = status;
+  for (const btn of document.querySelectorAll("[role=tab]")) {
+    btn.setAttribute("aria-selected", String(btn.dataset.status === status));
+  }
+  for (const node of nodesById.values()) node.remove();
+  nodesById.clear();
+  for (const node of devNodes.values()) node.remove();
+  devNodes.clear();
+  lastIds.clear();
+  clearListEmpty();
+  ensureListEmpty("正在加载…");
+  refreshNow();
+}
+
+function resetAck(btn) {
+  btn.dataset.confirm = "";
+  btn.disabled = false;
+  btn.classList.remove("confirming");
+  btn.textContent = "确认处置";
+}
+
+function onAckClick(btn) {
+  if (btn.dataset.confirm !== "1") {
+    btn.dataset.confirm = "1";
+    btn.classList.add("confirming");
+    btn.textContent = "再点一次确认";
+    clearTimeout(Number(btn.dataset.timer || 0));
+    btn.dataset.timer = String(setTimeout(() => resetAck(btn), 4000));
+    return;
+  }
+  resetAck(btn);
+  doAck(btn);
+}
+
+async function doAck(btn) {
+  const id = btn.dataset.id;
   btn.disabled = true;
   btn.textContent = "处理中…";
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
   try {
-    const r = await fetch("/api/v1/alerts/" + id + "/ack", { method: "POST" });
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    await refresh();
-  } catch (e) {
+    const resp = await fetch(API.ack(id), { method: "POST", signal: ctrl.signal });
+    if (resp.status === 404) {
+      btn.textContent = "该告警已被处置";
+      await refreshNow();
+      return;
+    }
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    btn.textContent = "已处置";
+    await refreshNow();
+  } catch (err) {
     btn.disabled = false;
-    btn.textContent = "重试";
-    setConn(false);
+    btn.textContent = "超时，请重试";
+    setConn("partial");
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function getJson(url) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  try {
+    const resp = await fetch(url, { signal: ctrl.signal, headers: { Accept: "application/json" } });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    return await resp.json();
+  } finally {
+    clearTimeout(timer);
   }
 }
 
 async function refresh() {
-  try {
-    const [aRes, sRes, dRes] = await Promise.all([
-      fetch("/api/v1/alerts?status=active&limit=50"),
-      fetch("/api/v1/stats"),
-      fetch("/api/v1/devices")
-    ]);
-    if (!aRes.ok || !sRes.ok || !dRes.ok) throw new Error("bad status");
-    const alerts = await aRes.json();
-    const stats = await sRes.json();
-    const devs = await dRes.json();
-    renderAlerts(alerts.items || []);
-    renderStats(stats);
-    renderOffline(devs.items || []);
-    setConn(true);
-  } catch (e) {
-    setConn(false);
-    $("list").classList.add("stale");
+  const [alertsRes, statsRes, devicesRes] = await Promise.allSettled([
+    getJson(API.alerts(currentStatus)),
+    getJson(API.stats()),
+    getJson(API.devices())
+  ]);
+
+  let okCount = 0;
+  if (alertsRes.status === "fulfilled") {
+    renderAlerts(alertsRes.value.items || []);
+    okCount += 1;
   }
-  setTimeout(refresh, 2000);
+  if (statsRes.status === "fulfilled") {
+    renderStats(statsRes.value);
+    okCount += 1;
+  }
+  if (devicesRes.status === "fulfilled") {
+    const items = devicesRes.value.items || [];
+    renderDevices(items);
+    renderDeviceOffline(items);
+    okCount += 1;
+  }
+
+  if (okCount === 3) {
+    lastOkAt = Date.now();
+    failCount = 0;
+    currentInterval = POLL_OK_MS;
+    setConn("online");
+  } else {
+    failCount += 1;
+    currentInterval = Math.min(POLL_MAX_MS, POLL_OK_MS * Math.pow(2, failCount));
+    setConn(okCount > 0 ? "partial" : "offline");
+  }
+  renderFreshness();
 }
 
-refresh();
+function refreshNow() {
+  nextPollAt = Date.now() + currentInterval;
+  return refresh();
+}
+
+function tick() {
+  toText($("clock"), fmtClock(Date.now()));
+  renderFreshness();
+  if (!document.hidden && Date.now() >= nextPollAt) {
+    nextPollAt = Date.now() + currentInterval;
+    refresh();
+  }
+  setTimeout(tick, 1000);
+}
+
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) {
+    nextPollAt = 0;
+    refresh();
+    if (typeof camResume === "function") camResume();
+  } else if (typeof camPause === "function") {
+    camPause();
+  }
+});
+
+$("fsBtn").addEventListener("click", () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+});
+
+for (const btn of document.querySelectorAll("[role=tab]")) {
+  btn.addEventListener("click", () => setStatusTab(btn.dataset.status));
+}
+
+setConn("init");
+refreshNow();
+tick();
+
+// === CAM-BEGIN ===
+const CAM_ON = location.search.indexOf("camera=0") < 0;
+const CAM_SRC_W = 1280, CAM_SRC_H = 720;
+const CAM_KPTS_MS = 1000, CAM_SESSION_POLL_MS = 5000, CAM_STALL_MS = 5000;
+const CAM_RETRY_MS = [1000, 2000, 4000], CAM_RETRY_MAX = 3;
+const CAM_OVERLAY_FPS = 25, CAM_CACHE_MAX = 300;
+const CAM_REDUCE = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+const CAM_U = ["--u0", "--u1", "--u2", "--u3"];
+const CAM_EVT = { normal: "正常乘梯", estop: "急停", trapped: "困人", pry: "扒门", faint: "倒地" };
+const CAM_EVT_URG = { normal: 0, estop: 1, pry: 2, faint: 3, trapped: 3 };
+const CAM_MSG = {
+  CAM_BAD_REQUEST: "画面请求参数有误",
+  CAM_BAD_TIMESTAMP: "起播时间格式异常",
+  CAM_BAD_FRAME: "该帧不存在",
+  CAM_WINDOW_TOO_LARGE: "请求帧数过多",
+  CAM_SOURCE_NOT_FOUND: "未找到该画面源",
+  CAM_VIDEO_NOT_FOUND: "画面文件缺失，仅显示叠加示意",
+  CAM_NOT_ALIGNED: "画面未对齐（尚未开始播放）",
+  CAM_RANGE_INVALID: "画面片段不可用",
+  CAM_TRANSPORT_UNSUPPORTED: "未接入真实摄像头 / 当前环境不支持截帧",
+  CAM_NOT_READY: "画面服务启动中…",
+  CAM_INTERNAL: "画面异常，已降级为仅告警"
+};
+const CAM_BONES = [[15, 13], [13, 11], [16, 14], [14, 12], [11, 12], [5, 11], [6, 12], [5, 6],
+  [5, 7], [6, 8], [7, 9], [8, 10], [1, 2], [0, 1], [0, 2], [1, 3], [2, 4], [3, 5], [4, 6]];
+
+const camVideo = $("camVideo"), camCanvas = $("camOverlay"), camMark = $("camMark");
+const camPanel = $("camPanel"), camBadge = $("camBadge"), camMsgEl = $("camMsg");
+const camTimeEl = $("camTime"), camStateEl = $("camState"), camSel = $("camSource");
+const camPlayBtn = $("camPlay"), camRetryBtn = $("camRetry");
+let camSources = [], camSource = null, camState = "IDLE";
+let camInfo = { location: "—", eventType: "", confidence: null, urgency: 0, alertId: null };
+let camKpts = new Map(), camKptsStamp = 0, camKptsAt = 0, camSessionAt = 0, camAriaAt = 0;
+let camRetry = 0, camRetryTimer = 0, camLastTime = -1, camAdvanceAt = 0;
+let camMode = "", camManual = false, camDrawAt = 0, camDrawnTime = -1, camDrawnStamp = -1;
+let camErrCode = "", camErrAt = 0, camErrCount = 0, camHitTimer = 0;
+
+function camText(el, value) { el.textContent = String(value); }
+function camEnc() { return encodeURIComponent(camSource ? camSource.source_id : ""); }
+function camStep() { return Math.max(1, Math.round(1000 / (camSource ? camSource.fps : 25))); }
+function camDur() {
+  return camVideo.duration && isFinite(camVideo.duration)
+    ? camVideo.duration : (camSource ? camSource.duration_ms / 1000 : 0);
+}
+function camClock(t) {
+  const s = Math.max(0, Math.round(t || 0));
+  const m = Math.floor(s / 60), r = s % 60;
+  return (m < 10 ? "0" : "") + m + ":" + (r < 10 ? "0" : "") + r;
+}
+function camSetState(state, text) {
+  camState = state;
+  camText(camStateEl, text);
+  camStateEl.className = "cam-state " +
+    (state === "PLAYING" ? "on" : state === "STALLED" ? "warn" : state === "OFFLINE" ? "off" : "");
+  camPanel.dataset.state = state;
+  camPlayBtn.textContent = state === "PLAYING" ? "暂停" : "播放";
+}
+function camFail(err) {
+  const code = (err && err.code) || "CAM_INTERNAL";
+  const now = Date.now();
+  if (code === camErrCode && now - camErrAt < 30000) camErrCount += 1;
+  else { camErrCode = code; camErrAt = now; camErrCount = 1; }
+  const text = CAM_MSG[code] || CAM_MSG.CAM_INTERNAL;
+  camText(camMsgEl, camErrCount > 1 ? "画面异常 " + camErrCount + " 次 · " + text : text);
+  if (camState !== "OFFLINE") camSetState("OFFLINE", "画面不可用 · 点击重试");
+}
+async function camJson(url) {
+  const resp = await fetch(url, { headers: { Accept: "application/json" } });
+  let body = null;
+  try { body = await resp.json(); } catch (err) { body = null; }
+  if (!resp.ok) {
+    const fail = new Error("camera");
+    fail.code = body && body.detail && body.detail.code ? body.detail.code : "CAM_INTERNAL";
+    throw fail;
+  }
+  return body;
+}
+async function camPost(payload) {
+  const resp = await fetch("/api/v1/camera/session", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(Object.assign({}, payload, { source_id: camSource ? camSource.source_id : "" }))
+  });
+  let body = null;
+  try { body = await resp.json(); } catch (err) { body = null; }
+  if (!resp.ok) {
+    const fail = new Error("camera");
+    fail.code = body && body.detail && body.detail.code ? body.detail.code : "CAM_INTERNAL";
+    throw fail;
+  }
+  return body;
+}
+function camMap(w, h) {
+  const contentW = Math.min(w, h * CAM_SRC_W / CAM_SRC_H);
+  const contentH = contentW * CAM_SRC_H / CAM_SRC_W;
+  return { offX: (w - contentW) / 2, offY: (h - contentH) / 2,
+    sx: contentW / CAM_SRC_W, sy: contentH / CAM_SRC_H };
+}
+function camFrameAt(t) {
+  const max = camSource ? camSource.frames - 1 : 0;
+  return Math.max(0, Math.min(Math.round((t || 0) * 1000 / camStep()), max));
+}
+function camCurFrame() { return camKpts.get(camFrameAt(camVideo.currentTime)); }
+function camColor(u) {
+  const raw = getComputedStyle(document.documentElement).getPropertyValue(CAM_U[u] || CAM_U[3]);
+  return raw.trim() || "#ff7a7a";
+}
+function camBadgeText(frame) {
+  const v = frame && frame.vision ? frame.vision : null;
+  const people = v && v.person_count != null ? v.person_count : (frame ? frame.persons.length : null);
+  const ev = CAM_EVT[camInfo.eventType] || "—";
+  const conf = camInfo.confidence == null ? "—" : Math.round(camInfo.confidence * 100) + "%";
+  const fall = v && v.fall_prob != null ? Math.round(v.fall_prob * 100) + "%" : "—";
+  const door = v && v.door_approach != null ? Math.round(v.door_approach * 100) + "%" : "—";
+  return (camInfo.location || "—") + " · " + (people == null ? "—" : people + " 人") + " · " + ev +
+    " · 置信 " + conf + " · 倒地 " + fall + " · 靠近门 " + door;
+}
+function camDraw() {
+  window.requestAnimationFrame(camDraw);
+  if (!CAM_ON || !camSource || document.hidden) return;
+  const now = performance.now();
+  if (now - camDrawAt < 1000 / CAM_OVERLAY_FPS) return;
+  if (camVideo.readyState < 2) return;
+  const t = camVideo.currentTime || 0;
+  if (t === camDrawnTime && camKptsStamp === camDrawnStamp) return;
+  const w = camCanvas.clientWidth, h = camCanvas.clientHeight;
+  if (!w || !h) return;
+  camDrawAt = now;
+  camDrawnTime = t;
+  camDrawnStamp = camKptsStamp;
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  if (camCanvas.width !== Math.round(w * dpr) || camCanvas.height !== Math.round(h * dpr)) {
+    camCanvas.width = Math.round(w * dpr);
+    camCanvas.height = Math.round(h * dpr);
+  }
+  const ctx = camCanvas.getContext("2d");
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, w, h);
+  const frame = camCurFrame();
+  if (!frame) return;
+  const map = camMap(w, h);
+  const color = camColor(camInfo.urgency);
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = color;
+  for (let i = 0; i < frame.persons.length; i += 1) {
+    const person = frame.persons[i];
+    const b = person.bbox || [0, 0, 0, 0];
+    ctx.strokeRect(map.offX + b[0] * map.sx, map.offY + b[1] * map.sy,
+      (b[2] - b[0]) * map.sx, (b[3] - b[1]) * map.sy);
+    ctx.beginPath();
+    for (let k = 0; k < CAM_BONES.length; k += 1) {
+      const a = person.keypoints[CAM_BONES[k][0]], c = person.keypoints[CAM_BONES[k][1]];
+      if (!a || !c || a[2] < 0.3 || c[2] < 0.3) continue;
+      ctx.moveTo(map.offX + a[0] * map.sx, map.offY + a[1] * map.sy);
+      ctx.lineTo(map.offX + c[0] * map.sx, map.offY + c[1] * map.sy);
+    }
+    ctx.stroke();
+  }
+}
+async function camFetchKpts() {
+  if (!camSource) return;
+  const start = Math.max(0, camFrameAt(camVideo.currentTime) - 6);
+  try {
+    const data = await camJson("/api/v1/camera/kpts?source_id=" + camEnc() +
+      "&from_frame=" + start + "&count=25");
+    for (const row of data.items || []) camKpts.set(row.frame, row);
+    while (camKpts.size > CAM_CACHE_MAX) camKpts.delete(camKpts.keys().next().value);
+    camKptsStamp += 1;
+  } catch (err) {
+    camFail(err);
+  }
+}
+function camHit() {
+  camMark.classList.add("cam-hit");
+  clearTimeout(camHitTimer);
+  if (!CAM_REDUCE) camHitTimer = setTimeout(() => camMark.classList.remove("cam-hit"), 3000);
+}
+function camAlignTime(state) {
+  const step = camStep();
+  let t = Math.max(0, Math.round((Date.now() - state.offset_ms - camSource.anchor_ts_ms) / step)) * step / 1000;
+  const dur = camDur();
+  if (dur > 0) t = t % dur;
+  camVideo.currentTime = t;
+}
+async function camStartSession() {
+  if (!camSource) return;
+  try {
+    const state = await camJson("/api/v1/camera/session?source_id=" + camEnc());
+    if (state.aligned) { camMode = "follow"; camAlignTime(state); return; }
+  } catch (err) {
+    camMode = "";
+  }
+  try {
+    const res = await camPost({ event: "start", start_wall_ms: Date.now() });
+    if (res && res.session) camMode = "owner";
+  } catch (err) {
+    camFail(err);
+  }
+}
+async function camHeartbeat() {
+  if (!camSource || !camMode) return;
+  try {
+    if (camMode === "follow") {
+      const state = await camJson("/api/v1/camera/session?source_id=" + camEnc());
+      if (!state.aligned) { camMode = ""; camText(camMsgEl, CAM_MSG.CAM_NOT_ALIGNED); return; }
+      camAlignTime(state);
+    }
+    await camPost({ event: "heartbeat" });
+  } catch (err) {
+    camMode = "";
+  }
+}
+async function camJump(item) {
+  if (!camSource) return;
+  let state = null;
+  try { state = await camJson("/api/v1/camera/session?source_id=" + camEnc()); } catch (err) { state = null; }
+  if (!state || !state.aligned) { camText(camMsgEl, CAM_MSG.CAM_NOT_ALIGNED); return; }
+  const step = camStep();
+  let frame = Math.round((item.ts - state.offset_ms - camSource.anchor_ts_ms) / step);
+  let clamped = false;
+  if (frame < 0) { frame = 0; clamped = true; }
+  if (frame >= camSource.frames) { frame = camSource.frames - 1; clamped = true; }
+  camVideo.currentTime = frame * step / 1000;
+  camHit();
+  camText(camMsgEl, clamped ? "该告警时刻不在当前画面范围内" : "已定位 " + (item.location || "位置未知") + " 的画面");
+}
+function camSelectAlert(item) {
+  if (!CAM_ON || !item) return;
+  const conf = typeof item.confidence === "number" ? item.confidence : null;
+  camInfo = { location: item.location || "位置未知", eventType: item.event_type || "",
+    confidence: conf, urgency: item.urgency || 0, alertId: item.id };
+  const matches = camSources.filter((s) => s.event_type === item.event_type);
+  if (matches.length === 1) {
+    if (camManual && camSource && camSource.source_id !== matches[0].source_id) {
+      camText(camMsgEl, "已手动选择 · 当前画面 " + camSource.source_id +
+        "（告警 " + camInfo.location + " 无对应源）");
+    } else if (!camSource || camSource.source_id !== matches[0].source_id) {
+      camSwitch(matches[0].source_id, true);
+    }
+  } else if (camSources.length && (!camSource || matches.length !== 1)) {
+    camText(camMsgEl, "告警 " + camInfo.location + " · 当前画面 " +
+      (camSource ? camSource.source_id : "—") + "（无对应源）");
+  }
+  camJump(item);
+}
+function camLoadSource(sid) {
+  camVideo.pause();
+  camVideo.removeAttribute("src");
+  camVideo.load();
+  camKpts.clear();
+  camKptsStamp += 1;
+  camLastTime = -1;
+  camAdvanceAt = 0;
+  camSetState("LOADING", "加载中…");
+  camVideo.src = "/api/v1/camera/video?source_id=" + encodeURIComponent(sid);
+  camVideo.load();
+  const started = camVideo.play();
+  if (started && started.then) {
+    started.then(() => { camRetry = 0; camSetState("PLAYING", "播放中"); },
+      () => camSetState("PAUSED", "已暂停 · 点击播放"));
+  }
+}
+function camSwitch(sid, auto) {
+  const next = camSources.filter((s) => s.source_id === sid)[0];
+  if (!next) return;
+  camSource = next;
+  camMode = "";
+  if (!camInfo.eventType) camInfo.eventType = next.event_type;
+  if (!auto) {
+    camManual = true;
+    sessionStorage.setItem("camSource", sid);
+    camSel.value = sid;
+  }
+  camLoadSource(sid);
+  camText(camMsgEl, "");
+  camStartSession();
+}
+function camPlayPause() {
+  if (!camSource) return;
+  if (camVideo.paused) {
+    const started = camVideo.play();
+    if (started && started.then) {
+      started.then(() => { camSetState("PLAYING", "播放中"); if (!camMode) camStartSession(); },
+        () => camFail({ code: "CAM_INTERNAL" }));
+    }
+  } else {
+    camVideo.pause();
+    camSetState("PAUSED", "已暂停");
+  }
+}
+function camRetryNow() {
+  camRetry = 0;
+  if (camSource) camLoadSource(camSource.source_id);
+}
+function camRetryLater() {
+  if (camRetry >= CAM_RETRY_MAX) { camSetState("OFFLINE", "画面不可用 · 点击重试"); return; }
+  const delay = CAM_RETRY_MS[camRetry];
+  camRetry += 1;
+  camSetState("OFFLINE", "画面不可用 · " + (delay / 1000) + " 秒后重试");
+  clearTimeout(camRetryTimer);
+  camRetryTimer = setTimeout(() => { if (camSource) camLoadSource(camSource.source_id); }, delay);
+}
+function camLoop() {
+  if (!CAM_ON || !camSource) return;
+  const now = Date.now();
+  if (!document.hidden && (camState === "PLAYING" || camState === "STALLED")) {
+    if (camVideo.currentTime !== camLastTime) {
+      camLastTime = camVideo.currentTime;
+      camAdvanceAt = now;
+      if (camState === "STALLED") camSetState("PLAYING", "播放中");
+    } else if (camAdvanceAt && now - camAdvanceAt >= CAM_STALL_MS) {
+      camSetState("STALLED", "画面已冻结 · " + Math.round((now - camAdvanceAt) / 1000) + " 秒未更新");
+    }
+  }
+  if (camState === "PLAYING" || camState === "STALLED" || camState === "PAUSED") {
+    camText(camTimeEl, camClock(camVideo.currentTime) + " / " + camClock(camDur()));
+    camText(camBadge, camBadgeText(camCurFrame()));
+  }
+  if (camState === "PLAYING" && now - camKptsAt >= CAM_KPTS_MS) { camKptsAt = now; camFetchKpts(); }
+  if (now - camSessionAt >= CAM_SESSION_POLL_MS) { camSessionAt = now; camHeartbeat(); }
+  if (now - camAriaAt >= 5000) { camAriaAt = now; camUpdateAria(); }
+}
+function camUpdateAria() {
+  const frame = camCurFrame();
+  const v = frame && frame.vision ? frame.vision : null;
+  const people = v && v.person_count != null ? v.person_count : (frame ? frame.persons.length : null);
+  const parts = ["现场画面：" + (camInfo.location || "—")];
+  parts.push(people == null ? "人数未知" : people + " 人");
+  const ev = CAM_EVT[camInfo.eventType];
+  if (ev) parts.push(ev);
+  if (camInfo.confidence != null) parts.push("置信度 " + Math.round(camInfo.confidence * 100) + "%");
+  parts.push("画面第 " + Math.round(camVideo.currentTime || 0) + " 秒");
+  camCanvas.setAttribute("aria-label", parts.join("，"));
+}
+function camPause() {
+  if (!CAM_ON) return;
+  camVideo.pause();
+  if (camState === "PLAYING" || camState === "STALLED") camSetState("PAUSED", "已暂停");
+}
+function camResume() {
+  if (!CAM_ON || !camSource) return;
+  camJson("/api/v1/camera/session?source_id=" + camEnc()).then((state) => {
+    if (state.aligned) { camMode = "follow"; camAlignTime(state); }
+    const started = camVideo.play();
+    if (started && started.then) {
+      started.then(() => camSetState("PLAYING", "播放中"), () => camSetState("PAUSED", "已暂停 · 点击播放"));
+    }
+  }).catch(() => {
+    camMode = "";
+    camVideo.play().catch(() => camSetState("PAUSED", "已暂停 · 点击播放"));
+  });
+}
+function camFillSelect() {
+  for (const source of camSources) {
+    const opt = document.createElement("option");
+    opt.value = source.source_id;
+    opt.textContent = source.label + "（" + source.source_id + "）";
+    camSel.appendChild(opt);
+  }
+}
+async function camInit() {
+  if (!CAM_ON) { camPanel.hidden = true; camSetState("IDLE", "画面已关闭"); return; }
+  let data = null;
+  try { data = await camJson("/api/v1/camera/sources"); } catch (err) { camFail(err); return; }
+  camSources = data.items || [];
+  if (!camSources.length) {
+    camPanel.hidden = true;
+    camSetState("IDLE", "无可用画面源");
+    camText(camMsgEl, "未接入真实摄像头，告警区照常");
+    return;
+  }
+  camFillSelect();
+  const saved = sessionStorage.getItem("camSource");
+  const picked = saved && camSources.some((s) => s.source_id === saved) ? saved : null;
+  camManual = !!picked;
+  if (picked) camSel.value = picked;
+  camSwitch(picked || camSources[0].source_id, !picked);
+}
+camSel.addEventListener("change", () => {
+  const value = camSel.value;
+  if (value === "auto") {
+    camManual = false;
+    sessionStorage.removeItem("camSource");
+    if (camSource) camSwitch(camSource.source_id, true);
+    return;
+  }
+  camSwitch(value, false);
+});
+camPlayBtn.addEventListener("click", camPlayPause);
+camRetryBtn.addEventListener("click", camRetryNow);
+camVideo.addEventListener("playing", () => {
+  camRetry = 0;
+  if (camState !== "STALLED") camSetState("PLAYING", "播放中");
+});
+camVideo.addEventListener("error", camRetryLater);
+camVideo.addEventListener("pause", () => {
+  if (!document.hidden && camState === "PLAYING") camSetState("PAUSED", "已暂停");
+});
+if (CAM_ON) {
+  camInit();
+  setInterval(camLoop, 1000);
+  window.requestAnimationFrame(camDraw);
+}
+// === CAM-END ===
 </script>
 </body>
 </html>

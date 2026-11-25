@@ -1073,6 +1073,12 @@ diff results/metrics.csv results/_rerun/metrics.csv   # 期望无差异（浮点
 | T-INT-004 | 已完成 | `load_vision_sequence` 逐帧六字段校验（缺失字段名入错误信息） |
 | T-INT-005 | 已完成 | 5 段各 5 条 `IMUEvent`，`window_sec=10.0` |
 | T-INT-006 | 已完成（B 侧兼容） | `model/config.py` 兼容 A 的 `_imu_meta.json` 与场景元数据 |
-| T-INT-008 | 已执行、未达标 | 2/5 达标；`normal` 误报 273 帧（见 `integration.md` 6.3） |
-| T-INT-009/010/011 | 环境阻塞 | 本机 Python 3.9、无 `fastapi/uvicorn` |
-| T-INT-012 | 未签署 | 结论为「链路已打通、判决未达标」 |
+| T-INT-008 | 已完成（5/5 达标） | normal/estop/trapped/pry/faint 全部判对（见 `supplement_ac.md` 7.2） |
+| T-INT-009/010/011 | 已完成（进程内直通 11/11） | `scripts/passthrough_test.py`；真实端口受本机沙箱 socketpair 限制，需换环境复验 |
+| T-INT-012 | 已签署 | 结论：链路打通 + 五类 5/5；真实端口启动待环境复验 |
+
+> **补充指针**：A 侧五类可达性与 C 侧 3.9 直通的补充需求与任务，见 `docs/spec/supplement_ac.md`（`REQ-SUP-001~020`、`T-AC-001~015`）。本附录既有 `T-B-*`、`T-INT-*` 条目不作任何修改。
+
+> **前端补充指针**：看板前端优化需求与任务见 `docs/spec/frontend.md`（`REQ-UI-001~031`、`T-UI-001~009`）；本附录既有 `T-B-*`、`T-INT-*`、`T-AC-*` 条目不作任何修改。
+
+> **现场画面任务指针**：摄像头视图需求与任务见 `docs/spec/camera.md`（`REQ-CAM-001~024`）与 `docs/spec/camera_tasks.md`（`T-CAM-001~008`、`CMD-CAM-01~26`）；本附录既有 `T-B-*`、`T-INT-*`、`T-AC-*`、`T-UI-*` 条目不作任何修改。
