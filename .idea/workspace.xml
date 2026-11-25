@@ -5,59 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d469a6-a333-482a-9297-75839ab6351d" name="Changes" comment="dataclass 落地并锁版本">
-      <change afterPath="$PROJECT_DIR$/docs/spec/frontend.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/spec/supplement_ac.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements-c39.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/check_frontend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/passthrough_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_estop.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_estop.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_estop_kpts.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_estop_kpts.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_estop_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_estop_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_faint.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_faint.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_faint_kpts.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_faint_kpts.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_normal.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_normal.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_normal_kpts.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_normal_kpts.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_normal_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_normal_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_pry.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_pry.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_pry_imu.npy" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_pry_imu.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_pry_imu_raw.npy" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_pry_imu_raw.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_pry_kpts.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_pry_kpts.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_trapped.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_trapped.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/demo_data/demo_trapped_kpts.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/common/demo_data/demo_trapped_kpts.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/labels/demo_estop.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/labels/demo_estop.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/labels/demo_normal.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/labels/demo_normal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/demo_estop_gt.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/demo_estop_gt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/demo_normal_gt.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/demo_normal_gt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/demo_pry_gt.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/demo_pry_gt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/build_demo_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/build_demo_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/validate_demo_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/validate_demo_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/spec/tasks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/spec/tasks.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/contract_check.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/contract_check.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/vision_demo_estop.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/vision_demo_estop.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/vision_demo_faint.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/vision_demo_faint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/vision_demo_normal.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/vision_demo_normal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/vision_demo_pry.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/vision_demo_pry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/vision_demo_trapped.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/vision_demo_trapped.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/vision_regression.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/vision_regression.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/vision_regression.md" beforeDir="false" afterPath="$PROJECT_DIR$/results/vision_regression.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/vision_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/vision_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/claims.json" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/claims.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/demo_estop_decision.json" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/demo_estop_decision.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/demo_normal_decision.json" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/demo_normal_decision.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/demo_pry_decision.json" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/demo_pry_decision.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/metrics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/metrics.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/metrics.md" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/metrics.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/timeline_demo_estop.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/timeline_demo_estop.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/timeline_demo_normal.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/timeline_demo_normal.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_integration/timeline_demo_pry.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/results_integration/timeline_demo_pry.jsonl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/check_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/check_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/play_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/play_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/smoke_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/smoke_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +48,8 @@
       <workItem from="1794895339308" duration="10092000" />
       <workItem from="1795359774777" duration="96000" />
       <workItem from="1795360696249" duration="1976000" />
-      <workItem from="1795449177067" duration="10083000" />
+      <workItem from="1795449177067" duration="10880000" />
+      <workItem from="1795588389163" duration="1380000" />
     </task>
     <task id="LOCAL-00001" summary="dataclass 落地并锁版本">
       <created>1794898508841</created>
@@ -123,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1794899425845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dataclass 落地并锁版本">
+      <created>1795565534022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1795565534022</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
