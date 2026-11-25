@@ -33,6 +33,8 @@ DEFAULT_DEVICE_ID = "ELEV-DEMO-001"
 SESSION_TTL_MS = 600000                     # 10 分钟无访问即失效
 SUPPORTED_MODES: Tuple[str, ...] = ("demo", "file", "usb", "rtsp")
 WATERMARK = "演示数据 · 非取证"
+UPLOAD_WATERMARK = "用户上传 · 非取证"
+UPLOAD_SOURCES_PARTS: Tuple[str, ...] = ("data", "raw", "uploads")
 DEFAULT_WINDOW_COUNT = 25
 MAX_WINDOW_COUNT = 120
 VIDEO_CHUNK_SIZE = 262144                   # 256 KB，逐块读，不整文件入内存
@@ -114,10 +116,11 @@ class CameraSource:
     video_path: Path = field(default=Path(""), repr=False, compare=False)
     kpts_path: Path = field(default=Path(""), repr=False, compare=False)
     vision_path: Path = field(default=Path(""), repr=False, compare=False)
+    watermark: Optional[str] = None
 
     def as_public(self) -> Dict[str, Any]:
-        """对外 14 字段 + `demo`；内部路径不输出。"""
-        return {
+        """对外 14 字段 + `demo`；内部路径不输出。上传源额外带 `watermark`。"""
+        payload: Dict[str, Any] = {
             "source_id": self.source_id,
             "device_id": self.device_id,
             "label": self.label,
@@ -134,6 +137,9 @@ class CameraSource:
             "transport": list(self.transport),
             "demo": bool(self.demo),
         }
+        if self.watermark is not None:
+            payload["watermark"] = str(self.watermark)
+        return payload
 
 
 @dataclass(frozen=True)
@@ -226,6 +232,7 @@ _CV2_STATE: Optional[bool] = None
 _BOOTSTRAPPED = False
 _SOURCES: List[CameraSource] = []
 _SOURCES_BASE: Optional[Path] = None
+_UPLOAD_CACHE: Optional[List[CameraSource]] = None
 _SESSIONS: Dict[str, CameraSession] = {}
 _WARNED: Dict[str, int] = {}
 
@@ -398,6 +405,126 @@ def scan_sources(base_dir: Optional[Path] = None) -> List[CameraSource]:
     return items
 
 
+def _upload_label(location: str, state: str) -> str:
+    place = "未知楼层" if not location or location == "?" else location
+    label = "上传 · %s" % place
+    if state in ("received", "extracted", "judged"):
+        label += " · 处理中"
+    elif state == "failed":
+        label += " · 处理失败"
+    return label[:24]
+
+
+def _upload_source_from_manifest(
+    manifest_path: Path, data: Dict[str, Any], now: int
+) -> Optional[CameraSource]:
+    """从 `upload.json` 构造上传源；过期/源缺失/字段非法一律不登记（D-UP-12）。"""
+    try:
+        upload_id = str(data.get("upload_id") or "")
+        source_id = str(data.get("source_id") or "")
+        fps = float(data.get("fps") or 0.0)
+        frames = int(data.get("frames") or 0)
+        width = int(data.get("width") or 0)
+        height = int(data.get("height") or 0)
+        duration_ms = int(data.get("duration_ms") or 0)
+        anchor_ts_ms = int(data.get("start_ts_ms") or 0)
+        expire_ms = int(data.get("expire_ms") or 0)
+        device_id = str(data.get("device_id") or "")
+        state = str(data.get("state") or "")
+    except (TypeError, ValueError):
+        return None
+    if expire_ms < int(now):
+        return None
+    if not upload_id or source_id != "up_%s" % upload_id[:16]:
+        return None
+    if not _valid_source_id(source_id) or not device_id:
+        return None
+    if fps <= 0 or frames <= 0 or width <= 0 or height <= 0:
+        return None
+    if anchor_ts_ms < 10 ** 12 or anchor_ts_ms >= 10 ** 13:
+        return None
+    if abs(duration_ms - int(round(frames * 1000.0 / fps))) > _DURATION_TOLERANCE_MS:
+        return None
+
+    directory = manifest_path.parent
+    video_path = directory / "source.mp4"
+    if not video_path.is_file():
+        return None
+    kpts_path = directory / "source_kpts.jsonl"
+    if not kpts_path.is_file():
+        kpts_path = directory / "kpts.jsonl"
+    vision_path = directory / "vision.json"
+
+    kpts_ok = bool(
+        kpts_path.is_file() and kpts_path.name in ("source_kpts.jsonl", "kpts.jsonl")
+    )
+    transport: List[str] = ["video"]
+    if kpts_ok:
+        transport.append("keypoints")
+    if cv2_available():
+        transport.append("frames")
+
+    return CameraSource(
+        source_id=source_id,
+        device_id=device_id,
+        label=_upload_label(str(data.get("location") or ""), state),
+        event_type=str(data.get("final_event_type") or "normal"),
+        fps=fps,
+        frames=frames,
+        width=width,
+        height=height,
+        anchor_ts_ms=anchor_ts_ms,
+        duration_ms=duration_ms,
+        video=True,
+        keypoints=kpts_ok,
+        vision=vision_path.is_file(),
+        transport=transport,
+        demo=False,
+        video_path=video_path,
+        kpts_path=kpts_path,
+        vision_path=vision_path,
+        watermark=UPLOAD_WATERMARK,
+    )
+
+
+def scan_uploads(
+    base_dir: Optional[Path] = None, now: Optional[int] = None
+) -> List[CameraSource]:
+    """扫描 `data/raw/uploads/*/upload.json`，只登记 `source.mp4` 存在且未过期的件。"""
+    base = Path(base_dir) if base_dir is not None else Path(config.BASE_DIR)
+    root = base.joinpath(*UPLOAD_SOURCES_PARTS)
+    current = int(now if now is not None else now_ms())
+    items: List[CameraSource] = []
+    if not root.is_dir():
+        return items
+    for manifest_path in sorted(root.glob("*/upload.json")):
+        try:
+            data = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if not isinstance(data, dict):
+            continue
+        source = _upload_source_from_manifest(manifest_path, data, current)
+        if source is not None:
+            items.append(source)
+    items.sort(key=lambda item: item.source_id)
+    return items
+
+
+def invalidate_sources() -> None:
+    """上传完成/删除后失效上传源缓存（demo 缓存不动）。"""
+    global _UPLOAD_CACHE
+    _UPLOAD_CACHE = None
+    _KPT_STORE.clear()
+
+
+def _upload_sources(now: Optional[int] = None) -> List[CameraSource]:
+    global _UPLOAD_CACHE
+    if _UPLOAD_CACHE is None:
+        _UPLOAD_CACHE = scan_uploads(now=now)
+    return list(_UPLOAD_CACHE)
+
+
 def bootstrap(base_dir: Optional[Path] = None) -> List[CameraSource]:
     """首次调用扫描磁盘并落 INFO 日志（幂等；每次启动只记一次「画面源载入」）。"""
     global _BOOTSTRAPPED, _SOURCES, _SOURCES_BASE
@@ -426,10 +553,10 @@ def bootstrap(base_dir: Optional[Path] = None) -> List[CameraSource]:
 
 
 def load_sources() -> List[CameraSource]:
-    """取当前源清单（未 bootstrap 时惰性完成）。"""
+    """取当前源清单：demo 源 + 上传源（未 bootstrap 时惰性完成）。"""
     if not _BOOTSTRAPPED:
-        return bootstrap()
-    return list(_SOURCES)
+        bootstrap()
+    return list(_SOURCES) + _upload_sources()
 
 
 def find_source(source_id: str) -> Optional[CameraSource]:
@@ -476,14 +603,24 @@ def frame_ms_of(source: CameraSource) -> int:
 
 
 def wall_ms_of(source: CameraSource, frame: int, offset_ms: int) -> int:
-    """素材第 frame 帧对应的墙钟毫秒。"""
+    """素材第 frame 帧对应的墙钟毫秒；上传源用浮点 fps 反算（7.5）。"""
+    if not source.demo and source.fps > 0:
+        return int(offset_ms) + int(
+            round(int(source.anchor_ts_ms) + int(frame) * 1000.0 / float(source.fps))
+        )
     return int(offset_ms) + int(source.anchor_ts_ms) + int(frame) * frame_ms_of(source)
 
 
 def frame_for_alert(source: CameraSource, alert_ts_ms: int, offset_ms: int) -> Tuple[int, bool]:
-    """告警墙钟 → 帧号；越界钳到 [0, frames-1] 并返回 clamped=True。"""
+    """告警墙钟 → 帧号；越界钳到 [0, frames-1] 并返回 clamped=True。
+
+    demo 源用整数帧步长（既有口径）；上传源用浮点 fps 反算（R3-UP-17）。
+    """
     delta = int(alert_ts_ms) - int(offset_ms) - int(source.anchor_ts_ms)
-    frame = int(round(delta / float(frame_ms_of(source))))
+    if not source.demo and source.fps > 0:
+        frame = int(round(delta * float(source.fps) / 1000.0))
+    else:
+        frame = int(round(delta / float(frame_ms_of(source))))
     if frame < 0:
         return 0, True
     if frame >= int(source.frames):
@@ -496,8 +633,17 @@ def drift_ms_of(session: CameraSession, now: int) -> int:
     source = find_source(session.source_id)
     if source is None:
         return 0
-    step = frame_ms_of(source)
-    frame = int((int(now) - session.offset_ms - source.anchor_ts_ms) // step)
+    if not source.demo and source.fps > 0:
+        frame = int(
+            round(
+                (int(now) - session.offset_ms - int(source.anchor_ts_ms))
+                * float(source.fps)
+                / 1000.0
+            )
+        )
+    else:
+        step = frame_ms_of(source)
+        frame = int((int(now) - session.offset_ms - source.anchor_ts_ms) // step)
     if frame < 0:
         frame = 0
     if frame >= source.frames:
@@ -570,10 +716,15 @@ def session_count() -> int:
 
 
 def alignment(source_id: str, now: Optional[int] = None) -> CameraAlignment:
-    """对齐状态；无有效会话时 aligned=False / offset=0 / drift=0。"""
+    """对齐状态；上传源无会话时隐式对齐（D-UP-05），demo 源保持 aligned=False。"""
     current = int(now if now is not None else now_ms())
     session = session_get(source_id, current)
     if session is None:
+        source = find_source(source_id)
+        if source is not None and not source.demo:
+            return CameraAlignment(
+                source_id=str(source_id or ""), aligned=True, offset_ms=0, drift_ms=0
+            )
         return CameraAlignment(
             source_id=str(source_id or ""), aligned=False, offset_ms=0, drift_ms=0
         )
@@ -792,6 +943,15 @@ def _vision_row(raw: Dict[str, Any]) -> Dict[str, Any]:
     return {name: raw[name] for name in VISION_FIELDS if name in raw}
 
 
+def frame_ts_of(source: CameraSource, index: int) -> int:
+    """帧号 → 素材时间；上传源用浮点 fps（R3-UP-17），demo 源走整数步长。"""
+    if not source.demo and source.fps > 0:
+        return int(
+            round(int(source.anchor_ts_ms) + int(index) * 1000.0 / float(source.fps))
+        )
+    return int(source.anchor_ts_ms) + int(index) * frame_ms_of(source)
+
+
 class KptStore:
     """按 `source_id` 缓存整源侧车（首次逐行解析，后续 O(1) 切片）。"""
 
@@ -852,7 +1012,7 @@ class KptStore:
                             continue
                         parsed[frame] = KptFrame(
                             frame=frame,
-                            ts=int(source.anchor_ts_ms) + frame * step,
+                            ts=frame_ts_of(source, frame),
                             persons=_parse_persons(raw),
                             vision=vision_rows[frame] if frame < len(vision_rows) else None,
                         )
@@ -864,7 +1024,7 @@ class KptStore:
                 items.append(
                     KptFrame(
                         frame=index,
-                        ts=int(source.anchor_ts_ms) + index * step,
+                        ts=frame_ts_of(source, index),
                         persons=[],
                         vision=vision_rows[index] if index < len(vision_rows) else None,
                     )
@@ -1198,9 +1358,11 @@ def session_payload(source_id: str, now: Optional[int] = None) -> Dict[str, Any]
 def reset_state() -> None:
     """test-only：清空源/会话/缓存/解码计数/cv2 探测与 WARN 去重表。"""
     global _BOOTSTRAPPED, _SOURCES, _SOURCES_BASE, _CV2_STATE, _DECODE_COUNT
+    global _UPLOAD_CACHE
     _SESSIONS.clear()
     _SOURCES = []
     _SOURCES_BASE = None
+    _UPLOAD_CACHE = None
     _BOOTSTRAPPED = False
     _CV2_STATE = None
     _DECODE_COUNT = 0

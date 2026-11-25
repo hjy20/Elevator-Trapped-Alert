@@ -30,6 +30,9 @@ from . import config
 from .db_local import now_ms
 from .models import DecisionIn
 from . import camera as camera_svc
+from . import upload as upload_svc
+from . import upload_worker as upload_worker_svc
+from starlette.concurrency import run_in_threadpool
 
 logging.basicConfig(
     level=logging.INFO,
@@ -94,8 +97,10 @@ async def lifespan(_: FastAPI):
     _load_db()
     _load_cache()
     camera_svc.bootstrap()  # 画面源预载（幂等，每次启动只记一次「画面源载入」）
+    upload_worker_svc.start(STATE["db"], STATE["cache"])  # 上传任务队列（含重启恢复）
     log.info("就绪：http://127.0.0.1:%s/docs", config.PORT)
     yield
+    upload_worker_svc.stop()  # 停止上传 worker（daemon 兜底）
     log.info("已停止")
 
 
@@ -296,6 +301,57 @@ def camera_session_get(source_id: str = Query("", description="画面源 ID")) -
         return camera_svc.session_payload(source_id)
     except camera_svc.CameraError as exc:
         raise _camera_http_error(exc)
+
+
+# ---------------------------------------------------------------- 用户上传（C · upload）
+# 纯追加块：既有 6 接口与 camera 7 路由零变化；必须位于 app.mount("/") 之前。
+
+
+@app.post("/api/v1/upload/video", summary="上传真实视频（raw body + 头）")
+async def upload_video(request: Request) -> JSONResponse:
+    headers = {key.lower(): value for key, value in request.headers.items()}
+    sink = None
+    try:
+        intent = upload_svc.parse_upload_headers(headers, now_ms())
+        sink = upload_svc.UploadSink(intent)
+        async for chunk in request.stream():
+            await run_in_threadpool(sink.feed, chunk)
+        result = sink.finish()
+        accepted = upload_worker_svc.enqueue(result.record, created=result.created)
+    except upload_svc.UploadError as exc:
+        if sink is not None:
+            sink.abort()
+        return JSONResponse(status_code=exc.status_code, content={"detail": exc.detail()})
+    return JSONResponse(status_code=accepted.status_code, content=accepted.body)
+
+
+@app.get("/api/v1/upload/tasks/{task_id}", summary="上传处理任务进度")
+def upload_task(task_id: str) -> Dict[str, Any]:
+    try:
+        return upload_worker_svc.task_payload(task_id)
+    except upload_svc.UploadError as exc:
+        raise HTTPException(status_code=exc.status_code, detail=exc.detail())
+
+
+@app.get("/api/v1/upload/items", summary="上传件清单与配额")
+def upload_items() -> Dict[str, Any]:
+    return upload_svc.items_payload()
+
+
+@app.get("/api/v1/upload/items/{upload_id}", summary="上传件详情")
+def upload_item(upload_id: str) -> Dict[str, Any]:
+    try:
+        return upload_svc.item_payload(upload_id)
+    except upload_svc.UploadError as exc:
+        raise HTTPException(status_code=exc.status_code, detail=exc.detail())
+
+
+@app.delete("/api/v1/upload/items/{upload_id}", summary="删除上传件视频")
+def upload_delete(upload_id: str, purge: str = Query("0")) -> Dict[str, Any]:
+    try:
+        return upload_svc.delete_item(upload_id, purge in ("1", "true", "yes"))
+    except upload_svc.UploadError as exc:
+        raise HTTPException(status_code=exc.status_code, detail=exc.detail())
 
 
 # ---------------------------------------------------------------- 静态页面

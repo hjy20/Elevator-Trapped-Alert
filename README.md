@@ -45,6 +45,13 @@ python scripts/smoke_test.py                    # 一键验收，应 11/11 通�
 python scripts/play_case.py --case demo_faint --no-video
 ```
 
+上传真实视频（命令行同步判困；HTTP 入口见下）：
+
+```powershell
+python scripts/upload_video.py --video D:\cabin.mp4 --start-ts-ms <13位毫秒> --process
+python scripts/check_upload.py --strict         # 上传链路总闸门
+```
+
 | 地址 | 用途 |
 |---|---|
 | <http://127.0.0.1:18080/> | 看板（告警列表 + 三数字卡） |
@@ -65,7 +72,7 @@ Elevator-Trapped-Alert/
 ├── model/               B：IMU 检测 / 状态机 / 融合 / 评测
 ├── results/             B 的评测产出 + 五段 demo_*_decision.json（C 直接消费）
 ├── tests/               B 的 unittest 套件 + 契约快照
-├── service/             C：FastAPI + RDS/SQLite + Redis/内存 双适配
+├── service/             C：FastAPI + RDS/SQLite + Redis/内存 双适配 + 上传链路（upload*.py）
 ├── dashboard/           C：看板（单文件原生 HTML+JS，不装 Node）
 ├── scripts/             C：自检 / 造数据 / 回放 / 冒烟 / 部署
 ├── docs/                spec/（设计文档）+ DEPLOY / TECH_DOC / PPT / 视频脚本
@@ -85,6 +92,11 @@ Elevator-Trapped-Alert/
 | POST | `/api/v1/alerts/{id}/ack` | 确认处置 |
 | GET | `/api/v1/stats` | 看板统计（今日告警 / 未处理 / 平均响应 / 设备在线） |
 | GET | `/api/v1/devices` | 设备在线状态（`last_seen` 超 2 分钟视为离线） |
+| POST | `/api/v1/upload/video` | 上传真实视频（raw body + 设备/录制时间/楼层头） |
+| GET | `/api/v1/upload/tasks/{task_id}` | 上传处理进度（probe → extract → judge → report） |
+| GET | `/api/v1/upload/items` | 上传件清单与配额 |
+| GET | `/api/v1/upload/items/{upload_id}` | 上传件详情（含判决摘要） |
+| DELETE | `/api/v1/upload/items/{upload_id}` | 删除上传件视频（默认保留派生） |
 
 `Decision` 字段见 `common/schema.py`；任何改动必须走契约流程，不得单方面修改。
 

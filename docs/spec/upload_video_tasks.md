@@ -916,4 +916,29 @@ curl -s "http://127.0.0.1:18080/api/v1/camera/sources" | grep "up_"      # M4 �
 
 ---
 
-**文档状态**：本文件为上传视频链路的**任务规划**，不含实现代码；`service/upload.py`、`service/upload_features.py`、`service/upload_worker.py`、`scripts/check_upload.py`、`tests/test_upload_*.py` 将在任务执行阶段创建。实现完成后由 T-UP-009 在本文档追加第 12 章实测记录，并按 `MAN-UP-01~08` 回填未验项。
+## 12. 实测回填（2026-11-25）
+
+| 项 | 结果 |
+|---|---|
+| 新增单测 | `tests/test_upload_*.py` 7 文件 + `upload_helpers.py`：54 例全绿 |
+| 全量单测 | `python -m unittest discover -s tests -t . -p "test_*.py"`：**246/246** |
+| 验收脚本 | `scripts/check_upload.py` 8 子命令 + `--strict`：**78/78** |
+| 既有闸门 | `passthrough_test.py` 11/11；`check_frontend.py --strict` 29/29；`check_camera.py --strict` 14/14 |
+| 判困链路 | 12 s fixture：`trapped` 21 帧、1 条告警、`final_event_type=trapped`、`state=reported` |
+| 依赖面 | 零新增（仅用已装 `cv2`/`numpy`）；`python -c "import service.upload"` 在 3.9 最小环境退出码 0 |
+
+**实现取舍（与设计字面不同之处）**
+
+1. L2 启发式在 `MOG2` 之外并联 `absdiff`，并对人数做「只增不减 + 连续 25 个计算帧为空才归零（约 2 s）」的稳定化：残影造成的 1↔2 抖动会被 B 的 `motion_level` 代理判为「有人走动」，反复重置 dwell；红线 `fall_prob=0` / `keypoints_ok=False` 不变。
+2. 首帧不产生前景（只用于初始化背景模型）：否则全黑视频也会报「有人」，破坏 `person_count=0` 的验收。
+3. `upload.json` 的摘要字段除设计的 5 项外增加 `roi_source`（承载 `reason` 的 `roi=client|sidecar|default`），不进入九字段/六字段契约。
+
+**残余风险**
+
+- L1（`ultralytics`/`onnxruntime` + 权重）未安装：`--pose` 走 SKIP，真实上传件默认 `feature_mode=heuristic`、`degraded=true`。
+- 看板上传页（P2）未做：上传只提供 API / `scripts/upload_video.py`，播放复用 `/camera/*`。
+- 真实端口（uvicorn）与真实拍摄视频受沙箱限制未验；`MAN-UP-01/03/04/05/08` 待人工。
+
+---
+
+**文档状态**：T-UP-001~009 已落地并通过上述闸门；第 12 章为实测记录，`MAN-UP-*` 未验项由人工/换环境补齐。
